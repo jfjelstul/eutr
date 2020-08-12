@@ -1,0 +1,3216 @@
+"key_ID","year","from_node","to_node","edge_weight"
+1,1988,"Commission","Germany",1
+2,1988,"United Kingdom","France",2
+3,1989,"Belgium","Germany",2
+4,1989,"Belgium","Greece",1
+5,1989,"Belgium","Netherlands",1
+6,1989,"Commission","Belgium",2
+7,1989,"Commission","Denmark",4
+8,1989,"Commission","France",9
+9,1989,"Commission","Germany",12
+10,1989,"Commission","Netherlands",4
+11,1989,"Commission","Spain",5
+12,1989,"Commission","United Kingdom",3
+13,1989,"Denmark","Belgium",1
+14,1989,"Denmark","France",1
+15,1989,"Denmark","Germany",1
+16,1989,"Denmark","Netherlands",1
+17,1989,"France","Belgium",3
+18,1989,"France","Denmark",2
+19,1989,"France","Germany",10
+20,1989,"France","Greece",2
+21,1989,"France","Italy",5
+22,1989,"France","Netherlands",3
+23,1989,"France","Spain",4
+24,1989,"France","United Kingdom",5
+25,1989,"Germany","Belgium",2
+26,1989,"Germany","Denmark",2
+27,1989,"Germany","Greece",2
+28,1989,"Germany","Netherlands",3
+29,1989,"Germany","Spain",2
+30,1989,"Germany","United Kingdom",2
+31,1989,"Greece","Netherlands",1
+32,1989,"Italy","France",5
+33,1989,"Italy","Germany",1
+34,1989,"Italy","Spain",2
+35,1989,"Italy","United Kingdom",2
+36,1989,"Netherlands","Denmark",2
+37,1989,"Netherlands","France",1
+38,1989,"Netherlands","Germany",1
+39,1989,"Netherlands","Greece",1
+40,1989,"Portugal","Germany",2
+41,1989,"Spain","Belgium",1
+42,1989,"Spain","France",5
+43,1989,"Spain","Germany",3
+44,1989,"Spain","Portugal",1
+45,1989,"Spain","United Kingdom",1
+46,1989,"United Kingdom","Belgium",1
+47,1989,"United Kingdom","Denmark",1
+48,1989,"United Kingdom","France",2
+49,1989,"United Kingdom","Germany",6
+50,1989,"United Kingdom","Greece",2
+51,1989,"United Kingdom","Italy",1
+52,1989,"United Kingdom","Luxembourg",1
+53,1989,"United Kingdom","Netherlands",2
+54,1989,"United Kingdom","Spain",4
+55,1990,"Belgium","Germany",1
+56,1990,"Commission","Belgium",1
+57,1990,"Commission","Denmark",2
+58,1990,"Commission","Finland",1
+59,1990,"Commission","France",10
+60,1990,"Commission","Germany",21
+61,1990,"Commission","Greece",2
+62,1990,"Commission","Ireland",1
+63,1990,"Commission","Italy",1
+64,1990,"Commission","Luxembourg",1
+65,1990,"Commission","Netherlands",7
+66,1990,"Commission","Portugal",2
+67,1990,"Commission","Spain",10
+68,1990,"Commission","United Kingdom",7
+69,1990,"Denmark","Belgium",1
+70,1990,"Denmark","Germany",2
+71,1990,"Denmark","Greece",1
+72,1990,"European Free Trade Association","Belgium",1
+73,1990,"European Free Trade Association","France",1
+74,1990,"France","Belgium",2
+75,1990,"France","Denmark",1
+76,1990,"France","Germany",16
+77,1990,"France","Greece",2
+78,1990,"France","Italy",7
+79,1990,"France","Luxembourg",1
+80,1990,"France","Netherlands",5
+81,1990,"France","Portugal",1
+82,1990,"France","Spain",2
+83,1990,"France","United Kingdom",24
+84,1990,"Germany","Belgium",2
+85,1990,"Germany","Denmark",1
+86,1990,"Germany","France",19
+87,1990,"Germany","Greece",1
+88,1990,"Germany","Italy",5
+89,1990,"Germany","Luxembourg",1
+90,1990,"Germany","Portugal",3
+91,1990,"Germany","United Kingdom",9
+92,1990,"Greece","France",2
+93,1990,"Ireland","Netherlands",1
+94,1990,"Ireland","Spain",2
+95,1990,"Italy","Belgium",1
+96,1990,"Italy","France",1
+97,1990,"Italy","Germany",1
+98,1990,"Italy","Netherlands",2
+99,1990,"Netherlands","Denmark",1
+100,1990,"Netherlands","France",2
+101,1990,"Netherlands","Germany",9
+102,1990,"Netherlands","Italy",1
+103,1990,"Netherlands","Spain",1
+104,1990,"Spain","Belgium",1
+105,1990,"Spain","Denmark",1
+106,1990,"Spain","France",14
+107,1990,"Spain","Germany",4
+108,1990,"Spain","Greece",1
+109,1990,"Spain","Ireland",1
+110,1990,"Spain","Italy",1
+111,1990,"Spain","Netherlands",2
+112,1990,"Spain","United Kingdom",3
+113,1990,"United Kingdom","Belgium",3
+114,1990,"United Kingdom","Denmark",2
+115,1990,"United Kingdom","France",3
+116,1990,"United Kingdom","Germany",2
+117,1990,"United Kingdom","Greece",1
+118,1990,"United Kingdom","Ireland",1
+119,1990,"United Kingdom","Luxembourg",2
+120,1990,"United Kingdom","Netherlands",7
+121,1990,"United Kingdom","Portugal",2
+122,1990,"United Kingdom","Spain",2
+123,1991,"Belgium","Denmark",1
+124,1991,"Belgium","Germany",1
+125,1991,"Belgium","Italy",1
+126,1991,"Belgium","United Kingdom",1
+127,1991,"Commission","Austria",11
+128,1991,"Commission","Belgium",2
+129,1991,"Commission","Denmark",3
+130,1991,"Commission","Finland",14
+131,1991,"Commission","France",36
+132,1991,"Commission","Germany",12
+133,1991,"Commission","Greece",3
+134,1991,"Commission","Ireland",1
+135,1991,"Commission","Italy",4
+136,1991,"Commission","Netherlands",12
+137,1991,"Commission","Norway",12
+138,1991,"Commission","Portugal",5
+139,1991,"Commission","Spain",8
+140,1991,"Commission","Sweden",10
+141,1991,"Commission","Switzerland",13
+142,1991,"Commission","United Kingdom",11
+143,1991,"Denmark","Portugal",1
+144,1991,"Denmark","United Kingdom",1
+145,1991,"European Free Trade Association","France",1
+146,1991,"European Free Trade Association","Germany",3
+147,1991,"France","Denmark",1
+148,1991,"France","Germany",5
+149,1991,"France","Greece",3
+150,1991,"France","Italy",3
+151,1991,"France","Luxembourg",1
+152,1991,"France","Netherlands",4
+153,1991,"France","Portugal",3
+154,1991,"France","Spain",3
+155,1991,"France","United Kingdom",15
+156,1991,"Germany","Denmark",2
+157,1991,"Germany","France",3
+158,1991,"Germany","Greece",1
+159,1991,"Germany","Italy",2
+160,1991,"Germany","Netherlands",3
+161,1991,"Germany","Portugal",2
+162,1991,"Germany","United Kingdom",5
+163,1991,"Greece","Denmark",1
+164,1991,"Greece","France",1
+165,1991,"Greece","Luxembourg",1
+166,1991,"Italy","Belgium",1
+167,1991,"Italy","Germany",3
+168,1991,"Italy","Netherlands",1
+169,1991,"Italy","Portugal",4
+170,1991,"Italy","Spain",1
+171,1991,"Netherlands","Germany",1
+172,1991,"Spain","Belgium",2
+173,1991,"Spain","Denmark",1
+174,1991,"Spain","France",5
+175,1991,"Spain","Germany",2
+176,1991,"Spain","Greece",13
+177,1991,"Spain","Italy",4
+178,1991,"Spain","Netherlands",1
+179,1991,"Spain","Portugal",1
+180,1991,"Spain","United Kingdom",5
+181,1991,"United Kingdom","Belgium",1
+182,1991,"United Kingdom","Denmark",2
+183,1991,"United Kingdom","France",6
+184,1991,"United Kingdom","Germany",1
+185,1991,"United Kingdom","Greece",2
+186,1991,"United Kingdom","Italy",2
+187,1991,"United Kingdom","Netherlands",7
+188,1991,"United Kingdom","Portugal",2
+189,1991,"United Kingdom","Spain",1
+190,1992,"Belgium","Netherlands",1
+191,1992,"Commission","Austria",16
+192,1992,"Commission","Belgium",9
+193,1992,"Commission","Denmark",10
+194,1992,"Commission","Finland",17
+195,1992,"Commission","France",28
+196,1992,"Commission","Germany",20
+197,1992,"Commission","Greece",3
+198,1992,"Commission","Italy",16
+199,1992,"Commission","Luxembourg",3
+200,1992,"Commission","Netherlands",12
+201,1992,"Commission","Norway",13
+202,1992,"Commission","Portugal",3
+203,1992,"Commission","Spain",2
+204,1992,"Commission","Sweden",23
+205,1992,"Commission","Switzerland",7
+206,1992,"Commission","United Kingdom",12
+207,1992,"Denmark","France",2
+208,1992,"Denmark","Italy",3
+209,1992,"Denmark","Netherlands",4
+210,1992,"Denmark","Portugal",1
+211,1992,"European Free Trade Association","Denmark",1
+212,1992,"European Free Trade Association","France",2
+213,1992,"European Free Trade Association","Germany",1
+214,1992,"European Free Trade Association","Ireland",1
+215,1992,"European Free Trade Association","Netherlands",5
+216,1992,"France","Denmark",3
+217,1992,"France","Germany",10
+218,1992,"France","Ireland",2
+219,1992,"France","Italy",4
+220,1992,"France","Netherlands",1
+221,1992,"France","Portugal",3
+222,1992,"France","United Kingdom",4
+223,1992,"Germany","Denmark",4
+224,1992,"Germany","France",1
+225,1992,"Germany","Italy",2
+226,1992,"Germany","Netherlands",2
+227,1992,"Germany","Portugal",6
+228,1992,"Germany","United Kingdom",10
+229,1992,"Ireland","Italy",1
+230,1992,"Italy","France",2
+231,1992,"Italy","Greece",1
+232,1992,"Italy","Netherlands",1
+233,1992,"Netherlands","Denmark",3
+234,1992,"Netherlands","France",1
+235,1992,"Netherlands","Germany",12
+236,1992,"Netherlands","Greece",1
+237,1992,"Netherlands","Italy",5
+238,1992,"Netherlands","Portugal",1
+239,1992,"Netherlands","United Kingdom",1
+240,1992,"Spain","Belgium",3
+241,1992,"Spain","Denmark",1
+242,1992,"Spain","France",9
+243,1992,"Spain","Germany",6
+244,1992,"Spain","Greece",3
+245,1992,"Spain","Italy",8
+246,1992,"Spain","Luxembourg",1
+247,1992,"Spain","Netherlands",8
+248,1992,"Spain","Portugal",1
+249,1992,"Spain","United Kingdom",3
+250,1992,"United Kingdom","Belgium",1
+251,1992,"United Kingdom","Denmark",2
+252,1992,"United Kingdom","France",10
+253,1992,"United Kingdom","Germany",5
+254,1992,"United Kingdom","Greece",1
+255,1992,"United Kingdom","Italy",7
+256,1992,"United Kingdom","Luxembourg",1
+257,1992,"United Kingdom","Netherlands",3
+258,1992,"United Kingdom","Portugal",1
+259,1992,"United Kingdom","Spain",1
+260,1993,"Austria","Belgium",1
+261,1993,"Austria","Germany",2
+262,1993,"Belgium","France",1
+263,1993,"Belgium","Ireland",2
+264,1993,"Belgium","Italy",1
+265,1993,"Belgium","Netherlands",1
+266,1993,"Commission","Austria",9
+267,1993,"Commission","Belgium",2
+268,1993,"Commission","Denmark",3
+269,1993,"Commission","Finland",13
+270,1993,"Commission","France",23
+271,1993,"Commission","Germany",15
+272,1993,"Commission","Greece",2
+273,1993,"Commission","Ireland",3
+274,1993,"Commission","Italy",9
+275,1993,"Commission","Netherlands",6
+276,1993,"Commission","Norway",21
+277,1993,"Commission","Portugal",1
+278,1993,"Commission","Spain",2
+279,1993,"Commission","Sweden",9
+280,1993,"Commission","Switzerland",22
+281,1993,"Commission","United Kingdom",20
+282,1993,"Denmark","Ireland",1
+283,1993,"Denmark","Italy",2
+284,1993,"Denmark","United Kingdom",2
+285,1993,"European Free Trade Association","France",1
+286,1993,"European Free Trade Association","Germany",2
+287,1993,"European Free Trade Association","Italy",1
+288,1993,"European Free Trade Association","Netherlands",1
+289,1993,"European Free Trade Association","United Kingdom",2
+290,1993,"France","Belgium",2
+291,1993,"France","Denmark",2
+292,1993,"France","Germany",8
+293,1993,"France","Italy",4
+294,1993,"France","Luxembourg",1
+295,1993,"France","Netherlands",6
+296,1993,"France","Portugal",1
+297,1993,"France","United Kingdom",7
+298,1993,"Germany","Belgium",2
+299,1993,"Germany","Denmark",1
+300,1993,"Germany","France",4
+301,1993,"Germany","Italy",1
+302,1993,"Germany","Luxembourg",1
+303,1993,"Germany","Netherlands",1
+304,1993,"Germany","United Kingdom",4
+305,1993,"Greece","Germany",1
+306,1993,"Greece","Netherlands",1
+307,1993,"Italy","France",1
+308,1993,"Italy","Germany",1
+309,1993,"Italy","United Kingdom",4
+310,1993,"Netherlands","Belgium",1
+311,1993,"Netherlands","France",2
+312,1993,"Netherlands","Germany",3
+313,1993,"Netherlands","Italy",3
+314,1993,"Netherlands","United Kingdom",4
+315,1993,"Portugal","France",1
+316,1993,"Spain","Belgium",2
+317,1993,"Spain","Denmark",1
+318,1993,"Spain","France",4
+319,1993,"Spain","Germany",4
+320,1993,"Spain","Greece",1
+321,1993,"Spain","Italy",10
+322,1993,"Spain","Luxembourg",1
+323,1993,"Spain","Netherlands",6
+324,1993,"Spain","Portugal",4
+325,1993,"Spain","Spain",1
+326,1993,"Spain","United Kingdom",1
+327,1993,"United Kingdom","Denmark",1
+328,1993,"United Kingdom","France",4
+329,1993,"United Kingdom","Germany",7
+330,1993,"United Kingdom","Italy",1
+331,1993,"United Kingdom","Netherlands",4
+332,1993,"United Kingdom","Portugal",1
+333,1993,"United Kingdom","Spain",4
+334,1994,"Austria","Germany",1
+335,1994,"Austria","Netherlands",1
+336,1994,"Austria","Spain",1
+337,1994,"Commission","Austria",11
+338,1994,"Commission","Belgium",9
+339,1994,"Commission","Denmark",13
+340,1994,"Commission","Finland",2
+341,1994,"Commission","France",18
+342,1994,"Commission","Germany",56
+343,1994,"Commission","Greece",6
+344,1994,"Commission","Ireland",1
+345,1994,"Commission","Italy",7
+346,1994,"Commission","Netherlands",6
+347,1994,"Commission","Norway",3
+348,1994,"Commission","Portugal",3
+349,1994,"Commission","Spain",17
+350,1994,"Commission","Sweden",17
+351,1994,"Commission","Switzerland",28
+352,1994,"Commission","United Kingdom",32
+353,1994,"Denmark","Greece",2
+354,1994,"Denmark","Italy",1
+355,1994,"Denmark","Netherlands",1
+356,1994,"Denmark","United Kingdom",1
+357,1994,"European Free Trade Association","Germany",6
+358,1994,"Finland","Denmark",1
+359,1994,"France","Belgium",1
+360,1994,"France","Germany",6
+361,1994,"France","Greece",1
+362,1994,"France","Italy",1
+363,1994,"France","Netherlands",3
+364,1994,"France","Portugal",1
+365,1994,"France","Spain",3
+366,1994,"France","United Kingdom",5
+367,1994,"Germany","France",4
+368,1994,"Germany","Greece",1
+369,1994,"Germany","Italy",1
+370,1994,"Germany","Spain",1
+371,1994,"Germany","United Kingdom",7
+372,1994,"Italy","France",2
+373,1994,"Italy","Netherlands",1
+374,1994,"Italy","Spain",3
+375,1994,"Italy","United Kingdom",3
+376,1994,"Netherlands","Denmark",1
+377,1994,"Netherlands","France",1
+378,1994,"Netherlands","Germany",1
+379,1994,"Netherlands","Italy",2
+380,1994,"Netherlands","Portugal",2
+381,1994,"Netherlands","Spain",2
+382,1994,"Netherlands","Sweden",1
+383,1994,"Netherlands","United Kingdom",2
+384,1994,"Portugal","Italy",1
+385,1994,"Portugal","Spain",1
+386,1994,"Spain","Belgium",1
+387,1994,"Spain","Denmark",2
+388,1994,"Spain","France",11
+389,1994,"Spain","Germany",3
+390,1994,"Spain","Greece",2
+391,1994,"Spain","Italy",8
+392,1994,"Spain","Netherlands",8
+393,1994,"Spain","Sweden",1
+394,1994,"Sweden","Netherlands",1
+395,1994,"United Kingdom","Austria",3
+396,1994,"United Kingdom","Denmark",1
+397,1994,"United Kingdom","France",6
+398,1994,"United Kingdom","Germany",23
+399,1994,"United Kingdom","Greece",2
+400,1994,"United Kingdom","Italy",6
+401,1994,"United Kingdom","Netherlands",7
+402,1994,"United Kingdom","Portugal",1
+403,1994,"United Kingdom","Spain",1
+404,1995,"Austria","France",1
+405,1995,"Austria","Germany",3
+406,1995,"Austria","Greece",1
+407,1995,"Austria","Italy",11
+408,1995,"Austria","Netherlands",4
+409,1995,"Austria","Spain",2
+410,1995,"Austria","Sweden",1
+411,1995,"Austria","United Kingdom",1
+412,1995,"Commission","Austria",7
+413,1995,"Commission","Belgium",11
+414,1995,"Commission","Denmark",10
+415,1995,"Commission","Finland",6
+416,1995,"Commission","France",29
+417,1995,"Commission","Germany",10
+418,1995,"Commission","Greece",1
+419,1995,"Commission","Ireland",1
+420,1995,"Commission","Italy",7
+421,1995,"Commission","Netherlands",9
+422,1995,"Commission","Norway",6
+423,1995,"Commission","Portugal",2
+424,1995,"Commission","Spain",7
+425,1995,"Commission","Sweden",3
+426,1995,"Commission","Switzerland",8
+427,1995,"Commission","United Kingdom",4
+428,1995,"Denmark","Belgium",1
+429,1995,"Denmark","Germany",1
+430,1995,"Denmark","Netherlands",1
+431,1995,"European Free Trade Association","Belgium",2
+432,1995,"European Free Trade Association","Italy",1
+433,1995,"European Free Trade Association","Netherlands",1
+434,1995,"Finland","Germany",1
+435,1995,"Finland","Italy",1
+436,1995,"France","Denmark",1
+437,1995,"France","Finland",2
+438,1995,"France","Germany",4
+439,1995,"France","Greece",2
+440,1995,"France","Italy",6
+441,1995,"France","Netherlands",8
+442,1995,"France","Spain",5
+443,1995,"France","United Kingdom",4
+444,1995,"Germany","Austria",1
+445,1995,"Germany","Belgium",1
+446,1995,"Germany","Denmark",1
+447,1995,"Germany","Finland",1
+448,1995,"Germany","France",1
+449,1995,"Germany","Italy",2
+450,1995,"Germany","Netherlands",2
+451,1995,"Germany","United Kingdom",5
+452,1995,"Italy","Austria",1
+453,1995,"Italy","Belgium",3
+454,1995,"Italy","Denmark",5
+455,1995,"Italy","France",13
+456,1995,"Italy","Germany",4
+457,1995,"Italy","Greece",3
+458,1995,"Italy","Netherlands",3
+459,1995,"Italy","Portugal",1
+460,1995,"Italy","Spain",6
+461,1995,"Italy","Sweden",2
+462,1995,"Italy","United Kingdom",6
+463,1995,"Netherlands","Austria",2
+464,1995,"Netherlands","Belgium",1
+465,1995,"Netherlands","Denmark",1
+466,1995,"Netherlands","Germany",3
+467,1995,"Netherlands","Luxembourg",1
+468,1995,"Netherlands","Spain",1
+469,1995,"Netherlands","United Kingdom",2
+470,1995,"Portugal","Austria",1
+471,1995,"Portugal","Denmark",1
+472,1995,"Spain","Belgium",4
+473,1995,"Spain","Greece",1
+474,1995,"Spain","Italy",2
+475,1995,"Spain","Luxembourg",1
+476,1995,"Spain","Netherlands",8
+477,1995,"Spain","United Kingdom",2
+478,1995,"Sweden","United Kingdom",1
+479,1995,"United Kingdom","Austria",1
+480,1995,"United Kingdom","France",1
+481,1995,"United Kingdom","Germany",2
+482,1995,"United Kingdom","Greece",2
+483,1995,"United Kingdom","Italy",6
+484,1995,"United Kingdom","Netherlands",7
+485,1995,"United Kingdom","Portugal",1
+486,1995,"United Kingdom","Spain",1
+487,1996,"Austria","Denmark",1
+488,1996,"Austria","France",1
+489,1996,"Austria","Germany",3
+490,1996,"Austria","Greece",1
+491,1996,"Austria","Italy",1
+492,1996,"Austria","Netherlands",2
+493,1996,"Austria","Sweden",2
+494,1996,"Belgium","Netherlands",1
+495,1996,"Commission","Austria",27
+496,1996,"Commission","Belgium",10
+497,1996,"Commission","Denmark",6
+498,1996,"Commission","Finland",7
+499,1996,"Commission","France",12
+500,1996,"Commission","Germany",35
+501,1996,"Commission","Greece",5
+502,1996,"Commission","Ireland",2
+503,1996,"Commission","Italy",9
+504,1996,"Commission","Netherlands",26
+505,1996,"Commission","Norway",23
+506,1996,"Commission","Portugal",2
+507,1996,"Commission","Spain",3
+508,1996,"Commission","Sweden",12
+509,1996,"Commission","Switzerland",4
+510,1996,"Commission","United Kingdom",21
+511,1996,"Denmark","France",1
+512,1996,"Denmark","Italy",2
+513,1996,"European Free Trade Association","Austria",1
+514,1996,"European Free Trade Association","Finland",1
+515,1996,"European Free Trade Association","France",1
+516,1996,"European Free Trade Association","United Kingdom",1
+517,1996,"Finland","Belgium",1
+518,1996,"Finland","Denmark",1
+519,1996,"Finland","France",1
+520,1996,"Finland","Italy",1
+521,1996,"Finland","Sweden",1
+522,1996,"Finland","United Kingdom",1
+523,1996,"France","Austria",3
+524,1996,"France","Belgium",1
+525,1996,"France","Denmark",1
+526,1996,"France","Finland",2
+527,1996,"France","Germany",7
+528,1996,"France","Italy",6
+529,1996,"France","Netherlands",5
+530,1996,"France","Portugal",2
+531,1996,"France","Spain",4
+532,1996,"France","Sweden",2
+533,1996,"France","United Kingdom",5
+534,1996,"Germany","Austria",1
+535,1996,"Germany","Finland",1
+536,1996,"Germany","France",3
+537,1996,"Germany","Greece",2
+538,1996,"Germany","Italy",1
+539,1996,"Germany","Netherlands",1
+540,1996,"Germany","Portugal",1
+541,1996,"Germany","Sweden",3
+542,1996,"Italy","Austria",2
+543,1996,"Italy","France",4
+544,1996,"Italy","Germany",7
+545,1996,"Italy","Netherlands",3
+546,1996,"Italy","Portugal",3
+547,1996,"Italy","Spain",1
+548,1996,"Italy","Sweden",6
+549,1996,"Italy","United Kingdom",3
+550,1996,"Netherlands","Austria",1
+551,1996,"Netherlands","Denmark",2
+552,1996,"Netherlands","France",1
+553,1996,"Netherlands","Germany",6
+554,1996,"Netherlands","Greece",4
+555,1996,"Netherlands","Italy",1
+556,1996,"Netherlands","Portugal",1
+557,1996,"Netherlands","Spain",1
+558,1996,"Netherlands","Sweden",1
+559,1996,"Netherlands","United Kingdom",1
+560,1996,"Portugal","Denmark",1
+561,1996,"Portugal","Netherlands",1
+562,1996,"Portugal","Spain",1
+563,1996,"Spain","Austria",4
+564,1996,"Spain","Belgium",4
+565,1996,"Spain","Denmark",3
+566,1996,"Spain","Finland",2
+567,1996,"Spain","France",5
+568,1996,"Spain","Germany",8
+569,1996,"Spain","Greece",5
+570,1996,"Spain","Italy",2
+571,1996,"Spain","Netherlands",17
+572,1996,"Spain","Portugal",1
+573,1996,"Spain","Sweden",2
+574,1996,"Spain","United Kingdom",1
+575,1996,"Sweden","France",1
+576,1996,"Sweden","Germany",1
+577,1996,"Sweden","Portugal",8
+578,1996,"Sweden","United Kingdom",1
+579,1996,"United Kingdom","Austria",3
+580,1996,"United Kingdom","Belgium",1
+581,1996,"United Kingdom","Denmark",2
+582,1996,"United Kingdom","Finland",2
+583,1996,"United Kingdom","France",1
+584,1996,"United Kingdom","Germany",3
+585,1996,"United Kingdom","Greece",5
+586,1996,"United Kingdom","Italy",3
+587,1996,"United Kingdom","Netherlands",5
+588,1996,"United Kingdom","Spain",2
+589,1996,"United Kingdom","Sweden",3
+590,1997,"Austria","Austria",1
+591,1997,"Austria","France",2
+592,1997,"Austria","Germany",3
+593,1997,"Austria","Greece",1
+594,1997,"Austria","Italy",1
+595,1997,"Austria","Netherlands",9
+596,1997,"Austria","Spain",1
+597,1997,"Austria","Sweden",1
+598,1997,"Belgium","Italy",1
+599,1997,"Belgium","Netherlands",2
+600,1997,"Belgium","Spain",1
+601,1997,"Commission","Austria",32
+602,1997,"Commission","Belgium",11
+603,1997,"Commission","Denmark",22
+604,1997,"Commission","Finland",8
+605,1997,"Commission","France",17
+606,1997,"Commission","Germany",16
+607,1997,"Commission","Greece",8
+608,1997,"Commission","Iceland",1
+609,1997,"Commission","Ireland",3
+610,1997,"Commission","Italy",11
+611,1997,"Commission","Netherlands",63
+612,1997,"Commission","Norway",5
+613,1997,"Commission","Portugal",2
+614,1997,"Commission","Spain",15
+615,1997,"Commission","Sweden",10
+616,1997,"Commission","Switzerland",6
+617,1997,"Commission","United Kingdom",15
+618,1997,"Denmark","Austria",1
+619,1997,"Denmark","Netherlands",1
+620,1997,"Denmark","Spain",1
+621,1997,"European Free Trade Association","Finland",1
+622,1997,"European Free Trade Association","France",1
+623,1997,"European Free Trade Association","Netherlands",1
+624,1997,"Finland","France",1
+625,1997,"Finland","Netherlands",1
+626,1997,"Finland","Spain",1
+627,1997,"France","Austria",3
+628,1997,"France","Belgium",3
+629,1997,"France","Denmark",1
+630,1997,"France","Finland",1
+631,1997,"France","Germany",7
+632,1997,"France","Greece",2
+633,1997,"France","Italy",3
+634,1997,"France","Netherlands",6
+635,1997,"France","Spain",3
+636,1997,"France","Sweden",2
+637,1997,"France","United Kingdom",1
+638,1997,"Germany","Austria",2
+639,1997,"Germany","Belgium",2
+640,1997,"Germany","Denmark",1
+641,1997,"Germany","Finland",2
+642,1997,"Germany","France",9
+643,1997,"Germany","Greece",1
+644,1997,"Germany","Italy",2
+645,1997,"Germany","Netherlands",13
+646,1997,"Germany","Spain",3
+647,1997,"Germany","Sweden",1
+648,1997,"Germany","United Kingdom",1
+649,1997,"Ireland","Germany",1
+650,1997,"Italy","Austria",9
+651,1997,"Italy","Belgium",2
+652,1997,"Italy","Denmark",7
+653,1997,"Italy","France",5
+654,1997,"Italy","Germany",12
+655,1997,"Italy","Greece",1
+656,1997,"Italy","Netherlands",5
+657,1997,"Italy","Spain",2
+658,1997,"Italy","United Kingdom",7
+659,1997,"Netherlands","Austria",4
+660,1997,"Netherlands","Belgium",1
+661,1997,"Netherlands","Denmark",5
+662,1997,"Netherlands","Finland",3
+663,1997,"Netherlands","France",8
+664,1997,"Netherlands","Germany",3
+665,1997,"Netherlands","Italy",1
+666,1997,"Netherlands","Spain",3
+667,1997,"Portugal","Spain",2
+668,1997,"Portugal","United Kingdom",2
+669,1997,"Spain","Austria",3
+670,1997,"Spain","Belgium",2
+671,1997,"Spain","Denmark",3
+672,1997,"Spain","Finland",1
+673,1997,"Spain","France",6
+674,1997,"Spain","Germany",1
+675,1997,"Spain","Greece",1
+676,1997,"Spain","Ireland",1
+677,1997,"Spain","Italy",3
+678,1997,"Spain","Netherlands",23
+679,1997,"Spain","Portugal",1
+680,1997,"Spain","United Kingdom",3
+681,1997,"Sweden","Austria",2
+682,1997,"Sweden","Denmark",1
+683,1997,"Sweden","France",1
+684,1997,"Sweden","Spain",1
+685,1997,"United Kingdom","Austria",7
+686,1997,"United Kingdom","Belgium",1
+687,1997,"United Kingdom","France",3
+688,1997,"United Kingdom","Germany",4
+689,1997,"United Kingdom","Greece",1
+690,1997,"United Kingdom","Italy",3
+691,1997,"United Kingdom","Netherlands",15
+692,1997,"United Kingdom","Portugal",2
+693,1997,"United Kingdom","Spain",3
+694,1998,"Austria","Belgium",2
+695,1998,"Austria","Denmark",4
+696,1998,"Austria","France",4
+697,1998,"Austria","Germany",3
+698,1998,"Austria","Greece",1
+699,1998,"Austria","Netherlands",3
+700,1998,"Austria","Portugal",1
+701,1998,"Austria","Spain",1
+702,1998,"Belgium","France",1
+703,1998,"Belgium","Germany",1
+704,1998,"Commission","Austria",14
+705,1998,"Commission","Belgium",16
+706,1998,"Commission","Denmark",17
+707,1998,"Commission","Finland",6
+708,1998,"Commission","France",19
+709,1998,"Commission","Germany",15
+710,1998,"Commission","Greece",3
+711,1998,"Commission","Iceland",4
+712,1998,"Commission","Ireland",1
+713,1998,"Commission","Italy",12
+714,1998,"Commission","Luxembourg",2
+715,1998,"Commission","Netherlands",17
+716,1998,"Commission","Norway",14
+717,1998,"Commission","Portugal",4
+718,1998,"Commission","Spain",6
+719,1998,"Commission","Sweden",8
+720,1998,"Commission","Switzerland",7
+721,1998,"Commission","United Kingdom",6
+722,1998,"Denmark","France",4
+723,1998,"Denmark","Sweden",1
+724,1998,"Denmark","United Kingdom",2
+725,1998,"European Free Trade Association","Netherlands",1
+726,1998,"Finland","Belgium",1
+727,1998,"Finland","Denmark",3
+728,1998,"Finland","Netherlands",1
+729,1998,"Finland","Spain",1
+730,1998,"France","Austria",4
+731,1998,"France","Belgium",2
+732,1998,"France","Denmark",4
+733,1998,"France","Finland",2
+734,1998,"France","Germany",3
+735,1998,"France","Greece",1
+736,1998,"France","Italy",5
+737,1998,"France","Netherlands",7
+738,1998,"France","Portugal",1
+739,1998,"France","Sweden",3
+740,1998,"France","United Kingdom",1
+741,1998,"Germany","Austria",1
+742,1998,"Germany","Belgium",3
+743,1998,"Germany","Denmark",1
+744,1998,"Germany","France",1
+745,1998,"Germany","Greece",1
+746,1998,"Germany","Italy",1
+747,1998,"Germany","Netherlands",3
+748,1998,"Germany","Spain",1
+749,1998,"Germany","Sweden",2
+750,1998,"Germany","United Kingdom",2
+751,1998,"Greece","Italy",1
+752,1998,"Ireland","Netherlands",1
+753,1998,"Italy","Austria",6
+754,1998,"Italy","Belgium",6
+755,1998,"Italy","Denmark",17
+756,1998,"Italy","Finland",4
+757,1998,"Italy","France",5
+758,1998,"Italy","Germany",10
+759,1998,"Italy","Greece",4
+760,1998,"Italy","Ireland",1
+761,1998,"Italy","Netherlands",7
+762,1998,"Italy","Spain",2
+763,1998,"Italy","United Kingdom",4
+764,1998,"Netherlands","Austria",1
+765,1998,"Netherlands","Belgium",1
+766,1998,"Netherlands","Denmark",2
+767,1998,"Netherlands","Germany",2
+768,1998,"Netherlands","Italy",3
+769,1998,"Netherlands","Sweden",4
+770,1998,"Netherlands","United Kingdom",1
+771,1998,"Portugal","Denmark",2
+772,1998,"Portugal","Italy",2
+773,1998,"Spain","Austria",3
+774,1998,"Spain","Belgium",3
+775,1998,"Spain","Denmark",4
+776,1998,"Spain","France",7
+777,1998,"Spain","Greece",1
+778,1998,"Spain","Italy",2
+779,1998,"Spain","Netherlands",10
+780,1998,"Spain","Portugal",4
+781,1998,"Spain","Sweden",1
+782,1998,"Spain","United Kingdom",1
+783,1998,"Sweden","Austria",3
+784,1998,"Sweden","Denmark",2
+785,1998,"Sweden","France",3
+786,1998,"Sweden","Netherlands",1
+787,1998,"Sweden","Spain",1
+788,1998,"Sweden","United Kingdom",1
+789,1998,"United Kingdom","Austria",4
+790,1998,"United Kingdom","Belgium",1
+791,1998,"United Kingdom","Denmark",2
+792,1998,"United Kingdom","France",4
+793,1998,"United Kingdom","Germany",2
+794,1998,"United Kingdom","Greece",1
+795,1998,"United Kingdom","Italy",3
+796,1998,"United Kingdom","Netherlands",2
+797,1998,"United Kingdom","Sweden",1
+798,1999,"Austria","Belgium",1
+799,1999,"Austria","Denmark",3
+800,1999,"Austria","Finland",1
+801,1999,"Austria","France",1
+802,1999,"Austria","Italy",2
+803,1999,"Austria","Netherlands",5
+804,1999,"Belgium","France",2
+805,1999,"Belgium","Netherlands",1
+806,1999,"Commission","Austria",12
+807,1999,"Commission","Belgium",8
+808,1999,"Commission","Denmark",18
+809,1999,"Commission","Finland",11
+810,1999,"Commission","France",13
+811,1999,"Commission","Germany",32
+812,1999,"Commission","Greece",5
+813,1999,"Commission","Iceland",1
+814,1999,"Commission","Ireland",1
+815,1999,"Commission","Italy",11
+816,1999,"Commission","Luxembourg",1
+817,1999,"Commission","Netherlands",14
+818,1999,"Commission","Norway",7
+819,1999,"Commission","Portugal",1
+820,1999,"Commission","Spain",7
+821,1999,"Commission","Sweden",5
+822,1999,"Commission","Switzerland",9
+823,1999,"Commission","United Kingdom",13
+824,1999,"Denmark","Austria",1
+825,1999,"Denmark","Germany",1
+826,1999,"Denmark","Netherlands",2
+827,1999,"Denmark","United Kingdom",2
+828,1999,"European Free Trade Association","Netherlands",1
+829,1999,"European Free Trade Association","Sweden",1
+830,1999,"Finland","Netherlands",2
+831,1999,"Finland","Portugal",1
+832,1999,"Finland","Sweden",2
+833,1999,"Finland","United Kingdom",1
+834,1999,"France","Austria",1
+835,1999,"France","Belgium",1
+836,1999,"France","Denmark",2
+837,1999,"France","Finland",1
+838,1999,"France","Italy",2
+839,1999,"France","Netherlands",3
+840,1999,"France","Portugal",1
+841,1999,"France","Spain",2
+842,1999,"Germany","Austria",6
+843,1999,"Germany","Denmark",2
+844,1999,"Germany","Finland",4
+845,1999,"Germany","France",5
+846,1999,"Germany","Greece",2
+847,1999,"Germany","Italy",1
+848,1999,"Germany","Netherlands",7
+849,1999,"Germany","Spain",4
+850,1999,"Germany","Sweden",3
+851,1999,"Germany","United Kingdom",2
+852,1999,"Greece","United Kingdom",1
+853,1999,"Ireland","Netherlands",2
+854,1999,"Italy","Austria",14
+855,1999,"Italy","Belgium",5
+856,1999,"Italy","Denmark",2
+857,1999,"Italy","Finland",2
+858,1999,"Italy","France",13
+859,1999,"Italy","Germany",8
+860,1999,"Italy","Greece",2
+861,1999,"Italy","Netherlands",19
+862,1999,"Italy","Portugal",4
+863,1999,"Italy","Spain",5
+864,1999,"Italy","Sweden",2
+865,1999,"Italy","United Kingdom",7
+866,1999,"Netherlands","Austria",2
+867,1999,"Netherlands","Belgium",2
+868,1999,"Netherlands","Denmark",1
+869,1999,"Netherlands","France",2
+870,1999,"Netherlands","Germany",1
+871,1999,"Netherlands","Greece",1
+872,1999,"Netherlands","Italy",1
+873,1999,"Netherlands","Portugal",1
+874,1999,"Netherlands","Spain",2
+875,1999,"Portugal","France",3
+876,1999,"Spain","Austria",3
+877,1999,"Spain","Belgium",1
+878,1999,"Spain","Denmark",1
+879,1999,"Spain","Finland",1
+880,1999,"Spain","France",2
+881,1999,"Spain","Germany",2
+882,1999,"Spain","Greece",1
+883,1999,"Spain","Italy",3
+884,1999,"Spain","Netherlands",9
+885,1999,"Spain","Portugal",2
+886,1999,"Spain","Sweden",1
+887,1999,"Spain","United Kingdom",2
+888,1999,"Sweden","Austria",3
+889,1999,"Sweden","Belgium",1
+890,1999,"Sweden","Denmark",1
+891,1999,"Sweden","Portugal",1
+892,1999,"Sweden","Spain",1
+893,1999,"Sweden","United Kingdom",1
+894,1999,"United Kingdom","Austria",1
+895,1999,"United Kingdom","Belgium",2
+896,1999,"United Kingdom","Denmark",1
+897,1999,"United Kingdom","Finland",3
+898,1999,"United Kingdom","France",2
+899,1999,"United Kingdom","Germany",6
+900,1999,"United Kingdom","Italy",2
+901,1999,"United Kingdom","Netherlands",4
+902,1999,"United Kingdom","Sweden",2
+903,2000,"Austria","Belgium",3
+904,2000,"Austria","Germany",4
+905,2000,"Austria","Greece",1
+906,2000,"Austria","Italy",2
+907,2000,"Austria","Netherlands",1
+908,2000,"Belgium","Finland",1
+909,2000,"Belgium","Portugal",1
+910,2000,"Commission","Austria",75
+911,2000,"Commission","Belgium",8
+912,2000,"Commission","Denmark",50
+913,2000,"Commission","Finland",1
+914,2000,"Commission","France",6
+915,2000,"Commission","Germany",11
+916,2000,"Commission","Greece",4
+917,2000,"Commission","Iceland",1
+918,2000,"Commission","Ireland",1
+919,2000,"Commission","Italy",8
+920,2000,"Commission","Luxembourg",3
+921,2000,"Commission","Netherlands",17
+922,2000,"Commission","Norway",7
+923,2000,"Commission","Portugal",3
+924,2000,"Commission","Spain",2
+925,2000,"Commission","Sweden",6
+926,2000,"Commission","Switzerland",6
+927,2000,"Commission","United Kingdom",46
+928,2000,"Denmark","France",2
+929,2000,"Denmark","Netherlands",2
+930,2000,"Denmark","Portugal",1
+931,2000,"Finland","Netherlands",1
+932,2000,"Finland","Sweden",1
+933,2000,"France","Belgium",1
+934,2000,"France","Denmark",1
+935,2000,"France","Germany",1
+936,2000,"France","Greece",5
+937,2000,"France","Italy",5
+938,2000,"France","Netherlands",4
+939,2000,"France","Portugal",1
+940,2000,"France","Spain",1
+941,2000,"France","Sweden",2
+942,2000,"Germany","Austria",4
+943,2000,"Germany","Belgium",2
+944,2000,"Germany","Denmark",6
+945,2000,"Germany","Finland",2
+946,2000,"Germany","France",6
+947,2000,"Germany","Greece",2
+948,2000,"Germany","Italy",3
+949,2000,"Germany","Netherlands",8
+950,2000,"Germany","Spain",3
+951,2000,"Germany","Sweden",1
+952,2000,"Germany","United Kingdom",2
+953,2000,"Italy","Austria",7
+954,2000,"Italy","Belgium",4
+955,2000,"Italy","Denmark",11
+956,2000,"Italy","Finland",1
+957,2000,"Italy","France",7
+958,2000,"Italy","Germany",4
+959,2000,"Italy","Greece",1
+960,2000,"Italy","Ireland",2
+961,2000,"Italy","Italy",1
+962,2000,"Italy","Netherlands",9
+963,2000,"Italy","Norway",1
+964,2000,"Italy","Portugal",1
+965,2000,"Italy","Spain",2
+966,2000,"Italy","Sweden",3
+967,2000,"Italy","United Kingdom",6
+968,2000,"Netherlands","Austria",1
+969,2000,"Netherlands","Belgium",2
+970,2000,"Netherlands","Denmark",5
+971,2000,"Netherlands","France",1
+972,2000,"Netherlands","Germany",2
+973,2000,"Netherlands","Spain",4
+974,2000,"Netherlands","United Kingdom",1
+975,2000,"Portugal","France",1
+976,2000,"Spain","Austria",2
+977,2000,"Spain","Belgium",3
+978,2000,"Spain","Denmark",2
+979,2000,"Spain","Finland",1
+980,2000,"Spain","France",2
+981,2000,"Spain","Germany",3
+982,2000,"Spain","Greece",2
+983,2000,"Spain","Ireland",1
+984,2000,"Spain","Italy",3
+985,2000,"Spain","Netherlands",4
+986,2000,"Spain","Portugal",1
+987,2000,"Spain","United Kingdom",2
+988,2000,"Sweden","Austria",2
+989,2000,"Sweden","France",1
+990,2000,"Sweden","Germany",1
+991,2000,"Sweden","Italy",1
+992,2000,"Sweden","Spain",1
+993,2000,"United Kingdom","Austria",5
+994,2000,"United Kingdom","Belgium",2
+995,2000,"United Kingdom","Denmark",3
+996,2000,"United Kingdom","Finland",1
+997,2000,"United Kingdom","Germany",1
+998,2000,"United Kingdom","Greece",1
+999,2000,"United Kingdom","Italy",1
+1000,2000,"United Kingdom","Netherlands",1
+1001,2000,"United Kingdom","Portugal",1
+1002,2000,"United Kingdom","Spain",1
+1003,2000,"United Kingdom","Sweden",2
+1004,2001,"Austria","Belgium",1
+1005,2001,"Austria","Denmark",1
+1006,2001,"Austria","Finland",1
+1007,2001,"Austria","Germany",3
+1008,2001,"Austria","Italy",1
+1009,2001,"Austria","Netherlands",1
+1010,2001,"Austria","Spain",2
+1011,2001,"Austria","Sweden",1
+1012,2001,"Belgium","Austria",1
+1013,2001,"Belgium","Italy",1
+1014,2001,"Commission","Austria",23
+1015,2001,"Commission","Belgium",10
+1016,2001,"Commission","Denmark",5
+1017,2001,"Commission","Finland",8
+1018,2001,"Commission","France",18
+1019,2001,"Commission","Germany",12
+1020,2001,"Commission","Greece",2
+1021,2001,"Commission","Iceland",5
+1022,2001,"Commission","Ireland",1
+1023,2001,"Commission","Italy",6
+1024,2001,"Commission","Netherlands",16
+1025,2001,"Commission","Norway",15
+1026,2001,"Commission","Portugal",2
+1027,2001,"Commission","Spain",5
+1028,2001,"Commission","Sweden",8
+1029,2001,"Commission","Switzerland",4
+1030,2001,"Commission","United Kingdom",10
+1031,2001,"Denmark","Austria",1
+1032,2001,"Denmark","Belgium",1
+1033,2001,"Denmark","Germany",2
+1034,2001,"Denmark","Italy",1
+1035,2001,"Denmark","Netherlands",1
+1036,2001,"Denmark","United Kingdom",1
+1037,2001,"European Free Trade Association","Netherlands",2
+1038,2001,"Finland","Austria",1
+1039,2001,"Finland","Denmark",1
+1040,2001,"Finland","Italy",1
+1041,2001,"Finland","United Kingdom",2
+1042,2001,"France","Austria",1
+1043,2001,"France","Belgium",1
+1044,2001,"France","Denmark",4
+1045,2001,"France","Finland",1
+1046,2001,"France","Germany",5
+1047,2001,"France","Italy",1
+1048,2001,"France","Netherlands",3
+1049,2001,"France","Spain",2
+1050,2001,"France","Sweden",1
+1051,2001,"Germany","Austria",1
+1052,2001,"Germany","Belgium",1
+1053,2001,"Germany","Denmark",2
+1054,2001,"Germany","France",5
+1055,2001,"Germany","Italy",3
+1056,2001,"Germany","Portugal",1
+1057,2001,"Germany","Spain",1
+1058,2001,"Germany","Sweden",2
+1059,2001,"Germany","United Kingdom",7
+1060,2001,"Italy","Austria",2
+1061,2001,"Italy","Denmark",4
+1062,2001,"Italy","Finland",1
+1063,2001,"Italy","France",4
+1064,2001,"Italy","Germany",5
+1065,2001,"Italy","Italy",1
+1066,2001,"Italy","Netherlands",7
+1067,2001,"Italy","Spain",2
+1068,2001,"Italy","Sweden",2
+1069,2001,"Italy","United Kingdom",4
+1070,2001,"Netherlands","Austria",2
+1071,2001,"Netherlands","Denmark",1
+1072,2001,"Netherlands","France",6
+1073,2001,"Netherlands","Italy",1
+1074,2001,"Netherlands","Portugal",1
+1075,2001,"Netherlands","Spain",2
+1076,2001,"Netherlands","Sweden",1
+1077,2001,"Netherlands","United Kingdom",1
+1078,2001,"Portugal","Austria",1
+1079,2001,"Portugal","Belgium",1
+1080,2001,"Portugal","Denmark",2
+1081,2001,"Portugal","Finland",1
+1082,2001,"Spain","Austria",1
+1083,2001,"Spain","Belgium",1
+1084,2001,"Spain","Denmark",1
+1085,2001,"Spain","France",1
+1086,2001,"Spain","Germany",2
+1087,2001,"Spain","Italy",2
+1088,2001,"Spain","Netherlands",1
+1089,2001,"Spain","Sweden",1
+1090,2001,"Sweden","Austria",1
+1091,2001,"Sweden","Finland",1
+1092,2001,"Sweden","France",1
+1093,2001,"Sweden","Germany",3
+1094,2001,"Sweden","Netherlands",2
+1095,2001,"Sweden","Spain",1
+1096,2001,"United Kingdom","Austria",2
+1097,2001,"United Kingdom","Belgium",1
+1098,2001,"United Kingdom","Germany",1
+1099,2001,"United Kingdom","Italy",2
+1100,2001,"United Kingdom","Netherlands",2
+1101,2001,"United Kingdom","Portugal",1
+1102,2001,"United Kingdom","Spain",1
+1103,2002,"Austria","Belgium",2
+1104,2002,"Austria","Denmark",1
+1105,2002,"Austria","France",1
+1106,2002,"Austria","Germany",2
+1107,2002,"Austria","Italy",2
+1108,2002,"Austria","Netherlands",1
+1109,2002,"Austria","Sweden",1
+1110,2002,"Belgium","Netherlands",1
+1111,2002,"Belgium","Spain",1
+1112,2002,"Belgium","United Kingdom",1
+1113,2002,"Commission","Austria",10
+1114,2002,"Commission","Belgium",33
+1115,2002,"Commission","Denmark",5
+1116,2002,"Commission","Finland",2
+1117,2002,"Commission","France",16
+1118,2002,"Commission","Germany",8
+1119,2002,"Commission","Greece",2
+1120,2002,"Commission","Iceland",4
+1121,2002,"Commission","Ireland",1
+1122,2002,"Commission","Italy",10
+1123,2002,"Commission","Liechtenstein",1
+1124,2002,"Commission","Netherlands",14
+1125,2002,"Commission","Norway",7
+1126,2002,"Commission","Portugal",1
+1127,2002,"Commission","Spain",12
+1128,2002,"Commission","Sweden",14
+1129,2002,"Commission","Switzerland",2
+1130,2002,"Commission","United Kingdom",13
+1131,2002,"Denmark","France",1
+1132,2002,"Denmark","Italy",1
+1133,2002,"Denmark","United Kingdom",1
+1134,2002,"Finland","Austria",1
+1135,2002,"Finland","Belgium",4
+1136,2002,"Finland","United Kingdom",1
+1137,2002,"France","Austria",1
+1138,2002,"France","Denmark",1
+1139,2002,"France","Germany",3
+1140,2002,"France","Greece",1
+1141,2002,"France","Italy",3
+1142,2002,"France","Netherlands",4
+1143,2002,"France","Spain",1
+1144,2002,"Germany","Belgium",5
+1145,2002,"Germany","Denmark",3
+1146,2002,"Germany","France",1
+1147,2002,"Germany","Italy",3
+1148,2002,"Germany","Netherlands",7
+1149,2002,"Germany","Spain",3
+1150,2002,"Germany","Sweden",4
+1151,2002,"Germany","United Kingdom",1
+1152,2002,"Ireland","France",1
+1153,2002,"Italy","Austria",3
+1154,2002,"Italy","Belgium",22
+1155,2002,"Italy","Denmark",1
+1156,2002,"Italy","Finland",3
+1157,2002,"Italy","France",5
+1158,2002,"Italy","Germany",5
+1159,2002,"Italy","Greece",1
+1160,2002,"Italy","Ireland",1
+1161,2002,"Italy","Netherlands",11
+1162,2002,"Italy","Spain",4
+1163,2002,"Italy","Sweden",3
+1164,2002,"Italy","United Kingdom",9
+1165,2002,"Netherlands","Austria",1
+1166,2002,"Netherlands","Belgium",1
+1167,2002,"Netherlands","France",1
+1168,2002,"Netherlands","Germany",2
+1169,2002,"Netherlands","Italy",2
+1170,2002,"Netherlands","United Kingdom",1
+1171,2002,"Portugal","Spain",1
+1172,2002,"Spain","Austria",1
+1173,2002,"Spain","Belgium",1
+1174,2002,"Spain","Finland",1
+1175,2002,"Spain","France",3
+1176,2002,"Spain","Germany",3
+1177,2002,"Spain","Italy",7
+1178,2002,"Spain","Netherlands",5
+1179,2002,"Spain","Sweden",1
+1180,2002,"Spain","United Kingdom",3
+1181,2002,"Sweden","Austria",1
+1182,2002,"Sweden","Belgium",3
+1183,2002,"Sweden","France",1
+1184,2002,"Sweden","Germany",2
+1185,2002,"Sweden","United Kingdom",4
+1186,2002,"United Kingdom","Austria",2
+1187,2002,"United Kingdom","Belgium",2
+1188,2002,"United Kingdom","Denmark",3
+1189,2002,"United Kingdom","France",2
+1190,2002,"United Kingdom","Germany",2
+1191,2002,"United Kingdom","Italy",1
+1192,2002,"United Kingdom","Netherlands",2
+1193,2003,"Austria","Denmark",3
+1194,2003,"Austria","France",2
+1195,2003,"Austria","Germany",2
+1196,2003,"Austria","Ireland",2
+1197,2003,"Austria","Spain",1
+1198,2003,"Austria","Sweden",1
+1199,2003,"Austria","United Kingdom",2
+1200,2003,"Belgium","France",1
+1201,2003,"Commission","Austria",10
+1202,2003,"Commission","Belgium",5
+1203,2003,"Commission","Denmark",9
+1204,2003,"Commission","Finland",5
+1205,2003,"Commission","France",23
+1206,2003,"Commission","Germany",17
+1207,2003,"Commission","Greece",11
+1208,2003,"Commission","Iceland",1
+1209,2003,"Commission","Ireland",2
+1210,2003,"Commission","Italy",14
+1211,2003,"Commission","Luxembourg",3
+1212,2003,"Commission","Netherlands",20
+1213,2003,"Commission","Norway",17
+1214,2003,"Commission","Portugal",4
+1215,2003,"Commission","Spain",12
+1216,2003,"Commission","Sweden",6
+1217,2003,"Commission","Switzerland",1
+1218,2003,"Commission","United Kingdom",24
+1219,2003,"Denmark","Belgium",1
+1220,2003,"Denmark","France",1
+1221,2003,"Denmark","Italy",1
+1222,2003,"Finland","Austria",1
+1223,2003,"Finland","Germany",1
+1224,2003,"Finland","Sweden",1
+1225,2003,"France","Austria",2
+1226,2003,"France","Denmark",5
+1227,2003,"France","Germany",1
+1228,2003,"France","Ireland",2
+1229,2003,"France","Italy",6
+1230,2003,"France","Netherlands",2
+1231,2003,"France","Spain",3
+1232,2003,"France","Sweden",2
+1233,2003,"France","United Kingdom",5
+1234,2003,"Germany","Belgium",2
+1235,2003,"Germany","Denmark",2
+1236,2003,"Germany","Finland",1
+1237,2003,"Germany","France",3
+1238,2003,"Germany","Greece",1
+1239,2003,"Germany","Italy",3
+1240,2003,"Germany","Netherlands",4
+1241,2003,"Germany","Spain",3
+1242,2003,"Germany","Sweden",3
+1243,2003,"Germany","United Kingdom",3
+1244,2003,"Ireland","Netherlands",1
+1245,2003,"Italy","Denmark",8
+1246,2003,"Italy","France",6
+1247,2003,"Italy","Germany",3
+1248,2003,"Italy","Greece",3
+1249,2003,"Italy","Italy",1
+1250,2003,"Italy","Netherlands",6
+1251,2003,"Italy","Spain",2
+1252,2003,"Italy","Sweden",1
+1253,2003,"Italy","United Kingdom",5
+1254,2003,"Netherlands","France",1
+1255,2003,"Netherlands","Germany",1
+1256,2003,"Netherlands","Italy",1
+1257,2003,"Portugal","Ireland",1
+1258,2003,"Spain","Austria",3
+1259,2003,"Spain","Belgium",1
+1260,2003,"Spain","Denmark",3
+1261,2003,"Spain","France",6
+1262,2003,"Spain","Germany",4
+1263,2003,"Spain","Italy",3
+1264,2003,"Spain","Netherlands",1
+1265,2003,"Spain","Portugal",1
+1266,2003,"Spain","Sweden",2
+1267,2003,"Spain","United Kingdom",3
+1268,2003,"Sweden","Germany",1
+1269,2003,"United Kingdom","Austria",1
+1270,2003,"United Kingdom","Belgium",1
+1271,2003,"United Kingdom","Denmark",2
+1272,2003,"United Kingdom","France",4
+1273,2003,"United Kingdom","Germany",1
+1274,2003,"United Kingdom","Italy",2
+1275,2003,"United Kingdom","Netherlands",2
+1276,2003,"United Kingdom","Sweden",2
+1277,2004,"Austria","Belgium",2
+1278,2004,"Austria","Czech Republic",1
+1279,2004,"Austria","Finland",1
+1280,2004,"Austria","Germany",1
+1281,2004,"Austria","Spain",1
+1282,2004,"Austria","United Kingdom",1
+1283,2004,"Commission","Austria",10
+1284,2004,"Commission","Belgium",4
+1285,2004,"Commission","Czech Republic",6
+1286,2004,"Commission","Denmark",19
+1287,2004,"Commission","Finland",11
+1288,2004,"Commission","France",12
+1289,2004,"Commission","Germany",46
+1290,2004,"Commission","Greece",33
+1291,2004,"Commission","Iceland",4
+1292,2004,"Commission","Ireland",2
+1293,2004,"Commission","Italy",10
+1294,2004,"Commission","Latvia",5
+1295,2004,"Commission","Liechtenstein",2
+1296,2004,"Commission","Lithuania",4
+1297,2004,"Commission","Luxembourg",2
+1298,2004,"Commission","Netherlands",17
+1299,2004,"Commission","Norway",13
+1300,2004,"Commission","Poland",3
+1301,2004,"Commission","Portugal",2
+1302,2004,"Commission","Slovakia",4
+1303,2004,"Commission","Slovenia",1
+1304,2004,"Commission","Spain",13
+1305,2004,"Commission","Sweden",8
+1306,2004,"Commission","Switzerland",9
+1307,2004,"Commission","United Kingdom",16
+1308,2004,"Czech Republic","Germany",2
+1309,2004,"Denmark","Sweden",1
+1310,2004,"Finland","Denmark",1
+1311,2004,"Finland","France",1
+1312,2004,"Finland","Germany",2
+1313,2004,"Finland","Italy",3
+1314,2004,"France","Austria",3
+1315,2004,"France","Denmark",2
+1316,2004,"France","Finland",1
+1317,2004,"France","Germany",3
+1318,2004,"France","Greece",1
+1319,2004,"France","Italy",1
+1320,2004,"France","Latvia",1
+1321,2004,"France","Lithuania",2
+1322,2004,"France","Netherlands",2
+1323,2004,"France","Poland",1
+1324,2004,"France","Portugal",1
+1325,2004,"France","Slovakia",1
+1326,2004,"France","Spain",1
+1327,2004,"France","Sweden",1
+1328,2004,"France","Turkey",1
+1329,2004,"Germany","Denmark",2
+1330,2004,"Germany","Finland",2
+1331,2004,"Germany","Greece",2
+1332,2004,"Germany","Hungary",1
+1333,2004,"Germany","Italy",4
+1334,2004,"Germany","Latvia",2
+1335,2004,"Germany","Netherlands",1
+1336,2004,"Germany","Poland",1
+1337,2004,"Germany","Slovenia",1
+1338,2004,"Germany","United Kingdom",5
+1339,2004,"Hungary","Finland",1
+1340,2004,"Hungary","Netherlands",1
+1341,2004,"Italy","Austria",2
+1342,2004,"Italy","Czech Republic",1
+1343,2004,"Italy","Denmark",2
+1344,2004,"Italy","Finland",1
+1345,2004,"Italy","France",2
+1346,2004,"Italy","Germany",12
+1347,2004,"Italy","Greece",1
+1348,2004,"Italy","Hungary",1
+1349,2004,"Italy","Latvia",3
+1350,2004,"Italy","Luxembourg",1
+1351,2004,"Italy","Malta",1
+1352,2004,"Italy","Netherlands",7
+1353,2004,"Italy","Spain",1
+1354,2004,"Italy","Sweden",1
+1355,2004,"Italy","United Kingdom",2
+1356,2004,"Latvia","Finland",1
+1357,2004,"Latvia","Germany",6
+1358,2004,"Latvia","Italy",1
+1359,2004,"Latvia","Lithuania",1
+1360,2004,"Netherlands","Austria",1
+1361,2004,"Netherlands","Germany",2
+1362,2004,"Netherlands","Ireland",1
+1363,2004,"Netherlands","Italy",1
+1364,2004,"Poland","Germany",1
+1365,2004,"Poland","Italy",1
+1366,2004,"Slovakia","Latvia",1
+1367,2004,"Slovenia","France",1
+1368,2004,"Slovenia","Italy",1
+1369,2004,"Slovenia","Latvia",1
+1370,2004,"Spain","Austria",1
+1371,2004,"Spain","Czech Republic",3
+1372,2004,"Spain","Finland",1
+1373,2004,"Spain","Germany",2
+1374,2004,"Spain","Greece",1
+1375,2004,"Spain","Italy",6
+1376,2004,"Spain","Latvia",2
+1377,2004,"Spain","Poland",2
+1378,2004,"Spain","Slovenia",1
+1379,2004,"Spain","Sweden",1
+1380,2004,"Spain","United Kingdom",8
+1381,2004,"Sweden","Denmark",1
+1382,2004,"Sweden","Finland",1
+1383,2004,"Sweden","Germany",3
+1384,2004,"Sweden","Latvia",1
+1385,2004,"United Kingdom","Austria",1
+1386,2004,"United Kingdom","Belgium",2
+1387,2004,"United Kingdom","Czech Republic",2
+1388,2004,"United Kingdom","France",2
+1389,2004,"United Kingdom","Germany",6
+1390,2004,"United Kingdom","Greece",2
+1391,2004,"United Kingdom","Italy",1
+1392,2004,"United Kingdom","Netherlands",1
+1393,2004,"United Kingdom","Poland",1
+1394,2004,"United Kingdom","Portugal",1
+1395,2004,"United Kingdom","Spain",1
+1396,2004,"United Kingdom","Sweden",2
+1397,2005,"Austria","Denmark",1
+1398,2005,"Austria","Finland",1
+1399,2005,"Austria","France",2
+1400,2005,"Austria","Germany",5
+1401,2005,"Austria","Italy",2
+1402,2005,"Austria","Latvia",1
+1403,2005,"Austria","Poland",1
+1404,2005,"Austria","Slovakia",1
+1405,2005,"Austria","United Kingdom",1
+1406,2005,"Commission","Austria",14
+1407,2005,"Commission","Belgium",3
+1408,2005,"Commission","Czech Republic",11
+1409,2005,"Commission","Denmark",9
+1410,2005,"Commission","Estonia",4
+1411,2005,"Commission","Finland",2
+1412,2005,"Commission","France",31
+1413,2005,"Commission","Germany",16
+1414,2005,"Commission","Greece",5
+1415,2005,"Commission","Hungary",12
+1416,2005,"Commission","Iceland",10
+1417,2005,"Commission","Italy",13
+1418,2005,"Commission","Latvia",11
+1419,2005,"Commission","Liechtenstein",2
+1420,2005,"Commission","Lithuania",2
+1421,2005,"Commission","Luxembourg",2
+1422,2005,"Commission","Netherlands",12
+1423,2005,"Commission","Norway",17
+1424,2005,"Commission","Poland",13
+1425,2005,"Commission","Portugal",3
+1426,2005,"Commission","Slovakia",39
+1427,2005,"Commission","Slovenia",6
+1428,2005,"Commission","Spain",13
+1429,2005,"Commission","Sweden",11
+1430,2005,"Commission","Switzerland",2
+1431,2005,"Commission","United Kingdom",30
+1432,2005,"Cyprus","Denmark",1
+1433,2005,"Czech Republic","France",2
+1434,2005,"Czech Republic","Hungary",2
+1435,2005,"Czech Republic","Italy",2
+1436,2005,"Czech Republic","Poland",1
+1437,2005,"Czech Republic","Slovakia",1
+1438,2005,"Estonia","Latvia",1
+1439,2005,"Finland","Germany",1
+1440,2005,"Finland","Luxembourg",1
+1441,2005,"France","Austria",1
+1442,2005,"France","Belgium",1
+1443,2005,"France","Czech Republic",2
+1444,2005,"France","Denmark",1
+1445,2005,"France","Germany",2
+1446,2005,"France","Greece",1
+1447,2005,"France","Hungary",2
+1448,2005,"France","Italy",2
+1449,2005,"France","Latvia",1
+1450,2005,"France","Lithuania",1
+1451,2005,"France","Netherlands",1
+1452,2005,"France","Slovakia",6
+1453,2005,"France","Slovenia",1
+1454,2005,"France","Sweden",2
+1455,2005,"Germany","Austria",3
+1456,2005,"Germany","Denmark",1
+1457,2005,"Germany","Estonia",1
+1458,2005,"Germany","France",1
+1459,2005,"Germany","Greece",1
+1460,2005,"Germany","Hungary",2
+1461,2005,"Germany","Italy",3
+1462,2005,"Germany","Lithuania",1
+1463,2005,"Germany","Luxembourg",1
+1464,2005,"Germany","Netherlands",2
+1465,2005,"Germany","Poland",5
+1466,2005,"Germany","Slovakia",3
+1467,2005,"Germany","Spain",5
+1468,2005,"Germany","Sweden",2
+1469,2005,"Germany","United Kingdom",25
+1470,2005,"Hungary","Austria",2
+1471,2005,"Hungary","France",1
+1472,2005,"Hungary","Germany",1
+1473,2005,"Hungary","Netherlands",1
+1474,2005,"Hungary","Poland",1
+1475,2005,"Italy","Austria",1
+1476,2005,"Italy","France",16
+1477,2005,"Italy","Germany",1
+1478,2005,"Italy","Hungary",1
+1479,2005,"Italy","Latvia",3
+1480,2005,"Italy","Poland",1
+1481,2005,"Italy","Slovakia",1
+1482,2005,"Italy","Spain",3
+1483,2005,"Italy","Sweden",2
+1484,2005,"Latvia","Denmark",1
+1485,2005,"Latvia","Germany",1
+1486,2005,"Latvia","Slovenia",1
+1487,2005,"Latvia","United Kingdom",1
+1488,2005,"Lithuania","Italy",1
+1489,2005,"Netherlands","Austria",1
+1490,2005,"Netherlands","France",1
+1491,2005,"Netherlands","Italy",1
+1492,2005,"Netherlands","Poland",1
+1493,2005,"Netherlands","Slovakia",1
+1494,2005,"Netherlands","Spain",1
+1495,2005,"Netherlands","United Kingdom",5
+1496,2005,"Poland","Austria",1
+1497,2005,"Poland","Czech Republic",6
+1498,2005,"Poland","Germany",1
+1499,2005,"Portugal","France",1
+1500,2005,"Portugal","Slovakia",1
+1501,2005,"Slovakia","Czech Republic",1
+1502,2005,"Slovakia","Italy",1
+1503,2005,"Slovakia","Netherlands",1
+1504,2005,"Slovakia","Slovenia",1
+1505,2005,"Slovenia","Denmark",1
+1506,2005,"Slovenia","France",1
+1507,2005,"Slovenia","Italy",2
+1508,2005,"Slovenia","Slovakia",6
+1509,2005,"Spain","Austria",1
+1510,2005,"Spain","Belgium",1
+1511,2005,"Spain","Czech Republic",1
+1512,2005,"Spain","Denmark",2
+1513,2005,"Spain","France",3
+1514,2005,"Spain","Italy",2
+1515,2005,"Spain","Latvia",1
+1516,2005,"Spain","Luxembourg",1
+1517,2005,"Spain","Slovakia",1
+1518,2005,"Spain","Slovenia",1
+1519,2005,"Spain","United Kingdom",5
+1520,2005,"Sweden","Denmark",1
+1521,2005,"Sweden","France",1
+1522,2005,"Sweden","Germany",2
+1523,2005,"Sweden","Greece",1
+1524,2005,"United Kingdom","Austria",1
+1525,2005,"United Kingdom","Czech Republic",1
+1526,2005,"United Kingdom","Denmark",1
+1527,2005,"United Kingdom","France",2
+1528,2005,"United Kingdom","Germany",2
+1529,2005,"United Kingdom","Hungary",3
+1530,2005,"United Kingdom","Italy",1
+1531,2005,"United Kingdom","Slovakia",4
+1532,2005,"United Kingdom","Spain",1
+1533,2006,"Austria","Czech Republic",1
+1534,2006,"Austria","Denmark",1
+1535,2006,"Austria","Finland",1
+1536,2006,"Austria","France",2
+1537,2006,"Austria","Germany",1
+1538,2006,"Austria","Poland",1
+1539,2006,"Austria","Slovenia",1
+1540,2006,"Austria","Spain",2
+1541,2006,"Austria","Sweden",1
+1542,2006,"Austria","United Kingdom",2
+1543,2006,"Belgium","France",1
+1544,2006,"Belgium","Netherlands",1
+1545,2006,"Belgium","Spain",1
+1546,2006,"Commission","Austria",9
+1547,2006,"Commission","Belgium",11
+1548,2006,"Commission","Cyprus",1
+1549,2006,"Commission","Czech Republic",2
+1550,2006,"Commission","Denmark",12
+1551,2006,"Commission","Estonia",3
+1552,2006,"Commission","Finland",3
+1553,2006,"Commission","France",11
+1554,2006,"Commission","Germany",17
+1555,2006,"Commission","Greece",2
+1556,2006,"Commission","Hungary",1
+1557,2006,"Commission","Ireland",2
+1558,2006,"Commission","Italy",5
+1559,2006,"Commission","Latvia",2
+1560,2006,"Commission","Lithuania",1
+1561,2006,"Commission","Malta",1
+1562,2006,"Commission","Netherlands",12
+1563,2006,"Commission","Norway",9
+1564,2006,"Commission","Poland",11
+1565,2006,"Commission","Portugal",2
+1566,2006,"Commission","Slovakia",2
+1567,2006,"Commission","Slovenia",3
+1568,2006,"Commission","Spain",8
+1569,2006,"Commission","Sweden",16
+1570,2006,"Commission","Switzerland",5
+1571,2006,"Commission","United Kingdom",12
+1572,2006,"Czech Republic","Austria",1
+1573,2006,"Czech Republic","Denmark",1
+1574,2006,"Czech Republic","France",2
+1575,2006,"Czech Republic","Hungary",1
+1576,2006,"Czech Republic","Poland",6
+1577,2006,"Czech Republic","Slovakia",1
+1578,2006,"Estonia","France",1
+1579,2006,"Finland","France",1
+1580,2006,"Finland","Germany",1
+1581,2006,"France","Germany",1
+1582,2006,"France","Hungary",1
+1583,2006,"France","Italy",1
+1584,2006,"France","Latvia",1
+1585,2006,"France","Lithuania",1
+1586,2006,"France","Netherlands",3
+1587,2006,"France","Slovakia",1
+1588,2006,"France","Slovenia",1
+1589,2006,"France","Sweden",1
+1590,2006,"France","United Kingdom",1
+1591,2006,"Germany","Austria",1
+1592,2006,"Germany","Belgium",1
+1593,2006,"Germany","Czech Republic",2
+1594,2006,"Germany","Denmark",3
+1595,2006,"Germany","France",3
+1596,2006,"Germany","Ireland",1
+1597,2006,"Germany","Italy",1
+1598,2006,"Germany","Lithuania",1
+1599,2006,"Germany","Poland",4
+1600,2006,"Germany","Slovakia",2
+1601,2006,"Germany","Spain",4
+1602,2006,"Germany","Sweden",2
+1603,2006,"Germany","United Kingdom",5
+1604,2006,"Hungary","Denmark",1
+1605,2006,"Hungary","Germany",1
+1606,2006,"Hungary","Italy",2
+1607,2006,"Hungary","Netherlands",2
+1608,2006,"Hungary","Poland",1
+1609,2006,"Hungary","Slovakia",1
+1610,2006,"Hungary","Spain",2
+1611,2006,"Hungary","United Kingdom",1
+1612,2006,"Italy","Austria",2
+1613,2006,"Italy","Czech Republic",4
+1614,2006,"Italy","France",3
+1615,2006,"Italy","Germany",1
+1616,2006,"Italy","Luxembourg",1
+1617,2006,"Italy","Netherlands",2
+1618,2006,"Italy","Poland",1
+1619,2006,"Italy","Sweden",1
+1620,2006,"Italy","United Kingdom",5
+1621,2006,"Latvia","Austria",1
+1622,2006,"Latvia","Czech Republic",1
+1623,2006,"Latvia","Germany",2
+1624,2006,"Netherlands","Finland",1
+1625,2006,"Netherlands","France",1
+1626,2006,"Netherlands","Germany",2
+1627,2006,"Netherlands","Hungary",1
+1628,2006,"Netherlands","Portugal",1
+1629,2006,"Netherlands","Spain",1
+1630,2006,"Netherlands","Sweden",1
+1631,2006,"Poland","Belgium",1
+1632,2006,"Poland","Czech Republic",2
+1633,2006,"Poland","Denmark",1
+1634,2006,"Poland","Estonia",1
+1635,2006,"Poland","France",1
+1636,2006,"Poland","Hungary",1
+1637,2006,"Poland","Netherlands",1
+1638,2006,"Poland","Slovakia",1
+1639,2006,"Poland","United Kingdom",1
+1640,2006,"Portugal","France",2
+1641,2006,"Slovakia","Italy",1
+1642,2006,"Slovakia","Netherlands",1
+1643,2006,"Slovakia","Poland",1
+1644,2006,"Slovenia","Czech Republic",1
+1645,2006,"Slovenia","France",1
+1646,2006,"Slovenia","Greece",1
+1647,2006,"Slovenia","Netherlands",1
+1648,2006,"Slovenia","Slovakia",1
+1649,2006,"Slovenia","Spain",1
+1650,2006,"Spain","Czech Republic",1
+1651,2006,"Spain","Denmark",1
+1652,2006,"Spain","France",4
+1653,2006,"Spain","Italy",1
+1654,2006,"Spain","Latvia",1
+1655,2006,"Spain","Luxembourg",1
+1656,2006,"Spain","Slovakia",1
+1657,2006,"Spain","Sweden",2
+1658,2006,"Spain","United Kingdom",5
+1659,2006,"Sweden","Austria",1
+1660,2006,"Sweden","France",3
+1661,2006,"United Kingdom","Austria",3
+1662,2006,"United Kingdom","Estonia",1
+1663,2006,"United Kingdom","Germany",3
+1664,2006,"United Kingdom","Italy",2
+1665,2006,"United Kingdom","Netherlands",1
+1666,2006,"United Kingdom","Poland",1
+1667,2006,"United Kingdom","Portugal",1
+1668,2007,"Austria","Finland",2
+1669,2007,"Austria","France",1
+1670,2007,"Austria","Germany",2
+1671,2007,"Austria","Poland",8
+1672,2007,"Belgium","France",1
+1673,2007,"Commission","Austria",5
+1674,2007,"Commission","Belgium",10
+1675,2007,"Commission","Bulgaria",1
+1676,2007,"Commission","Czech Republic",4
+1677,2007,"Commission","Denmark",4
+1678,2007,"Commission","Estonia",2
+1679,2007,"Commission","Finland",2
+1680,2007,"Commission","France",12
+1681,2007,"Commission","Germany",27
+1682,2007,"Commission","Greece",3
+1683,2007,"Commission","Hungary",3
+1684,2007,"Commission","Iceland",2
+1685,2007,"Commission","Ireland",2
+1686,2007,"Commission","Italy",4
+1687,2007,"Commission","Latvia",1
+1688,2007,"Commission","Lithuania",3
+1689,2007,"Commission","Luxembourg",2
+1690,2007,"Commission","Netherlands",9
+1691,2007,"Commission","Norway",5
+1692,2007,"Commission","Poland",6
+1693,2007,"Commission","Romania",2
+1694,2007,"Commission","Slovakia",2
+1695,2007,"Commission","Slovenia",3
+1696,2007,"Commission","Spain",8
+1697,2007,"Commission","Sweden",13
+1698,2007,"Commission","Switzerland",3
+1699,2007,"Commission","United Kingdom",8
+1700,2007,"Czech Republic","Finland",1
+1701,2007,"Czech Republic","Germany",2
+1702,2007,"Czech Republic","Ireland",1
+1703,2007,"Czech Republic","Lithuania",1
+1704,2007,"Czech Republic","Netherlands",1
+1705,2007,"Czech Republic","Poland",1
+1706,2007,"Czech Republic","Slovakia",1
+1707,2007,"Finland","Belgium",1
+1708,2007,"Finland","Estonia",1
+1709,2007,"Finland","Germany",2
+1710,2007,"Finland","Netherlands",1
+1711,2007,"France","Austria",1
+1712,2007,"France","Czech Republic",2
+1713,2007,"France","Denmark",1
+1714,2007,"France","Ireland",2
+1715,2007,"France","Netherlands",1
+1716,2007,"France","Poland",1
+1717,2007,"France","Slovakia",1
+1718,2007,"France","Slovenia",2
+1719,2007,"France","United Kingdom",1
+1720,2007,"Germany","Austria",1
+1721,2007,"Germany","Belgium",3
+1722,2007,"Germany","Czech Republic",3
+1723,2007,"Germany","Denmark",9
+1724,2007,"Germany","Estonia",1
+1725,2007,"Germany","Finland",2
+1726,2007,"Germany","France",6
+1727,2007,"Germany","Ireland",1
+1728,2007,"Germany","Lithuania",1
+1729,2007,"Germany","Netherlands",1
+1730,2007,"Germany","Poland",2
+1731,2007,"Germany","Portugal",1
+1732,2007,"Germany","Spain",5
+1733,2007,"Germany","Sweden",3
+1734,2007,"Germany","United Kingdom",2
+1735,2007,"Greece","Portugal",1
+1736,2007,"Hungary","Finland",2
+1737,2007,"Hungary","Germany",2
+1738,2007,"Ireland","Germany",1
+1739,2007,"Italy","Austria",1
+1740,2007,"Italy","Belgium",1
+1741,2007,"Italy","Czech Republic",2
+1742,2007,"Italy","Denmark",2
+1743,2007,"Italy","Finland",1
+1744,2007,"Italy","Germany",4
+1745,2007,"Italy","Netherlands",2
+1746,2007,"Italy","Poland",3
+1747,2007,"Italy","Spain",3
+1748,2007,"Italy","Sweden",1
+1749,2007,"Italy","United Kingdom",2
+1750,2007,"Latvia","Denmark",2
+1751,2007,"Latvia","Germany",1
+1752,2007,"Latvia","Lithuania",1
+1753,2007,"Latvia","Poland",1
+1754,2007,"Latvia","Sweden",2
+1755,2007,"Netherlands","Belgium",1
+1756,2007,"Netherlands","Czech Republic",1
+1757,2007,"Netherlands","Denmark",1
+1758,2007,"Netherlands","Finland",2
+1759,2007,"Netherlands","France",2
+1760,2007,"Netherlands","Poland",2
+1761,2007,"Poland","Czech Republic",1
+1762,2007,"Poland","Germany",2
+1763,2007,"Poland","Hungary",1
+1764,2007,"Poland","Spain",1
+1765,2007,"Romania","Poland",1
+1766,2007,"Slovenia","Czech Republic",1
+1767,2007,"Slovenia","France",1
+1768,2007,"Slovenia","Ireland",1
+1769,2007,"Slovenia","Italy",1
+1770,2007,"Slovenia","Netherlands",1
+1771,2007,"Spain","Czech Republic",3
+1772,2007,"Spain","France",2
+1773,2007,"Spain","Hungary",1
+1774,2007,"Spain","Ireland",1
+1775,2007,"Spain","Italy",1
+1776,2007,"Spain","Netherlands",4
+1777,2007,"Spain","Poland",2
+1778,2007,"Spain","Slovakia",1
+1779,2007,"Spain","Slovenia",1
+1780,2007,"Spain","Sweden",2
+1781,2007,"Spain","United Kingdom",1
+1782,2007,"Sweden","Italy",1
+1783,2007,"United Kingdom","Finland",1
+1784,2007,"United Kingdom","France",3
+1785,2007,"United Kingdom","Germany",1
+1786,2007,"United Kingdom","Italy",3
+1787,2007,"United Kingdom","Poland",1
+1788,2007,"United Kingdom","Slovakia",1
+1789,2008,"Austria","Denmark",1
+1790,2008,"Austria","Finland",2
+1791,2008,"Austria","Germany",3
+1792,2008,"Austria","Netherlands",1
+1793,2008,"Austria","Poland",2
+1794,2008,"Austria","Slovakia",1
+1795,2008,"Austria","Spain",2
+1796,2008,"Austria","Sweden",1
+1797,2008,"Commission","Austria",2
+1798,2008,"Commission","Belgium",6
+1799,2008,"Commission","Bulgaria",3
+1800,2008,"Commission","Czech Republic",7
+1801,2008,"Commission","Denmark",4
+1802,2008,"Commission","Estonia",2
+1803,2008,"Commission","Finland",4
+1804,2008,"Commission","France",12
+1805,2008,"Commission","Germany",12
+1806,2008,"Commission","Greece",2
+1807,2008,"Commission","Hungary",2
+1808,2008,"Commission","Iceland",1
+1809,2008,"Commission","Ireland",3
+1810,2008,"Commission","Italy",7
+1811,2008,"Commission","Latvia",1
+1812,2008,"Commission","Lithuania",2
+1813,2008,"Commission","Luxembourg",1
+1814,2008,"Commission","Netherlands",15
+1815,2008,"Commission","Norway",9
+1816,2008,"Commission","Poland",6
+1817,2008,"Commission","Romania",5
+1818,2008,"Commission","Slovakia",3
+1819,2008,"Commission","Slovenia",1
+1820,2008,"Commission","Spain",10
+1821,2008,"Commission","Sweden",12
+1822,2008,"Commission","United Kingdom",6
+1823,2008,"Czech Republic","Belgium",1
+1824,2008,"Czech Republic","France",1
+1825,2008,"Czech Republic","Italy",1
+1826,2008,"Czech Republic","United Kingdom",2
+1827,2008,"Finland","Germany",1
+1828,2008,"France","Czech Republic",4
+1829,2008,"France","Denmark",1
+1830,2008,"France","Germany",1
+1831,2008,"France","Hungary",1
+1832,2008,"France","Latvia",3
+1833,2008,"France","Lithuania",1
+1834,2008,"France","Spain",2
+1835,2008,"France","Sweden",3
+1836,2008,"Germany","Austria",3
+1837,2008,"Germany","Belgium",2
+1838,2008,"Germany","Denmark",4
+1839,2008,"Germany","Estonia",1
+1840,2008,"Germany","Finland",1
+1841,2008,"Germany","France",3
+1842,2008,"Germany","Italy",1
+1843,2008,"Germany","Lithuania",1
+1844,2008,"Germany","Luxembourg",1
+1845,2008,"Germany","Poland",1
+1846,2008,"Germany","Slovakia",1
+1847,2008,"Germany","Spain",3
+1848,2008,"Germany","Sweden",2
+1849,2008,"Germany","United Kingdom",3
+1850,2008,"Greece","Denmark",1
+1851,2008,"Greece","Finland",1
+1852,2008,"Hungary","Czech Republic",1
+1853,2008,"Hungary","Germany",1
+1854,2008,"Hungary","Poland",2
+1855,2008,"Hungary","Romania",1
+1856,2008,"Hungary","Spain",1
+1857,2008,"Ireland","Poland",1
+1858,2008,"Italy","France",2
+1859,2008,"Italy","Luxembourg",1
+1860,2008,"Italy","Netherlands",1
+1861,2008,"Italy","Poland",1
+1862,2008,"Italy","Sweden",1
+1863,2008,"Latvia","Lithuania",2
+1864,2008,"Latvia","Netherlands",1
+1865,2008,"Malta","Czech Republic",1
+1866,2008,"Malta","Lithuania",1
+1867,2008,"Malta","United Kingdom",1
+1868,2008,"Netherlands","Germany",1
+1869,2008,"Netherlands","Spain",2
+1870,2008,"Poland","Czech Republic",1
+1871,2008,"Poland","Germany",2
+1872,2008,"Poland","Sweden",1
+1873,2008,"Portugal","Lithuania",1
+1874,2008,"Romania","Czech Republic",1
+1875,2008,"Romania","Italy",1
+1876,2008,"Slovakia","Czech Republic",1
+1877,2008,"Slovakia","Poland",1
+1878,2008,"Slovenia","Austria",1
+1879,2008,"Slovenia","Czech Republic",1
+1880,2008,"Slovenia","Hungary",1
+1881,2008,"Slovenia","Italy",1
+1882,2008,"Slovenia","Lithuania",1
+1883,2008,"Slovenia","Slovakia",1
+1884,2008,"Slovenia","Spain",1
+1885,2008,"Spain","Austria",1
+1886,2008,"Spain","Bulgaria",1
+1887,2008,"Spain","Denmark",1
+1888,2008,"Spain","Finland",2
+1889,2008,"Spain","Hungary",1
+1890,2008,"Spain","Italy",1
+1891,2008,"Spain","Latvia",2
+1892,2008,"Spain","Lithuania",1
+1893,2008,"Spain","Netherlands",1
+1894,2008,"Spain","Poland",1
+1895,2008,"Spain","Slovenia",1
+1896,2008,"Spain","Sweden",1
+1897,2008,"Spain","United Kingdom",4
+1898,2008,"Sweden","Germany",1
+1899,2008,"Sweden","Netherlands",2
+1900,2008,"Sweden","Poland",1
+1901,2008,"United Kingdom","Belgium",1
+1902,2008,"United Kingdom","France",1
+1903,2008,"United Kingdom","Germany",2
+1904,2008,"United Kingdom","Greece",1
+1905,2008,"United Kingdom","Hungary",1
+1906,2008,"United Kingdom","Poland",1
+1907,2008,"United Kingdom","Slovenia",1
+1908,2008,"United Kingdom","Spain",1
+1909,2009,"Austria","France",2
+1910,2009,"Austria","Germany",5
+1911,2009,"Austria","Hungary",1
+1912,2009,"Austria","Italy",2
+1913,2009,"Austria","Latvia",1
+1914,2009,"Austria","Spain",1
+1915,2009,"Austria","United Kingdom",1
+1916,2009,"Belgium","Greece",1
+1917,2009,"Belgium","Italy",2
+1918,2009,"Belgium","Slovakia",1
+1919,2009,"Commission","Austria",5
+1920,2009,"Commission","Belgium",29
+1921,2009,"Commission","Bulgaria",4
+1922,2009,"Commission","Czech Republic",6
+1923,2009,"Commission","Denmark",2
+1924,2009,"Commission","Estonia",4
+1925,2009,"Commission","Finland",8
+1926,2009,"Commission","France",12
+1927,2009,"Commission","Germany",14
+1928,2009,"Commission","Greece",3
+1929,2009,"Commission","Hungary",2
+1930,2009,"Commission","Iceland",1
+1931,2009,"Commission","Ireland",2
+1932,2009,"Commission","Italy",9
+1933,2009,"Commission","Latvia",3
+1934,2009,"Commission","Liechtenstein",4
+1935,2009,"Commission","Lithuania",2
+1936,2009,"Commission","Luxembourg",1
+1937,2009,"Commission","Malta",2
+1938,2009,"Commission","Netherlands",5
+1939,2009,"Commission","Norway",5
+1940,2009,"Commission","Portugal",3
+1941,2009,"Commission","Romania",5
+1942,2009,"Commission","Slovakia",4
+1943,2009,"Commission","Slovenia",2
+1944,2009,"Commission","Spain",12
+1945,2009,"Commission","Sweden",6
+1946,2009,"Commission","Switzerland",1
+1947,2009,"Commission","United Kingdom",8
+1948,2009,"Czech Republic","Estonia",2
+1949,2009,"Czech Republic","Latvia",3
+1950,2009,"Czech Republic","Romania",1
+1951,2009,"Czech Republic","United Kingdom",2
+1952,2009,"Finland","France",2
+1953,2009,"Finland","Slovakia",1
+1954,2009,"Finland","United Kingdom",1
+1955,2009,"France","Austria",2
+1956,2009,"France","Finland",1
+1957,2009,"France","Germany",2
+1958,2009,"France","Greece",2
+1959,2009,"France","Hungary",1
+1960,2009,"France","Italy",3
+1961,2009,"France","Netherlands",3
+1962,2009,"France","Romania",1
+1963,2009,"France","Slovenia",1
+1964,2009,"France","Spain",1
+1965,2009,"France","United Kingdom",1
+1966,2009,"Germany","Austria",1
+1967,2009,"Germany","Czech Republic",1
+1968,2009,"Germany","Denmark",1
+1969,2009,"Germany","Estonia",1
+1970,2009,"Germany","Finland",1
+1971,2009,"Germany","France",3
+1972,2009,"Germany","Greece",1
+1973,2009,"Germany","Italy",5
+1974,2009,"Germany","Netherlands",2
+1975,2009,"Germany","Poland",1
+1976,2009,"Germany","Portugal",1
+1977,2009,"Germany","Romania",1
+1978,2009,"Germany","Spain",7
+1979,2009,"Germany","Sweden",1
+1980,2009,"Greece","United Kingdom",1
+1981,2009,"Hungary","France",1
+1982,2009,"Hungary","Germany",1
+1983,2009,"Hungary","Greece",2
+1984,2009,"Hungary","Romania",1
+1985,2009,"Hungary","Slovakia",1
+1986,2009,"Hungary","Spain",1
+1987,2009,"Ireland","France",1
+1988,2009,"Ireland","Portugal",1
+1989,2009,"Italy","Czech Republic",2
+1990,2009,"Italy","Estonia",2
+1991,2009,"Italy","Finland",2
+1992,2009,"Italy","France",3
+1993,2009,"Italy","Germany",2
+1994,2009,"Italy","Greece",1
+1995,2009,"Italy","Hungary",1
+1996,2009,"Italy","Latvia",2
+1997,2009,"Italy","Slovakia",1
+1998,2009,"Italy","Sweden",1
+1999,2009,"Latvia","France",2
+2000,2009,"Latvia","Lithuania",1
+2001,2009,"Latvia","Netherlands",1
+2002,2009,"Latvia","Spain",1
+2003,2009,"Malta","France",1
+2004,2009,"Malta","Germany",1
+2005,2009,"Malta","Greece",1
+2006,2009,"Malta","Italy",3
+2007,2009,"Malta","Spain",1
+2008,2009,"Netherlands","Austria",1
+2009,2009,"Netherlands","France",1
+2010,2009,"Netherlands","Portugal",1
+2011,2009,"Poland","Austria",1
+2012,2009,"Poland","Greece",1
+2013,2009,"Poland","Italy",3
+2014,2009,"Poland","Netherlands",1
+2015,2009,"Poland","Slovakia",2
+2016,2009,"Poland","Slovenia",1
+2017,2009,"Portugal","United Kingdom",2
+2018,2009,"Romania","Denmark",1
+2019,2009,"Romania","Hungary",1
+2020,2009,"Romania","Spain",1
+2021,2009,"Romania","Sweden",1
+2022,2009,"Romania","United Kingdom",1
+2023,2009,"Slovakia","Estonia",1
+2024,2009,"Slovenia","France",1
+2025,2009,"Slovenia","Greece",1
+2026,2009,"Slovenia","Hungary",1
+2027,2009,"Slovenia","Italy",2
+2028,2009,"Slovenia","Latvia",1
+2029,2009,"Slovenia","Malta",1
+2030,2009,"Slovenia","Poland",1
+2031,2009,"Slovenia","Spain",1
+2032,2009,"Spain","Austria",1
+2033,2009,"Spain","Belgium",2
+2034,2009,"Spain","Finland",3
+2035,2009,"Spain","France",2
+2036,2009,"Spain","Germany",1
+2037,2009,"Spain","Italy",2
+2038,2009,"Spain","Latvia",1
+2039,2009,"Spain","Poland",2
+2040,2009,"Spain","Portugal",1
+2041,2009,"Spain","Slovakia",2
+2042,2009,"Spain","Slovenia",1
+2043,2009,"Spain","Sweden",1
+2044,2009,"Sweden","France",2
+2045,2009,"United Kingdom","Austria",1
+2046,2009,"United Kingdom","Belgium",1
+2047,2009,"United Kingdom","Bulgaria",1
+2048,2009,"United Kingdom","Czech Republic",3
+2049,2009,"United Kingdom","Finland",1
+2050,2009,"United Kingdom","France",2
+2051,2009,"United Kingdom","Hungary",1
+2052,2009,"United Kingdom","Italy",2
+2053,2009,"United Kingdom","Portugal",1
+2054,2009,"United Kingdom","Spain",1
+2055,2010,"Austria","Belgium",1
+2056,2010,"Austria","Germany",2
+2057,2010,"Austria","Ireland",1
+2058,2010,"Austria","Italy",2
+2059,2010,"Austria","Slovenia",1
+2060,2010,"Austria","Spain",2
+2061,2010,"Belgium","France",2
+2062,2010,"Commission","Austria",4
+2063,2010,"Commission","Belgium",2
+2064,2010,"Commission","Bulgaria",3
+2065,2010,"Commission","Cyprus",2
+2066,2010,"Commission","Czech Republic",5
+2067,2010,"Commission","Denmark",4
+2068,2010,"Commission","Estonia",2
+2069,2010,"Commission","Finland",3
+2070,2010,"Commission","France",7
+2071,2010,"Commission","Germany",5
+2072,2010,"Commission","Greece",2
+2073,2010,"Commission","Hungary",2
+2074,2010,"Commission","Ireland",3
+2075,2010,"Commission","Italy",8
+2076,2010,"Commission","Latvia",5
+2077,2010,"Commission","Liechtenstein",4
+2078,2010,"Commission","Lithuania",4
+2079,2010,"Commission","Malta",2
+2080,2010,"Commission","Netherlands",5
+2081,2010,"Commission","Norway",4
+2082,2010,"Commission","Poland",8
+2083,2010,"Commission","Portugal",1
+2084,2010,"Commission","Romania",5
+2085,2010,"Commission","Slovakia",2
+2086,2010,"Commission","Slovenia",2
+2087,2010,"Commission","Spain",10
+2088,2010,"Commission","Sweden",5
+2089,2010,"Commission","Switzerland",1
+2090,2010,"Commission","United Kingdom",7
+2091,2010,"Czech Republic","France",3
+2092,2010,"Czech Republic","Latvia",1
+2093,2010,"Czech Republic","Poland",1
+2094,2010,"Czech Republic","Spain",1
+2095,2010,"Czech Republic","Sweden",1
+2096,2010,"Denmark","Denmark",1
+2097,2010,"Finland","Germany",1
+2098,2010,"Finland","Netherlands",1
+2099,2010,"France","Austria",1
+2100,2010,"France","Belgium",1
+2101,2010,"France","Czech Republic",2
+2102,2010,"France","Denmark",1
+2103,2010,"France","Finland",1
+2104,2010,"France","Germany",1
+2105,2010,"France","Ireland",1
+2106,2010,"France","Italy",1
+2107,2010,"France","Latvia",1
+2108,2010,"France","Netherlands",2
+2109,2010,"France","Poland",4
+2110,2010,"France","Romania",2
+2111,2010,"France","Spain",6
+2112,2010,"Germany","Austria",1
+2113,2010,"Germany","Belgium",2
+2114,2010,"Germany","Cyprus",1
+2115,2010,"Germany","Czech Republic",7
+2116,2010,"Germany","Denmark",2
+2117,2010,"Germany","Estonia",1
+2118,2010,"Germany","Finland",2
+2119,2010,"Germany","France",3
+2120,2010,"Germany","Italy",3
+2121,2010,"Germany","Latvia",2
+2122,2010,"Germany","Luxembourg",1
+2123,2010,"Germany","Netherlands",1
+2124,2010,"Germany","Poland",2
+2125,2010,"Germany","Portugal",1
+2126,2010,"Germany","Romania",4
+2127,2010,"Germany","Sweden",2
+2128,2010,"Germany","United Kingdom",2
+2129,2010,"Greece","Latvia",1
+2130,2010,"Hungary","Czech Republic",1
+2131,2010,"Hungary","France",1
+2132,2010,"Hungary","Italy",2
+2133,2010,"Hungary","Spain",1
+2134,2010,"Ireland","Poland",1
+2135,2010,"Italy","Czech Republic",1
+2136,2010,"Italy","Denmark",1
+2137,2010,"Italy","Estonia",1
+2138,2010,"Italy","Germany",1
+2139,2010,"Italy","Ireland",1
+2140,2010,"Italy","Latvia",1
+2141,2010,"Italy","Lithuania",1
+2142,2010,"Italy","Malta",1
+2143,2010,"Italy","Poland",2
+2144,2010,"Italy","Romania",1
+2145,2010,"Italy","Sweden",2
+2146,2010,"Lithuania","Czech Republic",1
+2147,2010,"Lithuania","Poland",1
+2148,2010,"Malta","Belgium",1
+2149,2010,"Malta","Denmark",3
+2150,2010,"Malta","Poland",1
+2151,2010,"Netherlands","Belgium",1
+2152,2010,"Netherlands","Czech Republic",1
+2153,2010,"Netherlands","Denmark",1
+2154,2010,"Netherlands","Estonia",1
+2155,2010,"Netherlands","Finland",1
+2156,2010,"Netherlands","France",1
+2157,2010,"Netherlands","Ireland",1
+2158,2010,"Poland","Hungary",1
+2159,2010,"Poland","Luxembourg",1
+2160,2010,"Poland","Sweden",1
+2161,2010,"Portugal","France",1
+2162,2010,"Romania","Finland",1
+2163,2010,"Romania","France",1
+2164,2010,"Romania","Germany",1
+2165,2010,"Romania","Italy",1
+2166,2010,"Romania","Lithuania",2
+2167,2010,"Romania","Spain",1
+2168,2010,"Slovakia","Italy",1
+2169,2010,"Slovakia","Slovenia",1
+2170,2010,"Slovenia","Bulgaria",1
+2171,2010,"Slovenia","Germany",1
+2172,2010,"Slovenia","Latvia",1
+2173,2010,"Spain","Belgium",2
+2174,2010,"Spain","Cyprus",1
+2175,2010,"Spain","Denmark",1
+2176,2010,"Spain","Finland",1
+2177,2010,"Spain","Germany",1
+2178,2010,"Spain","Italy",2
+2179,2010,"Spain","Latvia",3
+2180,2010,"Spain","Poland",1
+2181,2010,"Spain","Portugal",1
+2182,2010,"Spain","Slovakia",1
+2183,2010,"Spain","Sweden",2
+2184,2010,"Sweden","Denmark",1
+2185,2010,"United Kingdom","Austria",1
+2186,2010,"United Kingdom","Cyprus",1
+2187,2010,"United Kingdom","Czech Republic",1
+2188,2010,"United Kingdom","Denmark",1
+2189,2010,"United Kingdom","France",2
+2190,2010,"United Kingdom","Germany",1
+2191,2010,"United Kingdom","Hungary",1
+2192,2010,"United Kingdom","Italy",2
+2193,2010,"United Kingdom","Poland",2
+2194,2010,"United Kingdom","Romania",2
+2195,2010,"United Kingdom","Spain",2
+2196,2010,"United Kingdom","Sweden",2
+2197,2011,"Austria","France",3
+2198,2011,"Austria","Germany",2
+2199,2011,"Belgium","Italy",1
+2200,2011,"Commission","Austria",7
+2201,2011,"Commission","Belgium",9
+2202,2011,"Commission","Bulgaria",3
+2203,2011,"Commission","Czech Republic",6
+2204,2011,"Commission","Denmark",3
+2205,2011,"Commission","Estonia",5
+2206,2011,"Commission","Finland",9
+2207,2011,"Commission","France",14
+2208,2011,"Commission","Germany",13
+2209,2011,"Commission","Greece",8
+2210,2011,"Commission","Hungary",8
+2211,2011,"Commission","Iceland",4
+2212,2011,"Commission","Ireland",4
+2213,2011,"Commission","Italy",8
+2214,2011,"Commission","Latvia",4
+2215,2011,"Commission","Lithuania",2
+2216,2011,"Commission","Malta",1
+2217,2011,"Commission","Netherlands",8
+2218,2011,"Commission","Norway",2
+2219,2011,"Commission","Poland",2
+2220,2011,"Commission","Portugal",1
+2221,2011,"Commission","Romania",2
+2222,2011,"Commission","Slovakia",4
+2223,2011,"Commission","Slovenia",2
+2224,2011,"Commission","Spain",6
+2225,2011,"Commission","Sweden",6
+2226,2011,"Commission","Switzerland",2
+2227,2011,"Commission","United Kingdom",10
+2228,2011,"Czech Republic","Austria",1
+2229,2011,"Czech Republic","Bulgaria",1
+2230,2011,"Czech Republic","Finland",2
+2231,2011,"Czech Republic","France",2
+2232,2011,"Czech Republic","Germany",7
+2233,2011,"Czech Republic","Greece",1
+2234,2011,"Czech Republic","Slovakia",1
+2235,2011,"Czech Republic","Spain",2
+2236,2011,"Czech Republic","United Kingdom",1
+2237,2011,"Denmark","Germany",1
+2238,2011,"Finland","Belgium",1
+2239,2011,"Finland","France",3
+2240,2011,"Finland","Italy",1
+2241,2011,"France","Belgium",1
+2242,2011,"France","Denmark",1
+2243,2011,"France","Germany",2
+2244,2011,"France","Greece",1
+2245,2011,"France","Netherlands",1
+2246,2011,"France","Spain",2
+2247,2011,"France","Sweden",1
+2248,2011,"France","United Kingdom",2
+2249,2011,"Germany","Czech Republic",1
+2250,2011,"Germany","Finland",1
+2251,2011,"Germany","France",5
+2252,2011,"Germany","Hungary",1
+2253,2011,"Germany","Italy",3
+2254,2011,"Germany","Luxembourg",3
+2255,2011,"Germany","Netherlands",2
+2256,2011,"Germany","Romania",1
+2257,2011,"Germany","Slovakia",1
+2258,2011,"Germany","Slovenia",1
+2259,2011,"Germany","Spain",3
+2260,2011,"Germany","Sweden",2
+2261,2011,"Germany","United Kingdom",3
+2262,2011,"Hungary","Bulgaria",1
+2263,2011,"Italy","Belgium",1
+2264,2011,"Italy","Cyprus",1
+2265,2011,"Italy","Denmark",1
+2266,2011,"Italy","France",7
+2267,2011,"Italy","Germany",1
+2268,2011,"Italy","Greece",1
+2269,2011,"Italy","Hungary",2
+2270,2011,"Italy","Poland",3
+2271,2011,"Italy","Romania",1
+2272,2011,"Italy","Slovenia",1
+2273,2011,"Italy","Spain",1
+2274,2011,"Italy","United Kingdom",2
+2275,2011,"Lithuania","Finland",1
+2276,2011,"Malta","Estonia",1
+2277,2011,"Malta","Spain",1
+2278,2011,"Netherlands","Bulgaria",1
+2279,2011,"Netherlands","Germany",1
+2280,2011,"Netherlands","Sweden",2
+2281,2011,"Poland","Austria",1
+2282,2011,"Poland","France",3
+2283,2011,"Poland","United Kingdom",1
+2284,2011,"Portugal","France",1
+2285,2011,"Portugal","Lithuania",1
+2286,2011,"Portugal","Netherlands",1
+2287,2011,"Slovakia","Czech Republic",1
+2288,2011,"Slovakia","Estonia",2
+2289,2011,"Slovakia","France",2
+2290,2011,"Slovakia","Germany",1
+2291,2011,"Slovakia","Hungary",1
+2292,2011,"Slovakia","Italy",1
+2293,2011,"Slovakia","Luxembourg",1
+2294,2011,"Slovakia","Spain",7
+2295,2011,"Slovakia","United Kingdom",1
+2296,2011,"Slovenia","Cyprus",1
+2297,2011,"Slovenia","Czech Republic",1
+2298,2011,"Slovenia","Latvia",1
+2299,2011,"Slovenia","Poland",1
+2300,2011,"Spain","Denmark",1
+2301,2011,"Spain","Finland",1
+2302,2011,"Spain","France",1
+2303,2011,"Spain","Hungary",2
+2304,2011,"Spain","Italy",3
+2305,2011,"Spain","Slovakia",1
+2306,2011,"Spain","Slovenia",1
+2307,2011,"Sweden","Germany",1
+2308,2011,"United Kingdom","Bulgaria",1
+2309,2011,"United Kingdom","Denmark",1
+2310,2011,"United Kingdom","France",4
+2311,2011,"United Kingdom","Germany",1
+2312,2011,"United Kingdom","Greece",2
+2313,2011,"United Kingdom","Italy",1
+2314,2011,"United Kingdom","Netherlands",1
+2315,2012,"Austria","Belgium",1
+2316,2012,"Austria","France",1
+2317,2012,"Austria","Hungary",2
+2318,2012,"Austria","Poland",2
+2319,2012,"Austria","Slovakia",2
+2320,2012,"Austria","United Kingdom",1
+2321,2012,"Belgium","France",2
+2322,2012,"Bulgaria","Czech Republic",1
+2323,2012,"Bulgaria","United Kingdom",1
+2324,2012,"Commission","Austria",4
+2325,2012,"Commission","Belgium",4
+2326,2012,"Commission","Bulgaria",3
+2327,2012,"Commission","Cyprus",1
+2328,2012,"Commission","Czech Republic",4
+2329,2012,"Commission","Denmark",7
+2330,2012,"Commission","Estonia",3
+2331,2012,"Commission","Finland",3
+2332,2012,"Commission","France",6
+2333,2012,"Commission","Germany",12
+2334,2012,"Commission","Greece",11
+2335,2012,"Commission","Hungary",3
+2336,2012,"Commission","Iceland",2
+2337,2012,"Commission","Ireland",2
+2338,2012,"Commission","Italy",14
+2339,2012,"Commission","Latvia",1
+2340,2012,"Commission","Liechtenstein",2
+2341,2012,"Commission","Lithuania",1
+2342,2012,"Commission","Malta",1
+2343,2012,"Commission","Netherlands",9
+2344,2012,"Commission","Poland",9
+2345,2012,"Commission","Portugal",1
+2346,2012,"Commission","Romania",4
+2347,2012,"Commission","Slovakia",8
+2348,2012,"Commission","Spain",8
+2349,2012,"Commission","Sweden",7
+2350,2012,"Commission","Switzerland",2
+2351,2012,"Commission","United Kingdom",2
+2352,2012,"Czech Republic","France",1
+2353,2012,"Czech Republic","Germany",1
+2354,2012,"Czech Republic","Hungary",2
+2355,2012,"Czech Republic","Latvia",1
+2356,2012,"Czech Republic","Poland",1
+2357,2012,"Czech Republic","Slovakia",3
+2358,2012,"Czech Republic","Slovenia",1
+2359,2012,"Czech Republic","Spain",1
+2360,2012,"Czech Republic","Sweden",1
+2361,2012,"Denmark","United Kingdom",1
+2362,2012,"Finland","Portugal",1
+2363,2012,"France","Austria",1
+2364,2012,"France","Bulgaria",1
+2365,2012,"France","Denmark",1
+2366,2012,"France","Hungary",1
+2367,2012,"France","Italy",3
+2368,2012,"France","Lithuania",1
+2369,2012,"France","Malta",1
+2370,2012,"France","Poland",1
+2371,2012,"France","Romania",1
+2372,2012,"France","Slovakia",3
+2373,2012,"France","Spain",2
+2374,2012,"France","Sweden",1
+2375,2012,"Germany","Belgium",3
+2376,2012,"Germany","Bulgaria",2
+2377,2012,"Germany","Cyprus",22
+2378,2012,"Germany","Czech Republic",1
+2379,2012,"Germany","Denmark",1
+2380,2012,"Germany","Estonia",3
+2381,2012,"Germany","Finland",1
+2382,2012,"Germany","France",3
+2383,2012,"Germany","Hungary",2
+2384,2012,"Germany","Ireland",2
+2385,2012,"Germany","Italy",4
+2386,2012,"Germany","Lithuania",2
+2387,2012,"Germany","Luxembourg",2
+2388,2012,"Germany","Poland",1
+2389,2012,"Germany","Slovenia",1
+2390,2012,"Germany","Spain",1
+2391,2012,"Germany","Sweden",1
+2392,2012,"Germany","United Kingdom",5
+2393,2012,"Hungary","Czech Republic",2
+2394,2012,"Hungary","France",1
+2395,2012,"Hungary","Greece",1
+2396,2012,"Hungary","Italy",1
+2397,2012,"Hungary","Poland",1
+2398,2012,"Hungary","Slovakia",1
+2399,2012,"Ireland","United Kingdom",1
+2400,2012,"Italy","Belgium",1
+2401,2012,"Italy","Czech Republic",1
+2402,2012,"Italy","France",2
+2403,2012,"Italy","Germany",1
+2404,2012,"Italy","Hungary",1
+2405,2012,"Italy","Lithuania",1
+2406,2012,"Italy","Netherlands",2
+2407,2012,"Italy","Poland",2
+2408,2012,"Italy","Romania",2
+2409,2012,"Italy","Slovakia",2
+2410,2012,"Italy","Spain",1
+2411,2012,"Italy","Sweden",2
+2412,2012,"Italy","United Kingdom",2
+2413,2012,"Malta","Poland",1
+2414,2012,"Netherlands","France",1
+2415,2012,"Netherlands","Hungary",2
+2416,2012,"Netherlands","United Kingdom",1
+2417,2012,"Poland","Czech Republic",1
+2418,2012,"Poland","Greece",1
+2419,2012,"Poland","Hungary",1
+2420,2012,"Poland","United Kingdom",2
+2421,2012,"Portugal","Belgium",3
+2422,2012,"Portugal","Poland",1
+2423,2012,"Romania","Bulgaria",1
+2424,2012,"Romania","Finland",1
+2425,2012,"Romania","Hungary",2
+2426,2012,"Romania","Italy",3
+2427,2012,"Romania","United Kingdom",1
+2428,2012,"Slovakia","Bulgaria",1
+2429,2012,"Slovakia","Cyprus",1
+2430,2012,"Slovakia","France",1
+2431,2012,"Slovakia","Germany",1
+2432,2012,"Slovakia","Italy",1
+2433,2012,"Slovakia","Netherlands",1
+2434,2012,"Slovakia","Poland",2
+2435,2012,"Slovenia","Greece",1
+2436,2012,"Slovenia","Italy",2
+2437,2012,"Slovenia","Poland",1
+2438,2012,"Slovenia","Slovakia",6
+2439,2012,"Spain","Bulgaria",1
+2440,2012,"Spain","Czech Republic",1
+2441,2012,"Spain","France",1
+2442,2012,"Spain","Greece",2
+2443,2012,"Spain","Italy",3
+2444,2012,"Spain","Latvia",1
+2445,2012,"Spain","Lithuania",3
+2446,2012,"Spain","Poland",2
+2447,2012,"Spain","Slovakia",9
+2448,2012,"Sweden","Denmark",1
+2449,2012,"Sweden","Italy",1
+2450,2012,"United Kingdom","Belgium",1
+2451,2012,"United Kingdom","Germany",1
+2452,2012,"United Kingdom","Spain",1
+2453,2013,"Austria","Belgium",1
+2454,2013,"Austria","Denmark",1
+2455,2013,"Austria","Poland",1
+2456,2013,"Commission","Austria",2
+2457,2013,"Commission","Belgium",7
+2458,2013,"Commission","Bulgaria",1
+2459,2013,"Commission","Croatia",1
+2460,2013,"Commission","Czech Republic",6
+2461,2013,"Commission","Denmark",8
+2462,2013,"Commission","Estonia",5
+2463,2013,"Commission","Finland",6
+2464,2013,"Commission","France",6
+2465,2013,"Commission","Germany",5
+2466,2013,"Commission","Greece",8
+2467,2013,"Commission","Hungary",10
+2468,2013,"Commission","Iceland",1
+2469,2013,"Commission","Ireland",4
+2470,2013,"Commission","Italy",14
+2471,2013,"Commission","Latvia",1
+2472,2013,"Commission","Lithuania",6
+2473,2013,"Commission","Luxembourg",7
+2474,2013,"Commission","Netherlands",3
+2475,2013,"Commission","Norway",6
+2476,2013,"Commission","Poland",6
+2477,2013,"Commission","Portugal",2
+2478,2013,"Commission","Romania",3
+2479,2013,"Commission","Slovakia",15
+2480,2013,"Commission","Slovenia",4
+2481,2013,"Commission","Spain",12
+2482,2013,"Commission","Sweden",5
+2483,2013,"Commission","Switzerland",2
+2484,2013,"Commission","United Kingdom",6
+2485,2013,"Croatia","Italy",1
+2486,2013,"Croatia","Poland",1
+2487,2013,"Croatia","Slovakia",4
+2488,2013,"Croatia","United Kingdom",1
+2489,2013,"Czech Republic","Austria",1
+2490,2013,"Czech Republic","Hungary",1
+2491,2013,"Czech Republic","Netherlands",1
+2492,2013,"Czech Republic","Slovakia",1
+2493,2013,"Denmark","France",1
+2494,2013,"Denmark","Germany",1
+2495,2013,"Finland","Belgium",1
+2496,2013,"Finland","Hungary",1
+2497,2013,"Finland","Poland",1
+2498,2013,"Finland","Spain",1
+2499,2013,"Finland","Sweden",1
+2500,2013,"France","Austria",2
+2501,2013,"France","Bulgaria",1
+2502,2013,"France","Denmark",1
+2503,2013,"France","Germany",2
+2504,2013,"France","Lithuania",1
+2505,2013,"France","Slovakia",1
+2506,2013,"France","Slovenia",1
+2507,2013,"France","Spain",2
+2508,2013,"France","United Kingdom",2
+2509,2013,"Germany","Austria",4
+2510,2013,"Germany","Belgium",1
+2511,2013,"Germany","Czech Republic",1
+2512,2013,"Germany","Estonia",1
+2513,2013,"Germany","Finland",1
+2514,2013,"Germany","France",1
+2515,2013,"Germany","Hungary",1
+2516,2013,"Germany","Luxembourg",3
+2517,2013,"Germany","Netherlands",1
+2518,2013,"Germany","Slovakia",2
+2519,2013,"Germany","Slovenia",1
+2520,2013,"Germany","Spain",5
+2521,2013,"Germany","Sweden",1
+2522,2013,"Germany","United Kingdom",1
+2523,2013,"Greece","France",1
+2524,2013,"Hungary","United Kingdom",1
+2525,2013,"Ireland","Belgium",1
+2526,2013,"Ireland","Germany",1
+2527,2013,"Italy","Bulgaria",1
+2528,2013,"Italy","Czech Republic",3
+2529,2013,"Italy","Lithuania",3
+2530,2013,"Italy","Slovakia",1
+2531,2013,"Italy","United Kingdom",1
+2532,2013,"Malta","Greece",1
+2533,2013,"Malta","Spain",1
+2534,2013,"Netherlands","Austria",1
+2535,2013,"Netherlands","Denmark",1
+2536,2013,"Poland","Belgium",1
+2537,2013,"Poland","Croatia",1
+2538,2013,"Poland","Czech Republic",3
+2539,2013,"Poland","Denmark",1
+2540,2013,"Poland","Estonia",1
+2541,2013,"Poland","Hungary",3
+2542,2013,"Poland","Italy",1
+2543,2013,"Romania","Belgium",1
+2544,2013,"Romania","Denmark",1
+2545,2013,"Romania","Hungary",2
+2546,2013,"Romania","Italy",1
+2547,2013,"Slovakia","Belgium",1
+2548,2013,"Slovakia","Czech Republic",1
+2549,2013,"Slovakia","Hungary",1
+2550,2013,"Slovenia","Hungary",1
+2551,2013,"Slovenia","Lithuania",1
+2552,2013,"Slovenia","Slovakia",2
+2553,2013,"Spain","Belgium",1
+2554,2013,"Spain","Bulgaria",2
+2555,2013,"Spain","Germany",1
+2556,2013,"Spain","Hungary",2
+2557,2013,"Spain","Latvia",1
+2558,2013,"Spain","Lithuania",1
+2559,2013,"Spain","Poland",1
+2560,2013,"Spain","Slovakia",5
+2561,2013,"Sweden","Cyprus",1
+2562,2013,"Sweden","Italy",1
+2563,2013,"United Kingdom","Belgium",1
+2564,2013,"United Kingdom","Czech Republic",1
+2565,2013,"United Kingdom","Denmark",1
+2566,2013,"United Kingdom","Hungary",1
+2567,2013,"United Kingdom","Latvia",1
+2568,2013,"United Kingdom","Lithuania",2
+2569,2013,"United Kingdom","Sweden",1
+2570,2014,"Austria","Cyprus",1
+2571,2014,"Austria","France",1
+2572,2014,"Austria","Italy",2
+2573,2014,"Austria","Romania",1
+2574,2014,"Austria","Slovakia",1
+2575,2014,"Austria","Slovenia",1
+2576,2014,"Austria","United Kingdom",2
+2577,2014,"Bulgaria","Croatia",1
+2578,2014,"Commission","Austria",10
+2579,2014,"Commission","Belgium",5
+2580,2014,"Commission","Croatia",3
+2581,2014,"Commission","Cyprus",6
+2582,2014,"Commission","Czech Republic",4
+2583,2014,"Commission","Denmark",7
+2584,2014,"Commission","Estonia",9
+2585,2014,"Commission","Finland",3
+2586,2014,"Commission","France",14
+2587,2014,"Commission","Germany",6
+2588,2014,"Commission","Greece",3
+2589,2014,"Commission","Hungary",14
+2590,2014,"Commission","Iceland",2
+2591,2014,"Commission","Ireland",3
+2592,2014,"Commission","Italy",10
+2593,2014,"Commission","Latvia",3
+2594,2014,"Commission","Lithuania",10
+2595,2014,"Commission","Malta",4
+2596,2014,"Commission","Netherlands",11
+2597,2014,"Commission","Norway",5
+2598,2014,"Commission","Poland",5
+2599,2014,"Commission","Portugal",5
+2600,2014,"Commission","Romania",13
+2601,2014,"Commission","Slovakia",8
+2602,2014,"Commission","Slovenia",1
+2603,2014,"Commission","Spain",12
+2604,2014,"Commission","Sweden",6
+2605,2014,"Commission","Switzerland",3
+2606,2014,"Commission","United Kingdom",9
+2607,2014,"Croatia","Italy",1
+2608,2014,"Croatia","Poland",1
+2609,2014,"Denmark","Italy",1
+2610,2014,"Estonia","Finland",1
+2611,2014,"France","Czech Republic",2
+2612,2014,"France","Estonia",1
+2613,2014,"France","Hungary",1
+2614,2014,"France","Italy",1
+2615,2014,"France","Lithuania",1
+2616,2014,"France","Netherlands",1
+2617,2014,"France","Poland",1
+2618,2014,"France","Slovenia",1
+2619,2014,"Germany","Bulgaria",1
+2620,2014,"Germany","Denmark",1
+2621,2014,"Germany","Estonia",1
+2622,2014,"Germany","Finland",2
+2623,2014,"Germany","France",3
+2624,2014,"Germany","Hungary",1
+2625,2014,"Germany","Italy",2
+2626,2014,"Germany","Lithuania",2
+2627,2014,"Germany","Luxembourg",1
+2628,2014,"Germany","Netherlands",1
+2629,2014,"Germany","Poland",2
+2630,2014,"Germany","Romania",12
+2631,2014,"Germany","Slovakia",1
+2632,2014,"Germany","Slovenia",1
+2633,2014,"Germany","Spain",1
+2634,2014,"Germany","Sweden",2
+2635,2014,"Hungary","Netherlands",1
+2636,2014,"Ireland","United Kingdom",1
+2637,2014,"Italy","Belgium",1
+2638,2014,"Italy","Croatia",1
+2639,2014,"Italy","Estonia",1
+2640,2014,"Italy","Lithuania",3
+2641,2014,"Italy","United Kingdom",1
+2642,2014,"Malta","Greece",1
+2643,2014,"Malta","Netherlands",1
+2644,2014,"Malta","Spain",2
+2645,2014,"Poland","Austria",3
+2646,2014,"Poland","Belgium",1
+2647,2014,"Poland","Bulgaria",1
+2648,2014,"Poland","Croatia",1
+2649,2014,"Poland","Czech Republic",2
+2650,2014,"Poland","Italy",2
+2651,2014,"Poland","Malta",1
+2652,2014,"Poland","Sweden",2
+2653,2014,"Romania","Italy",2
+2654,2014,"Slovakia","Portugal",1
+2655,2014,"Slovakia","United Kingdom",1
+2656,2014,"Slovenia","Italy",1
+2657,2014,"Slovenia","Lithuania",2
+2658,2014,"Slovenia","Romania",1
+2659,2014,"Spain","Croatia",2
+2660,2014,"Spain","Germany",1
+2661,2014,"Spain","Hungary",1
+2662,2014,"Spain","Ireland",1
+2663,2014,"Spain","Italy",1
+2664,2014,"Sweden","Belgium",1
+2665,2014,"Sweden","Germany",1
+2666,2014,"United Kingdom","Belgium",1
+2667,2014,"United Kingdom","Croatia",1
+2668,2014,"United Kingdom","Estonia",1
+2669,2014,"United Kingdom","France",1
+2670,2014,"United Kingdom","Ireland",1
+2671,2014,"United Kingdom","Lithuania",2
+2672,2014,"United Kingdom","Netherlands",1
+2673,2014,"United Kingdom","Spain",1
+2674,2014,"United Kingdom","Sweden",1
+2675,2015,"Austria","Czech Republic",1
+2676,2015,"Austria","France",1
+2677,2015,"Austria","Lithuania",1
+2678,2015,"Austria","Netherlands",1
+2679,2015,"Austria","Slovakia",2
+2680,2015,"Austria","Sweden",1
+2681,2015,"Austria","United Kingdom",1
+2682,2015,"Belgium","Poland",1
+2683,2015,"Bulgaria","Denmark",2
+2684,2015,"Bulgaria","Slovakia",1
+2685,2015,"Bulgaria","Spain",1
+2686,2015,"Commission","Austria",14
+2687,2015,"Commission","Belgium",2
+2688,2015,"Commission","Bulgaria",1
+2689,2015,"Commission","Croatia",2
+2690,2015,"Commission","Cyprus",1
+2691,2015,"Commission","Czech Republic",16
+2692,2015,"Commission","Denmark",5
+2693,2015,"Commission","Estonia",3
+2694,2015,"Commission","Finland",14
+2695,2015,"Commission","France",8
+2696,2015,"Commission","Germany",8
+2697,2015,"Commission","Greece",5
+2698,2015,"Commission","Hungary",8
+2699,2015,"Commission","Italy",5
+2700,2015,"Commission","Latvia",4
+2701,2015,"Commission","Liechtenstein",2
+2702,2015,"Commission","Lithuania",3
+2703,2015,"Commission","Malta",1
+2704,2015,"Commission","Netherlands",6
+2705,2015,"Commission","Norway",5
+2706,2015,"Commission","Poland",8
+2707,2015,"Commission","Portugal",6
+2708,2015,"Commission","Romania",11
+2709,2015,"Commission","Slovakia",10
+2710,2015,"Commission","Slovenia",2
+2711,2015,"Commission","Spain",8
+2712,2015,"Commission","Sweden",6
+2713,2015,"Commission","Switzerland",5
+2714,2015,"Commission","United Kingdom",9
+2715,2015,"Czech Republic","Austria",1
+2716,2015,"Czech Republic","Croatia",1
+2717,2015,"Czech Republic","Lithuania",1
+2718,2015,"Czech Republic","Slovakia",2
+2719,2015,"Czech Republic","Spain",1
+2720,2015,"Denmark","Belgium",1
+2721,2015,"Denmark","Germany",1
+2722,2015,"Denmark","Poland",1
+2723,2015,"Denmark","Romania",1
+2724,2015,"Estonia","Austria",1
+2725,2015,"Estonia","Latvia",1
+2726,2015,"Finland","France",1
+2727,2015,"Finland","Germany",1
+2728,2015,"France","Czech Republic",1
+2729,2015,"France","Denmark",2
+2730,2015,"France","Greece",1
+2731,2015,"France","Hungary",2
+2732,2015,"France","Netherlands",2
+2733,2015,"France","Poland",1
+2734,2015,"France","Spain",1
+2735,2015,"Germany","Croatia",1
+2736,2015,"Germany","Denmark",5
+2737,2015,"Germany","France",2
+2738,2015,"Germany","Hungary",1
+2739,2015,"Germany","Italy",1
+2740,2015,"Germany","Slovakia",5
+2741,2015,"Germany","Slovenia",1
+2742,2015,"Germany","Spain",1
+2743,2015,"Germany","Sweden",2
+2744,2015,"Germany","United Kingdom",2
+2745,2015,"Hungary","Austria",1
+2746,2015,"Hungary","Czech Republic",2
+2747,2015,"Hungary","Germany",1
+2748,2015,"Hungary","Lithuania",1
+2749,2015,"Hungary","Spain",1
+2750,2015,"Ireland","France",1
+2751,2015,"Ireland","Lithuania",1
+2752,2015,"Italy","Austria",1
+2753,2015,"Italy","Belgium",1
+2754,2015,"Italy","France",3
+2755,2015,"Italy","Greece",1
+2756,2015,"Italy","Hungary",1
+2757,2015,"Italy","Lithuania",2
+2758,2015,"Italy","Romania",1
+2759,2015,"Italy","United Kingdom",1
+2760,2015,"Poland","Austria",2
+2761,2015,"Poland","Bulgaria",1
+2762,2015,"Poland","Czech Republic",1
+2763,2015,"Poland","Estonia",1
+2764,2015,"Poland","France",1
+2765,2015,"Poland","Germany",1
+2766,2015,"Poland","Hungary",1
+2767,2015,"Poland","Slovakia",2
+2768,2015,"Poland","Spain",1
+2769,2015,"Romania","Czech Republic",1
+2770,2015,"Slovakia","Austria",1
+2771,2015,"Slovakia","Czech Republic",2
+2772,2015,"Slovakia","Finland",1
+2773,2015,"Slovakia","Lithuania",2
+2774,2015,"Slovenia","Czech Republic",1
+2775,2015,"Slovenia","Italy",1
+2776,2015,"Spain","Czech Republic",1
+2777,2015,"Spain","Denmark",1
+2778,2015,"Spain","Finland",1
+2779,2015,"Spain","Hungary",1
+2780,2015,"Spain","Italy",2
+2781,2015,"Spain","Lithuania",2
+2782,2015,"Spain","Romania",1
+2783,2015,"Spain","Slovakia",1
+2784,2015,"Sweden","Bulgaria",1
+2785,2015,"Sweden","France",3
+2786,2015,"Sweden","Germany",2
+2787,2015,"Sweden","Lithuania",1
+2788,2015,"Sweden","Netherlands",2
+2789,2015,"United Kingdom","France",1
+2790,2015,"United Kingdom","Germany",1
+2791,2015,"United Kingdom","Lithuania",2
+2792,2015,"United Kingdom","Poland",3
+2793,2015,"United Kingdom","Portugal",1
+2794,2016,"Austria","Bulgaria",1
+2795,2016,"Austria","Finland",3
+2796,2016,"Austria","Germany",2
+2797,2016,"Austria","Italy",1
+2798,2016,"Austria","Luxembourg",1
+2799,2016,"Austria","Sweden",1
+2800,2016,"Commission","Austria",13
+2801,2016,"Commission","Belgium",7
+2802,2016,"Commission","Bulgaria",5
+2803,2016,"Commission","Croatia",9
+2804,2016,"Commission","Cyprus",1
+2805,2016,"Commission","Czech Republic",10
+2806,2016,"Commission","Denmark",8
+2807,2016,"Commission","Estonia",3
+2808,2016,"Commission","Finland",5
+2809,2016,"Commission","France",19
+2810,2016,"Commission","Germany",24
+2811,2016,"Commission","Greece",3
+2812,2016,"Commission","Hungary",2
+2813,2016,"Commission","Iceland",1
+2814,2016,"Commission","Ireland",2
+2815,2016,"Commission","Italy",13
+2816,2016,"Commission","Liechtenstein",1
+2817,2016,"Commission","Luxembourg",1
+2818,2016,"Commission","Malta",7
+2819,2016,"Commission","Netherlands",9
+2820,2016,"Commission","Norway",5
+2821,2016,"Commission","Poland",5
+2822,2016,"Commission","Slovakia",6
+2823,2016,"Commission","Slovenia",11
+2824,2016,"Commission","Spain",5
+2825,2016,"Commission","Sweden",4
+2826,2016,"Commission","Switzerland",1
+2827,2016,"Commission","United Kingdom",7
+2828,2016,"Croatia","Germany",2
+2829,2016,"Czech Republic","Croatia",2
+2830,2016,"Czech Republic","Lithuania",1
+2831,2016,"Denmark","Czech Republic",1
+2832,2016,"Denmark","Finland",1
+2833,2016,"Denmark","Germany",1
+2834,2016,"Denmark","Ireland",1
+2835,2016,"Finland","Czech Republic",1
+2836,2016,"Finland","Germany",1
+2837,2016,"France","Germany",1
+2838,2016,"France","Netherlands",1
+2839,2016,"France","Spain",1
+2840,2016,"Germany","Belgium",1
+2841,2016,"Germany","Croatia",1
+2842,2016,"Germany","Estonia",2
+2843,2016,"Germany","Finland",4
+2844,2016,"Germany","France",2
+2845,2016,"Germany","Luxembourg",1
+2846,2016,"Germany","Netherlands",2
+2847,2016,"Germany","Poland",1
+2848,2016,"Germany","Portugal",1
+2849,2016,"Germany","United Kingdom",1
+2850,2016,"Hungary","Belgium",1
+2851,2016,"Hungary","Croatia",1
+2852,2016,"Hungary","Germany",2
+2853,2016,"Hungary","Italy",1
+2854,2016,"Hungary","Slovakia",1
+2855,2016,"Italy","Bulgaria",1
+2856,2016,"Italy","Czech Republic",1
+2857,2016,"Italy","Estonia",1
+2858,2016,"Italy","France",1
+2859,2016,"Italy","Germany",1
+2860,2016,"Italy","Greece",1
+2861,2016,"Italy","Hungary",1
+2862,2016,"Italy","Malta",5
+2863,2016,"Italy","Portugal",2
+2864,2016,"Italy","Slovakia",1
+2865,2016,"Malta","Slovenia",1
+2866,2016,"Malta","Sweden",1
+2867,2016,"Netherlands","Ireland",1
+2868,2016,"Poland","Austria",1
+2869,2016,"Poland","Croatia",2
+2870,2016,"Poland","Czech Republic",1
+2871,2016,"Poland","Estonia",1
+2872,2016,"Poland","Finland",1
+2873,2016,"Poland","France",1
+2874,2016,"Poland","Germany",1
+2875,2016,"Poland","Hungary",2
+2876,2016,"Poland","Lithuania",1
+2877,2016,"Poland","Netherlands",1
+2878,2016,"Poland","Romania",1
+2879,2016,"Portugal","Romania",1
+2880,2016,"Slovakia","Czech Republic",1
+2881,2016,"Slovakia","Ireland",1
+2882,2016,"Slovakia","Latvia",1
+2883,2016,"Slovenia","Croatia",1
+2884,2016,"Slovenia","Latvia",2
+2885,2016,"Slovenia","Spain",1
+2886,2016,"Spain","Czech Republic",3
+2887,2016,"Spain","Finland",1
+2888,2016,"Spain","Germany",2
+2889,2016,"Spain","Greece",1
+2890,2016,"Spain","Hungary",2
+2891,2016,"Spain","Italy",1
+2892,2016,"Spain","Latvia",1
+2893,2016,"Spain","Netherlands",1
+2894,2016,"Spain","Poland",3
+2895,2016,"Spain","Slovakia",1
+2896,2016,"Spain","Slovenia",1
+2897,2016,"Spain","Sweden",1
+2898,2016,"Sweden","Bulgaria",1
+2899,2016,"Sweden","Denmark",1
+2900,2016,"Sweden","Finland",1
+2901,2016,"Sweden","Germany",1
+2902,2016,"Sweden","Italy",4
+2903,2016,"Sweden","Poland",1
+2904,2016,"Sweden","Romania",1
+2905,2016,"United Kingdom","Czech Republic",1
+2906,2016,"United Kingdom","Ireland",1
+2907,2016,"United Kingdom","Lithuania",1
+2908,2016,"United Kingdom","Romania",1
+2909,2016,"United Kingdom","Sweden",1
+2910,2017,"Austria","Croatia",1
+2911,2017,"Austria","France",3
+2912,2017,"Austria","Hungary",1
+2913,2017,"Austria","Italy",1
+2914,2017,"Austria","Malta",1
+2915,2017,"Austria","Romania",1
+2916,2017,"Austria","Slovenia",1
+2917,2017,"Austria","Spain",1
+2918,2017,"Austria","Sweden",4
+2919,2017,"Bulgaria","France",1
+2920,2017,"Commission","Austria",9
+2921,2017,"Commission","Belgium",6
+2922,2017,"Commission","Croatia",2
+2923,2017,"Commission","Cyprus",1
+2924,2017,"Commission","Czech Republic",7
+2925,2017,"Commission","Denmark",7
+2926,2017,"Commission","Estonia",1
+2927,2017,"Commission","Finland",3
+2928,2017,"Commission","France",19
+2929,2017,"Commission","Germany",13
+2930,2017,"Commission","Greece",72
+2931,2017,"Commission","Hungary",7
+2932,2017,"Commission","Iceland",3
+2933,2017,"Commission","Italy",8
+2934,2017,"Commission","Malta",2
+2935,2017,"Commission","Netherlands",6
+2936,2017,"Commission","Norway",5
+2937,2017,"Commission","Poland",3
+2938,2017,"Commission","Portugal",2
+2939,2017,"Commission","Romania",3
+2940,2017,"Commission","Slovakia",18
+2941,2017,"Commission","Slovenia",1
+2942,2017,"Commission","Spain",12
+2943,2017,"Commission","Sweden",5
+2944,2017,"Commission","Switzerland",5
+2945,2017,"Commission","United Kingdom",1
+2946,2017,"Czech Republic","France",1
+2947,2017,"Czech Republic","Germany",1
+2948,2017,"Denmark","Estonia",1
+2949,2017,"Denmark","France",1
+2950,2017,"Denmark","Hungary",1
+2951,2017,"Denmark","Italy",2
+2952,2017,"Estonia","France",1
+2953,2017,"Estonia","Romania",1
+2954,2017,"France","Belgium",1
+2955,2017,"France","Croatia",1
+2956,2017,"Germany","Austria",1
+2957,2017,"Germany","Belgium",1
+2958,2017,"Germany","France",3
+2959,2017,"Germany","Italy",1
+2960,2017,"Germany","Slovakia",2
+2961,2017,"Hungary","Belgium",1
+2962,2017,"Hungary","Greece",1
+2963,2017,"Hungary","Spain",2
+2964,2017,"Italy","Croatia",1
+2965,2017,"Italy","France",3
+2966,2017,"Italy","Germany",1
+2967,2017,"Italy","Hungary",1
+2968,2017,"Italy","Netherlands",1
+2969,2017,"Italy","United Kingdom",2
+2970,2017,"Latvia","France",1
+2971,2017,"Malta","Cyprus",1
+2972,2017,"Netherlands","Germany",1
+2973,2017,"Poland","Croatia",1
+2974,2017,"Poland","Finland",1
+2975,2017,"Poland","Romania",1
+2976,2017,"Poland","Slovakia",1
+2977,2017,"Poland","Spain",1
+2978,2017,"Portugal","France",1
+2979,2017,"Romania","Estonia",1
+2980,2017,"Slovakia","Estonia",1
+2981,2017,"Slovenia","Greece",1
+2982,2017,"Slovenia","Italy",1
+2983,2017,"Slovenia","Romania",1
+2984,2017,"Spain","Croatia",1
+2985,2017,"Spain","Czech Republic",1
+2986,2017,"Spain","Italy",1
+2987,2017,"Spain","Poland",1
+2988,2017,"Spain","Romania",2
+2989,2017,"Sweden","Germany",1
+2990,2017,"Sweden","Hungary",1
+2991,2017,"Sweden","Spain",1
+2992,2017,"United Kingdom","Croatia",1
+2993,2017,"United Kingdom","Estonia",1
+2994,2017,"United Kingdom","Netherlands",1
+2995,2018,"Austria","Belgium",1
+2996,2018,"Austria","Czech Republic",1
+2997,2018,"Austria","Poland",1
+2998,2018,"Austria","Slovakia",2
+2999,2018,"Austria","Spain",1
+3000,2018,"Commission","Austria",25
+3001,2018,"Commission","Belgium",12
+3002,2018,"Commission","Bulgaria",5
+3003,2018,"Commission","Croatia",2
+3004,2018,"Commission","Czech Republic",23
+3005,2018,"Commission","Denmark",2
+3006,2018,"Commission","Estonia",6
+3007,2018,"Commission","Finland",25
+3008,2018,"Commission","France",14
+3009,2018,"Commission","Germany",7
+3010,2018,"Commission","Greece",13
+3011,2018,"Commission","Hungary",1
+3012,2018,"Commission","Iceland",1
+3013,2018,"Commission","Ireland",1
+3014,2018,"Commission","Italy",8
+3015,2018,"Commission","Latvia",1
+3016,2018,"Commission","Liechtenstein",1
+3017,2018,"Commission","Lithuania",5
+3018,2018,"Commission","Luxembourg",1
+3019,2018,"Commission","Malta",11
+3020,2018,"Commission","Netherlands",2
+3021,2018,"Commission","Norway",4
+3022,2018,"Commission","Poland",7
+3023,2018,"Commission","Portugal",1
+3024,2018,"Commission","Romania",1
+3025,2018,"Commission","Slovakia",4
+3026,2018,"Commission","Slovenia",4
+3027,2018,"Commission","Spain",13
+3028,2018,"Commission","Sweden",14
+3029,2018,"Commission","Switzerland",1
+3030,2018,"Commission","United Kingdom",7
+3031,2018,"Czech Republic","Slovakia",1
+3032,2018,"Denmark","Hungary",1
+3033,2018,"Denmark","Ireland",1
+3034,2018,"Finland","Malta",1
+3035,2018,"France","Belgium",1
+3036,2018,"France","Ireland",1
+3037,2018,"France","Spain",1
+3038,2018,"Germany","France",2
+3039,2018,"Germany","Poland",1
+3040,2018,"Germany","Slovakia",1
+3041,2018,"Germany","Sweden",1
+3042,2018,"Germany","United Kingdom",1
+3043,2018,"Greece","Belgium",1
+3044,2018,"Greece","Ireland",1
+3045,2018,"Hungary","United Kingdom",1
+3046,2018,"Italy","Austria",1
+3047,2018,"Italy","Belgium",1
+3048,2018,"Italy","Bulgaria",1
+3049,2018,"Italy","Denmark",2
+3050,2018,"Italy","Greece",2
+3051,2018,"Italy","Hungary",1
+3052,2018,"Italy","Latvia",1
+3053,2018,"Italy","Poland",1
+3054,2018,"Italy","Romania",1
+3055,2018,"Italy","Slovenia",1
+3056,2018,"Malta","Slovakia",1
+3057,2018,"Poland","Bulgaria",1
+3058,2018,"Poland","Czech Republic",2
+3059,2018,"Poland","Estonia",1
+3060,2018,"Poland","Greece",9
+3061,2018,"Poland","Ireland",1
+3062,2018,"Poland","Malta",1
+3063,2018,"Poland","Portugal",1
+3064,2018,"Poland","Slovakia",1
+3065,2018,"Romania","Ireland",1
+3066,2018,"Romania","Slovakia",1
+3067,2018,"Slovakia","Ireland",1
+3068,2018,"Slovenia","Greece",1
+3069,2018,"Spain","Belgium",2
+3070,2018,"Spain","Bulgaria",1
+3071,2018,"Spain","Croatia",1
+3072,2018,"Spain","Estonia",1
+3073,2018,"Spain","Greece",1
+3074,2018,"Spain","Ireland",1
+3075,2018,"Spain","Italy",1
+3076,2018,"Spain","Latvia",1
+3077,2018,"Sweden","France",2
+3078,2018,"Sweden","Malta",1
+3079,2018,"Sweden","Poland",1
+3080,2018,"Sweden","Spain",1
+3081,2018,"United Kingdom","Bulgaria",1
+3082,2018,"United Kingdom","France",1
+3083,2018,"United Kingdom","Germany",1
+3084,2018,"United Kingdom","Ireland",1
+3085,2018,"United Kingdom","Lithuania",1
+3086,2018,"United Kingdom","Netherlands",1
+3087,2019,"Austria","Czech Republic",2
+3088,2019,"Austria","France",2
+3089,2019,"Austria","Italy",1
+3090,2019,"Austria","Portugal",1
+3091,2019,"Austria","Spain",1
+3092,2019,"Commission","Austria",21
+3093,2019,"Commission","Belgium",5
+3094,2019,"Commission","Bulgaria",1
+3095,2019,"Commission","Croatia",2
+3096,2019,"Commission","Czech Republic",6
+3097,2019,"Commission","Denmark",8
+3098,2019,"Commission","Estonia",1
+3099,2019,"Commission","Finland",3
+3100,2019,"Commission","France",11
+3101,2019,"Commission","Germany",9
+3102,2019,"Commission","Greece",4
+3103,2019,"Commission","Hungary",3
+3104,2019,"Commission","Iceland",1
+3105,2019,"Commission","Ireland",7
+3106,2019,"Commission","Italy",14
+3107,2019,"Commission","Latvia",1
+3108,2019,"Commission","Lithuania",6
+3109,2019,"Commission","Malta",1
+3110,2019,"Commission","Netherlands",4
+3111,2019,"Commission","Norway",2
+3112,2019,"Commission","Poland",38
+3113,2019,"Commission","Portugal",2
+3114,2019,"Commission","Slovakia",3
+3115,2019,"Commission","Slovenia",5
+3116,2019,"Commission","Spain",4
+3117,2019,"Commission","Sweden",6
+3118,2019,"Commission","Switzerland",1
+3119,2019,"Commission","United Kingdom",11
+3120,2019,"Finland","Germany",1
+3121,2019,"France","Romania",1
+3122,2019,"Germany","Austria",2
+3123,2019,"Germany","Czech Republic",1
+3124,2019,"Germany","Netherlands",2
+3125,2019,"Germany","Slovakia",1
+3126,2019,"Greece","Lithuania",1
+3127,2019,"Hungary","Poland",2
+3128,2019,"Italy","Austria",1
+3129,2019,"Italy","Finland",1
+3130,2019,"Italy","France",2
+3131,2019,"Italy","Germany",1
+3132,2019,"Italy","Lithuania",3
+3133,2019,"Italy","Poland",1
+3134,2019,"Italy","Spain",1
+3135,2019,"Lithuania","Estonia",1
+3136,2019,"Malta","Greece",1
+3137,2019,"Netherlands","Italy",1
+3138,2019,"Poland","Czech Republic",2
+3139,2019,"Poland","France",1
+3140,2019,"Poland","Greece",1
+3141,2019,"Poland","Slovakia",1
+3142,2019,"Poland","Sweden",1
+3143,2019,"Poland","United Kingdom",2
+3144,2019,"Romania","Estonia",1
+3145,2019,"Romania","France",1
+3146,2019,"Romania","Netherlands",1
+3147,2019,"Slovakia","Croatia",1
+3148,2019,"Slovakia","Czech Republic",2
+3149,2019,"Slovakia","Spain",1
+3150,2019,"Slovenia","Germany",1
+3151,2019,"Slovenia","Lithuania",1
+3152,2019,"Spain","Belgium",1
+3153,2019,"Spain","Czech Republic",1
+3154,2019,"Spain","Denmark",1
+3155,2019,"Spain","France",1
+3156,2019,"Spain","Germany",1
+3157,2019,"Spain","Ireland",2
+3158,2019,"Spain","Italy",1
+3159,2019,"Spain","Lithuania",2
+3160,2019,"Spain","Poland",1
+3161,2019,"Spain","Romania",2
+3162,2019,"Sweden","Austria",1
+3163,2019,"Sweden","Denmark",1
+3164,2019,"Sweden","Poland",1
+3165,2020,"Austria","Croatia",1
+3166,2020,"Austria","France",3
+3167,2020,"Austria","Germany",1
+3168,2020,"Austria","Italy",1
+3169,2020,"Commission","Austria",2
+3170,2020,"Commission","Belgium",1
+3171,2020,"Commission","Bulgaria",1
+3172,2020,"Commission","Croatia",1
+3173,2020,"Commission","Denmark",6
+3174,2020,"Commission","Finland",1
+3175,2020,"Commission","France",3
+3176,2020,"Commission","Germany",7
+3177,2020,"Commission","Hungary",1
+3178,2020,"Commission","Ireland",1
+3179,2020,"Commission","Italy",3
+3180,2020,"Commission","Latvia",1
+3181,2020,"Commission","Lithuania",4
+3182,2020,"Commission","Malta",1
+3183,2020,"Commission","Netherlands",1
+3184,2020,"Commission","Poland",1
+3185,2020,"Commission","Romania",1
+3186,2020,"Commission","Slovakia",1
+3187,2020,"Commission","Spain",2
+3188,2020,"Commission","Sweden",2
+3189,2020,"Commission","United Kingdom",1
+3190,2020,"Czech Republic","Croatia",1
+3191,2020,"Czech Republic","Denmark",1
+3192,2020,"Estonia","Ireland",1
+3193,2020,"Finland","France",3
+3194,2020,"France","Denmark",1
+3195,2020,"France","Hungary",1
+3196,2020,"Germany","Italy",1
+3197,2020,"Germany","Slovenia",1
+3198,2020,"Germany","United Kingdom",1
+3199,2020,"Italy","Croatia",1
+3200,2020,"Italy","Denmark",2
+3201,2020,"Italy","France",1
+3202,2020,"Italy","Lithuania",1
+3203,2020,"Italy","Slovenia",1
+3204,2020,"Italy","Sweden",1
+3205,2020,"Poland","United Kingdom",1
+3206,2020,"Slovakia","Croatia",1
+3207,2020,"Spain","Bulgaria",1
+3208,2020,"Spain","Italy",1
+3209,2020,"Spain","Lithuania",1
+3210,2020,"Sweden","Czech Republic",3
+3211,2020,"Sweden","Estonia",1
+3212,2020,"Sweden","France",6
+3213,2020,"Sweden","Italy",1
+3214,2020,"Sweden","Poland",1
+3215,2020,"Sweden","Romania",1
