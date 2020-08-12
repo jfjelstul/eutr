@@ -81,6 +81,9 @@ comments_EY <- dplyr::rename(comments_EY, year = start_year)
 # merge
 comments_EY <- dplyr::left_join(template, comments_EY, by = c("comment_by", "year"))
 
+# convert to a tibble
+comments_EY <- dplyr::as_tibble(comments_EY)
+
 # code zeros
 comments_EY$count_comments[is.na(comments_EY$count_comments)] <- 0
 
@@ -128,6 +131,9 @@ comments_DDY <- dplyr::rename(comments_DDY, year = start_year)
 
 # merge
 comments_DDY <- dplyr::left_join(template, comments_DDY, by = c("notification_by", "comment_by", "year"))
+
+# convert to a tibble
+comments_DDY <- dplyr::as_tibble(comments_DDY)
 
 # code zeros
 comments_DDY$count_comments[is.na(comments_DDY$count_comments)] <- 0

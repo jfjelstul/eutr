@@ -236,6 +236,9 @@ notifications_EY <- dplyr::rename(notifications_EY, year = start_year)
 # merge
 notifications_EY <- dplyr::left_join(template, notifications_EY, by = c("notification_by", "year"))
 
+# convert to a tibble
+notifications_EY <- dplyr::as_tibble(notifications_EY)
+
 # code zeros
 notifications_EY$count_notifications[is.na(notifications_EY$count_notifications)] <- 0
 

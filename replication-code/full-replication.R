@@ -92,19 +92,6 @@ write.csv(opinions_EY, "build/EU-TRIS-opinions-EY.csv", row.names = FALSE)
 write.csv(opinions_DDY, "build/EU-TRIS-opinions-DDY.csv", row.names = FALSE)
 write.csv(opinions_network, "build/EU-TRIS-opinions-network.csv", row.names = FALSE)
 
-# check classes
-# class(notifications)
-# class(notifications_extended)
-# class(notifications_EY)
-# class(comments)
-# class(comments_EY)
-# class(comments_DDY)
-# class(comments_network)
-# class(opinions)
-# class(opinions_EY)
-# class(opinions_DDY)
-# class(opinions_network)
-
 ###########################################################################
 # end R script
 ###########################################################################
