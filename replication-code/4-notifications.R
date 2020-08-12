@@ -3,74 +3,29 @@
 # eutris R package
 ###########################################################################
 
-# this script requires raw data that is not available in the GitHub repo
-# this script is for replication purposes only
-# do not attempt run this script
-
 # define pipe function
 `%>%` <- magrittr::`%>%`
 
 ##################################################
-# functions to extract data
-##################################################
-
-# file <- "data-raw/HTML-pages/notification_2012_617.html"
-
-extract_metadata <- function(file) {
-  html <- xml2::read_html(file)
-  div <- html %>% rvest::html_nodes("div")
-  class <- div %>% rvest::html_attr("class")
-  div <- div[!is.na(class)]
-  class <- class[!is.na(class)]
-  div <- div[class == "row trisDetails"]
-  text <- div %>% rvest::html_text()
-  text <- stringr::str_squish(text)
-  text <- stringr::str_replace(text, "var notifYear.*", "")
-  return(text)
-}
-
-##################################################
-# read in TRIS data
-##################################################
-
-# load notification data
-load("data/notifications.RData")
-
-# year
-notifications$year <- stringr::str_extract(notifications$notification_number, "^[0-9]{4}")
-
-# number
-notifications$number <- stringr::str_extract(notifications$notification_number, "/[0-9]+")
-notifications$number <- stringr::str_extract(notifications$number, "[0-9]+")
-
-# file
-notifications$file <- stringr::str_c("data-raw/HTML-pages/notification_", notifications$year, "_", notifications$number, ".html")
-
-# drop HTML file with an error
-notifications <- dplyr::filter(notifications, !stringr::str_detect(file, "notification_2019_133.html"))
-
-# extract metadata
-metadata <- plyr::alply(.data = notifications$file, .margin = 1, .fun = extract_metadata, .progress = "text", .inform = TRUE)
-notifications$metadata <- as.character(metadata)
-notifications$metadata[notifications$metadata == "character(0)"] <- NA
-
-##################################################
-# function to clean text
+# functions
 ##################################################
 
 # headings
 headings <- "(1\\. structured information line|2\\. member state|3\\. department responsible|3\\. originating department|4\\. notification number|5\\. title|6\\. products concerned|7\\. notification under another act|8\\. main content|9\\. brief statement of grounds|10\\. reference documents - basic texts|11\\. invocation of the emergency procedure|12\\. grounds for the emergency|13\\. confidentiality|14\\. fiscal measures|15\\. impact assessment|16\\. tbt and sps aspects)"
 
+# function to extract headings from the metadata
 extract_heading <- function(x, heading, headings) {
   x <- stringr::str_extract(x, stringr::str_c(heading, ".*?", headings))
   return(x)
 }
 
+# function to remove headings from extracted text
 remove_headings <- function(x, headings) {
   x <- stringr::str_replace_all(x, headings, "")
   return(x)
 }
 
+# function to clean text
 clean_text <- function(x) {
   x <- stringr::str_to_lower(x)
   x <- stringr::str_replace_all(x, "[^[:alpha:]0-9 ]+", " ")
@@ -79,6 +34,7 @@ clean_text <- function(x) {
   return(x)
 }
 
+# function to clean a comma-separated list
 clean_list <- function(x) {
   x <- stringr::str_split(x, ",")
   x <- unlist(x)
@@ -89,6 +45,17 @@ clean_list <- function(x) {
   x <- stringr::str_c(x, collapse = ", ")
   return(x)
 }
+
+##################################################
+# load data
+##################################################
+
+# load
+load("data-raw/notifications_raw_metadata.Rdata")
+
+# rename
+notifications <- notifications_raw_metadata
+rm(notifications_raw_metadata)
 
 ##################################################
 # comments
@@ -102,7 +69,8 @@ notifications$comments <- stringr::str_replace(notifications$comments, "Draft Te
 notifications$comments <- stringr::str_replace(notifications$comments, "Final Text.*", "")
 notifications$comments <- stringr::str_replace(notifications$comments, "Message Text.*", "")
 notifications$comments <- stringr::str_replace(notifications$comments, "Postponement.*", "")
-notifications$comments <- stringr::str_replace(notifications$comments, "EFTA Surveillance Authority", "European Free Trade Association (EFTA)")
+notifications$comments <- stringr::str_replace_all(notifications$comments, "EFTA Surveillance Authority", "European Free Trade Association")
+notifications$comments <- stringr::str_replace_all(notifications$comments, "European Free Trade Association .EFTA.", "European Free Trade Association")
 notifications$comments <- stringr::str_squish(notifications$comments)
 notifications$comments <- stringr::str_replace(notifications$comments, "^,+", "")
 notifications$comments <- stringr::str_squish(notifications$comments)
@@ -112,14 +80,18 @@ for(i in 1:nrow(notifications)) {
 }
 
 # check
-x <- stringr::str_split(notifications$comments, ",")
-x <- unlist(x)
-x <- stringr::str_squish(x)
-table(x)
+# x <- stringr::str_split(notifications$comments, ",")
+# x <- unlist(x)
+# x <- stringr::str_squish(x)
+# table(x)
 
 # Commission comments
 notifications$commission_comment <- as.numeric(stringr::str_detect(notifications$comments, "Commission"))
 notifications$commission_comment[is.na(notifications$commission_comment)] <- 0
+
+# count comments
+notifications$count_comments <- stringr::str_count(notifications$comments, "[A-Za-z ]+")
+notifications$count_comments[is.na(notifications$count_comments)] <- 0
 
 ##################################################
 # detailed opinions
@@ -150,6 +122,10 @@ for(i in 1:nrow(notifications)) {
 notifications$commission_opinion <- as.numeric(stringr::str_detect(notifications$opinions, "Commission"))
 notifications$commission_opinion[is.na(notifications$commission_opinion)] <- 0
 
+# count comments
+notifications$count_opinions <- stringr::str_count(notifications$opinions, "[A-Za-z ]+")
+notifications$count_opinions[is.na(notifications$count_opinions)] <- 0
+
 ##################################################
 # make other variables
 ##################################################
@@ -159,16 +135,6 @@ notifications$postponement <- as.numeric(stringr::str_detect(notifications$metad
 
 # clean metadata
 notifications$metadata <- stringr::str_to_lower(notifications$metadata)
-
-# date received
-# notifications$date_received <- stringr::str_extract(notifications$metadata, "date received: [0-9]+/[0-9]+/[0-9]+")
-# notifications$date_received <- stringr::str_extract(notifications$date_received, "[0-9]+/[0-9]+/[0-9]+")
-# notifications$date_received <- lubridate::dmy(notifications$date_received)
-
-# date of end of standstill
-# notifications$date_end_standstill <- stringr::str_extract(notifications$metadata, "end of standstill: ([0-9]+/[0-9]+/[0-9]+)")
-# notifications$date_end_standstill <- stringr::str_extract(notifications$date_end_standstill, "[0-9]+/[0-9]+/[0-9]+")
-# notifications$date_end_standstill <- lubridate::dmy(notifications$date_end_standstill)
 
 # title
 notifications$title <- extract_heading(notifications$metadata, "5\\. title", headings)
@@ -191,104 +157,111 @@ notifications$grounds <- remove_headings(notifications$grounds, headings)
 notifications$grounds <- clean_text(notifications$grounds)
 
 ##################################################
-# network data: comments
+# years
 ##################################################
 
-# select variables
-comments <- dplyr::select(
-  notifications,
-  member_state, notification_number, start_date, end_date, comments
-)
+# start year
+notifications$start_year <- lubridate::year(notifications$start_date)
 
-# drop notifications with no comments
-comments <- dplyr::filter(comments, !is.na(comments))
+# end year
+notifications$end_year <- lubridate::year(notifications$end_date)
 
-# one row per comment
-comments <- tidyr::separate_rows(comments, comments, sep = ",")
+##################################################
+# notification ID
+##################################################
+
+# member state code
+codes <- read.csv("data-raw/entity-codes.csv", stringsAsFactors = FALSE)
+notifications <- dplyr::left_join(notifications, codes, by = c("member_state" = "entity"))
+# table(notifications$entity_code, useNA = "always")
+
+# pad number
+notifications$number <- stringr::str_pad(notifications$number, width = 4, side = "left", pad = "0")
+
+# notification ID
+notifications$notification_ID <- stringr::str_c("TRIS", notifications$year, notifications$number, notifications$entity_code, "N", sep = ":")
+
+##################################################
+# organize data
+##################################################
 
 # rename variable
-comments <- dplyr::rename(comments, notification_by = member_state, comment_by = comments)
-
-# clean member state names
-comments$comment_by <- stringr::str_squish(comments$comment_by)
-
-# year
-comments$start_year <- lubridate::year(comments$start_date)
-comments$end_year <- lubridate::year(comments$end_date)
-
-# comment number
-comments <- comments %>%
-  dplyr::group_by(notification_number) %>%
-  dplyr::mutate(comment_number = 1:dplyr::n())
-
-# comment ID
-comments$comment_ID <- stringr::str_c(comments$notification_number, comments$comment_number, sep = "-")
+notifications <- dplyr::rename(notifications, notification_by = member_state)
 
 # arrange
-comments <- dplyr::arrange(comments, start_date, notification_number, comment_by)
+notifications <- dplyr::arrange(notifications, start_date, notification_ID)
 
 # key ID
-comments$key_ID <- 1:nrow(comments)
+notifications$key_ID <- 1:nrow(notifications)
 
 # select variables
-comments <- dplyr::select(
-  comments,
-  key_ID, notification_number, notification_by,
-  start_date, start_year, end_date, end_year,
-  comment_ID, comment_number, comment_by
-)
-
-##################################################
-# network data: opinions
-##################################################
-
-# select variables
-opinions <- dplyr::select(
+notifications_extended <- dplyr::select(
   notifications,
-  member_state, notification_number, start_date, end_date, opinions
+  key_ID, notification_ID, notification_by,
+  start_date, start_year, end_date, end_year, postponement,
+  comments, count_comments, commission_comment, opinions, count_opinions, commission_opinion,
+  title, description, grounds, products
 )
-
-# drop notifications with no comments
-opinions <- dplyr::filter(opinions, !is.na(opinions))
-
-# one row per comment
-opinions <- tidyr::separate_rows(opinions, opinions, sep = ",")
-
-# rename variable
-opinions <- dplyr::rename(opinions, notification_by = member_state, opinion_by = opinions)
-
-# clean member state names
-opinions$opinion_by <- stringr::str_squish(opinions$opinion_by)
-
-# year
-opinions$start_year <- lubridate::year(opinions$start_date)
-opinions$end_year <- lubridate::year(opinions$end_date)
-
-##################################################
-# export
-##################################################
 
 # select variables
 notifications <- dplyr::select(
   notifications,
-  member_state, notification_number, year, number, start_date, end_date, duration, postponement, member_state_comments, commission_comment, member_state_opinions, commission_opinion, member_state_responses, commission_response
+  key_ID, notification_ID, notification_by,
+  start_date, start_year, end_date, end_year, postponement,
+  comments, count_comments, commission_comment, opinions, count_opinions, commission_opinion,
 )
 
+# save
+save(notifications, file = "data/notifications.RData")
+save(notifications_extended, file = "data/notifications_extended.RData")
+
+##################################################
+# entity-year data
+##################################################
+
+# template
+template <- expand.grid(codes$entity, 1988:2020, stringsAsFactors = FALSE)
+names(template) <- c("notification_by", "year")
+
+# collapse by member state and by year
+notifications_EY <- notifications %>%
+  dplyr::group_by(notification_by, start_year) %>%
+  dplyr::summarize(
+    count_notifications = dplyr::n()
+  ) %>% dplyr::ungroup()
+
+# rename variable
+notifications_EY <- dplyr::rename(notifications_EY, year = start_year)
+
+# merge
+notifications_EY <- dplyr::left_join(template, notifications_EY, by = c("notification_by", "year"))
+
+# code zeros
+notifications_EY$count_notifications[is.na(notifications_EY$count_notifications)] <- 0
+
+# drop invalid entity-years
+notifications_EY$drop <- FALSE
+notifications_EY$drop[notifications_EY$notification_by == "Turkey" & notifications_EY$year < 1995] <- TRUE
+notifications_EY$drop[notifications_EY$notification_by == "Liechtenstein" & notifications_EY$year < 1991] <- TRUE
+notifications_EY$drop[notifications_EY$notification_by %in% c("Cyprus", "Czech Republic", "Estonia", "Hungary", "Latvia", "Lithuania", "Malta", "Poland", "Slovakia", "Slovenia") & notifications_EY$year < 2004] <- TRUE
+notifications_EY$drop[notifications_EY$notification_by %in% c("Bulgaria", "Romania") & notifications_EY$year < 2007] <- TRUE
+notifications_EY$drop[notifications_EY$notification_by == "Croatia" & notifications_EY$year < 2013] <- TRUE
+notifications_EY <- dplyr::filter(notifications_EY, !drop)
+
 # arrange
-out$number <- as.numeric(out$number)
-out <- arrange(out, year, number)
+notifications_EY <- dplyr::arrange(notifications_EY, year, notification_by)
 
-# drop
-out$drop <- str_extract(out$notification_number, "^[0-9]{4}")
-out <- filter(out, drop >= 1994)
-out$drop <- NULL
-out <- filter(out, number < 1000)
+# key ID
+notifications_EY$key_ID <- 1:nrow(notifications_EY)
 
-# set working directory
-setwd("~/Dropbox/Professional/Projects/Implementation Paper/Empirics/Data/")
+# select variables
+notifications_EY <- dplyr::select(
+  notifications_EY,
+  key_ID, year, notification_by, count_notifications
+)
 
-# write data
-write.csv(out, "TRIS_data_extended.csv", row.names = FALSE)
+# save
+save(notifications_EY, file = "data/notifications_EY.RData")
 
 ###########################################################################
 # end R script
