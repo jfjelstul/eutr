@@ -1,0 +1,68 @@
+###########################################################################
+# Joshua C. Fjelstul, Ph.D.
+# euaid R package
+###########################################################################
+
+#' Comments on TRIS Notifications
+#'
+#' A dataset of comments submitted by the Commission, EU member states,
+#' third-party countries, or the Surveillence Authority of the European Free
+#' Trade Association (EFTA) in response to notifications from member states
+#' about proposed technical regulations as part of the 2015/1535 procedure.
+#'
+#' @docType data
+#'
+#' @usage comments
+#'
+#' @format A tibble with 9 variables and 10,503 observations:
+#' \describe{
+#'
+#' \item{\code{key_ID}}{Numeric. An ID number that uniquely identifies each
+#' observation.}
+#'
+#' \item{\code{notification_ID}}{String. An ID number that uniquely identifies
+#' each notification in the format \code{TRIS:####:####:XX:N}, where the first
+#' set of digits is the year the proposed technical regulation was notified, the
+#' second set of digits is the number of the notification, \code{XX} is a
+#' 2-character code for the member state or third-party country that notified
+#' the proposed technical regulation, and \code{N} is a 1-character code
+#' indicating a notification.}
+#'
+#' \item{\code{notification_by}}{String. The member state or third-party country
+#' that notified the proposed technical regulation.}
+#'
+#' \item{\code{start_date}}{Date. The date the notification was received by the
+#' Commission in the format \code{YYYY-MM-DD}.}
+#'
+#' \item{\code{start_year}}{Numeric. The year the notification was received by
+#' the Commission.}
+#'
+#' \item{\code{end_date}}{Date. The date the 2015/1535 procedure was concluded
+#' in the format \code{YYYY-MM-DD}.}
+#'
+#' \item{\code{end_year}}{Numeric. The year the 2015/1535 procedure was
+#' concluded.}
+#'
+#' \item{\code{comment_ID}}{String. An ID number that uniquely identifies each
+#' comment in the format \code{TRIS:####:####:XX:C:YY}, where the first set of
+#' digits is the year the proposed technical regulation was notified, the second
+#' set of digits is the number of the notification, \code{XX} is a 2-character
+#' code for the member state or third-party country that notified the proposed
+#' technical regulation, \code{C} is a 1-character code indicating a comment (as
+#' opposed to a detailed opinion), and \code{YY} is a 2-character code for the
+#' member state or third-party country that submitted the comment. Note that
+#' \code{YY} can also be \code{EC} for the European Commission and EFTA for the
+#' Surveillance Authority of the European Free Trade Association (EFTA).}
+#'
+#' \item{\code{comment_by}}{String. The name of the entity that submitted the
+#' comment. Either the name of an EU member state, the name of a member of the
+#' European Free Trade Association (EFTA), Turkey (which has access to the EU
+#' single market), or the Surveillance Authority of the EFTA.}
+#'
+#' }
+#'
+"comments"
+
+###########################################################################
+# end R script
+###########################################################################
