@@ -1,6 +1,6 @@
 ###########################################################################
 # Joshua C. Fjelstul, Ph.D.
-# eutris R Package
+# eutris R package
 ###########################################################################
 
 # this script requires raw data that is not available in the GitHub repo
