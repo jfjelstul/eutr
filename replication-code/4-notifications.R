@@ -173,7 +173,6 @@ notifications$end_year <- lubridate::year(notifications$end_date)
 # member state code
 codes <- read.csv("data-raw/entity-codes.csv", stringsAsFactors = FALSE)
 notifications <- dplyr::left_join(notifications, codes, by = c("member_state" = "entity"))
-# table(notifications$entity_code, useNA = "always")
 
 # pad number
 notifications$number <- stringr::str_pad(notifications$number, width = 4, side = "left", pad = "0")
@@ -214,57 +213,6 @@ notifications <- dplyr::select(
 # save
 save(notifications, file = "data/notifications.RData")
 save(notifications_extended, file = "data/notifications_extended.RData")
-
-##################################################
-# entity-year data
-##################################################
-
-# template
-template <- expand.grid(codes$entity, 1988:2020, stringsAsFactors = FALSE)
-names(template) <- c("notification_by", "year")
-
-# collapse by member state and by year
-notifications_EY <- notifications %>%
-  dplyr::group_by(notification_by, start_year) %>%
-  dplyr::summarize(
-    count_notifications = dplyr::n()
-  ) %>% dplyr::ungroup()
-
-# rename variable
-notifications_EY <- dplyr::rename(notifications_EY, year = start_year)
-
-# merge
-notifications_EY <- dplyr::left_join(template, notifications_EY, by = c("notification_by", "year"))
-
-# convert to a tibble
-notifications_EY <- dplyr::as_tibble(notifications_EY)
-
-# code zeros
-notifications_EY$count_notifications[is.na(notifications_EY$count_notifications)] <- 0
-
-# drop invalid entity-years
-notifications_EY$drop <- FALSE
-notifications_EY$drop[notifications_EY$notification_by == "Turkey" & notifications_EY$year < 1995] <- TRUE
-notifications_EY$drop[notifications_EY$notification_by == "Liechtenstein" & notifications_EY$year < 1991] <- TRUE
-notifications_EY$drop[notifications_EY$notification_by %in% c("Cyprus", "Czech Republic", "Estonia", "Hungary", "Latvia", "Lithuania", "Malta", "Poland", "Slovakia", "Slovenia") & notifications_EY$year < 2004] <- TRUE
-notifications_EY$drop[notifications_EY$notification_by %in% c("Bulgaria", "Romania") & notifications_EY$year < 2007] <- TRUE
-notifications_EY$drop[notifications_EY$notification_by == "Croatia" & notifications_EY$year < 2013] <- TRUE
-notifications_EY <- dplyr::filter(notifications_EY, !drop)
-
-# arrange
-notifications_EY <- dplyr::arrange(notifications_EY, year, notification_by)
-
-# key ID
-notifications_EY$key_ID <- 1:nrow(notifications_EY)
-
-# select variables
-notifications_EY <- dplyr::select(
-  notifications_EY,
-  key_ID, year, notification_by, count_notifications
-)
-
-# save
-save(notifications_EY, file = "data/notifications_EY.RData")
 
 ###########################################################################
 # end R script
