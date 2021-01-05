@@ -170,7 +170,7 @@ notifications$end_year <- lubridate::year(notifications$end_date)
 # notification ID
 ##################################################
 
-# member state code
+# entity codes
 codes <- read.csv("data-raw/entity-codes.csv", stringsAsFactors = FALSE)
 notifications <- dplyr::left_join(notifications, codes, by = c("member_state" = "entity"))
 
@@ -185,7 +185,12 @@ notifications$notification_ID <- stringr::str_c("TRIS", notifications$year, noti
 ##################################################
 
 # rename variable
-notifications <- dplyr::rename(notifications, notification_by = member_state)
+notifications <- dplyr::rename(
+  notifications, 
+  notification_by = member_state,
+  notification_by_code = entity_code,
+  notification_by_ID = entity_ID
+)
 
 # arrange
 notifications <- dplyr::arrange(notifications, start_date, notification_ID)
@@ -196,7 +201,8 @@ notifications$key_ID <- 1:nrow(notifications)
 # select variables
 notifications_extended <- dplyr::select(
   notifications,
-  key_ID, notification_ID, notification_by,
+  key_ID, notification_ID, 
+  notification_by_ID, notification_by, notification_by_code,
   start_date, start_year, end_date, end_year, postponement,
   comments, count_comments, commission_comment, opinions, count_opinions, commission_opinion,
   title, description, grounds, products
@@ -205,7 +211,8 @@ notifications_extended <- dplyr::select(
 # select variables
 notifications <- dplyr::select(
   notifications,
-  key_ID, notification_ID, notification_by,
+  key_ID, notification_ID, 
+  notification_by_ID, notification_by, notification_by_code,
   start_date, start_year, end_date, end_year, postponement,
   comments, count_comments, commission_comment, opinions, count_opinions, commission_opinion,
 )

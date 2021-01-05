@@ -35,7 +35,9 @@ template_DDY$drop[template_DDY$responder == "Liechtenstein" & template_DDY$year 
 template_DDY$drop[template_DDY$responder %in% c("Cyprus", "Czech Republic", "Estonia", "Hungary", "Latvia", "Lithuania", "Malta", "Poland", "Slovakia", "Slovenia") & template_DDY$year < 2004] <- TRUE
 template_DDY$drop[template_DDY$responder %in% c("Bulgaria", "Romania") & template_DDY$year < 2007] <- TRUE
 template_DDY$drop[template_DDY$responder == "Croatia" & template_DDY$year < 2013] <- TRUE
+template_DDY$drop[template_DDY$notifier == template_DDY$responder] <- TRUE
 template_DDY <- dplyr::filter(template_DDY, !drop)
+template_DDY <- dplyr::select(template_DDY, -drop)
 
 ##################################################
 # comments
@@ -54,17 +56,36 @@ comments_DDY <- dplyr::rename(comments_DDY, year = start_year)
 # merge
 comments_DDY <- dplyr::left_join(template_DDY, comments_DDY, by = c("notifier" = "notification_by", "responder" = "comment_by", "year"))
 
-# rename variables
-comments_DDY <- dplyr::rename(comments_DDY, notification_by = notifier, comment_by = responder)
-
 # convert to a tibble
 comments_DDY <- dplyr::as_tibble(comments_DDY)
 
 # code zeros
 comments_DDY$count_comments[is.na(comments_DDY$count_comments)] <- 0
 
+# merge in entity data
+comments_DDY <- dplyr::left_join(comments_DDY, codes, by = c("notifier" = "entity"))
+
+# rename variables
+comments_DDY <- dplyr::rename(
+  comments_DDY,
+  notification_by = notifier,
+  notification_by_ID = entity_ID,
+  notification_by_code = entity_code
+)
+
+# merge in entity data
+comments_DDY <- dplyr::left_join(comments_DDY, codes, by = c("responder" = "entity"))
+
+# rename variables
+comments_DDY <- dplyr::rename(
+  comments_DDY,
+  comment_by = responder,
+  comment_by_ID = entity_ID,
+  comment_by_code = entity_code
+)
+
 # arrange
-comments_DDY <- dplyr::arrange(comments_DDY, year, comment_by, notification_by)
+comments_DDY <- dplyr::arrange(comments_DDY, year, comment_by_ID, notification_by_ID)
 
 # key ID
 comments_DDY$key_ID <- 1:nrow(comments_DDY)
@@ -72,7 +93,10 @@ comments_DDY$key_ID <- 1:nrow(comments_DDY)
 # select variables
 comments_DDY <- dplyr::select(
   comments_DDY,
-  key_ID, year, comment_by, notification_by, count_comments
+  key_ID, year, 
+  comment_by_ID, comment_by, comment_by_code, 
+  notification_by_ID, notification_by, notification_by_code, 
+  count_comments
 )
 
 # save
@@ -95,17 +119,36 @@ opinions_DDY <- dplyr::rename(opinions_DDY, year = start_year)
 # merge
 opinions_DDY <- dplyr::left_join(template_DDY, opinions_DDY, by = c("notifier" = "notification_by", "responder" = "opinion_by", "year"))
 
-# rename variables
-opinions_DDY <- dplyr::rename(opinions_DDY, notification_by = notifier, opinion_by = responder)
-
 # convert to a tibble
 opinions_DDY <- dplyr::as_tibble(opinions_DDY)
 
 # code zeros
 opinions_DDY$count_opinions[is.na(opinions_DDY$count_opinions)] <- 0
 
+# merge in entity data
+opinions_DDY <- dplyr::left_join(opinions_DDY, codes, by = c("notifier" = "entity"))
+
+# rename variables
+opinions_DDY <- dplyr::rename(
+  opinions_DDY,
+  notification_by = notifier,
+  notification_by_ID = entity_ID,
+  notification_by_code = entity_code
+)
+
+# merge in entity data
+opinions_DDY <- dplyr::left_join(opinions_DDY, codes, by = c("responder" = "entity"))
+
+# rename variables
+opinions_DDY <- dplyr::rename(
+  opinions_DDY,
+  opinion_by = responder,
+  opinion_by_ID = entity_ID,
+  opinion_by_code = entity_code
+)
+
 # arrange
-opinions_DDY <- dplyr::arrange(opinions_DDY, year, opinion_by, notification_by)
+opinions_DDY <- dplyr::arrange(opinions_DDY, year, opinion_by_ID, notification_by_ID)
 
 # key ID
 opinions_DDY$key_ID <- 1:nrow(opinions_DDY)
@@ -113,83 +156,14 @@ opinions_DDY$key_ID <- 1:nrow(opinions_DDY)
 # select variables
 opinions_DDY <- dplyr::select(
   opinions_DDY,
-  key_ID, year, opinion_by, notification_by, count_opinions
+  key_ID, year, 
+  opinion_by_ID, opinion_by, opinion_by_code, 
+  notification_by_ID, notification_by, notification_by_code, 
+  count_opinions
 )
 
 # save
 save(opinions_DDY, file = "data/opinions_DDY.RData")
-
-##################################################
-# responses
-##################################################
-
-# duplicate tibbles
-a <- comments_DDY
-b <- opinions_DDY
-
-# rename variables
-a <- dplyr::rename(a, response_by = comment_by)
-b <- dplyr::rename(b, response_by = opinion_by)
-
-# select variables
-a <- dplyr::select(a, -key_ID)
-b <- dplyr::select(b, -key_ID)
-
-# merge
-responses_DDY <- dplyr::left_join(a, b, by = c("year", "response_by", "notification_by"))
-
-# arrange
-responses_DDY <- dplyr::arrange(responses_DDY, year, response_by, notification_by)
-
-# key ID
-responses_DDY$key_ID <- 1:nrow(responses_DDY)
-
-# select variables
-responses_DDY <- dplyr::select(
-  responses_DDY,
-  key_ID, year, response_by, notification_by, count_comments, count_opinions
-)
-
-# save
-save(responses_DDY, file = "data/responses_DDY.RData")
-
-##################################################
-# responses (tidy)
-##################################################
-
-# duplicate tibbles
-a <- comments_DDY
-b <- opinions_DDY
-
-# rename variables
-a <- dplyr::rename(a, response_by = comment_by, count = count_comments)
-b <- dplyr::rename(b, response_by = opinion_by, count = count_opinions)
-
-# select variables
-a <- dplyr::select(a, -key_ID)
-b <- dplyr::select(b, -key_ID)
-
-# add type variables
-a$response_type <- "comment"
-b$response_type <- "opinion"
-
-# stack tibbles
-responses_DDY_tidy <- dplyr::bind_rows(a, b)
-
-# arrange
-responses_DDY_tidy <- dplyr::arrange(responses_DDY_tidy, year, response_by, notification_by, response_type)
-
-# key ID
-responses_DDY_tidy$key_ID <- 1:nrow(responses_DDY_tidy)
-
-# select variables
-responses_DDY_tidy <- dplyr::select(
-  responses_DDY_tidy,
-  key_ID, year, response_by, notification_by, response_type, count
-)
-
-# save
-save(responses_DDY_tidy, file = "data/responses_DDY_tidy.RData")
 
 ###########################################################################
 # end R script
