@@ -137,6 +137,30 @@ write.csv(opinions_CSTS, "build/EUTR-opinions-CSTS.csv", row.names = FALSE)
 write.csv(opinions_DDY, "build/EUTR-opinions-DDY.csv", row.names = FALSE)
 write.csv(opinions_network, "build/EUTR-opinions-network.csv", row.names = FALSE)
 
+##################################################
+# write data
+##################################################
+
+# notificatons
+write.csv(notifications, "build-database/EUTR-notifications.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(notifications_extended, "build-database/EUTR-notifications-extended.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(notifications_TS, "build-database/EUTR-notifications-TS.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(notifications_CSTS, "build-database/EUTR-notifications-CSTS.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+
+# comments
+write.csv(comments, "build-database/EUTR-comments.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(comments_TS, "build-database/EUTR-comments-TS.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(comments_CSTS, "build-database/EUTR-comments-CSTS.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(comments_DDY, "build-database/EUTR-comments-DDY.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(comments_network, "build-database/EUTR-comments-network.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+
+# opinions
+write.csv(opinions, "build-database/EUTR-opinions.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(opinions_TS, "build-database/EUTR-opinions-TS.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(opinions_CSTS, "build-database/EUTR-opinions-CSTS.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(opinions_DDY, "build-database/EUTR-opinions-DDY.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+write.csv(opinions_network, "build-database/EUTR-opinions-network.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+
 ###########################################################################
 # end R script
 ###########################################################################
