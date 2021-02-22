@@ -90,6 +90,28 @@ rm(list = ls())
 # output: "data/opinions_network.Rdata"
 
 ##################################################
+# entity codes
+##################################################
+
+# read in codes
+entity_codes <- read.csv("data-raw/entity-codes.csv", stringsAsFactors = FALSE)
+
+# add key ID
+entity_codes$key_ID <- 1:nrow(entity_codes)
+
+# select variables
+entity_codes <- dplyr::select(entity_codes, key_ID, entity_ID, entity, entity_code)
+
+# save as RData
+save(entity_codes, file = "data/entity_codes.RData")
+
+# save as CSV
+write.csv(entity_codes, "build/EUTR-entity-codes.csv", row.names = FALSE)
+
+# save as CSV for database
+write.csv(entity_codes, "build-database/EUTR-entity-codes.csv", row.names = FALSE, quote = TRUE, na = "\\N")
+
+##################################################
 # load data
 ##################################################
 
