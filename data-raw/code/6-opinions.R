@@ -16,8 +16,8 @@ load("data/notifications.RData")
 # select variables
 opinions <- dplyr::select(
   notifications,
-  notification_id, 
-  notification_by_id, notification_by, notification_by_code, 
+  notification_id,
+  notification_by_id, notification_by, notification_by_code,
   start_date, end_date, opinions
 )
 
@@ -40,7 +40,7 @@ opinions <- dplyr::left_join(opinions, codes, by = c("opinion_by" = "entity"))
 # rename variables
 opinions <- dplyr::rename(
   opinions,
-  opinion_by_id = entity_id, 
+  opinion_by_id = entity_id,
   opinion_by_code = entity_code
 )
 
@@ -61,7 +61,7 @@ opinions$key_id <- 1:nrow(opinions)
 # select variables
 opinions <- dplyr::select(
   opinions,
-  key_id, 
+  key_id,
   notification_id, notification_by_id, notification_by, notification_by_code,
   start_date, start_year, end_date, end_year,
   opinion_id, opinion_by_id, opinion_by, opinion_by_code

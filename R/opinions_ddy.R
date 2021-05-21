@@ -5,14 +5,14 @@
 ################################################################################
 
 #' DDY data on detailed opinions
-#' 
+#'
 #' This dataset includes aggregated data on the number of detailed opinions
 #' submitted by each third-party member state or institution against each
 #' notifying member state per year (directed dyad-year data). There is one
 #' observation per third-party member state or institution per notifying
 #' member state per year (2002-2020), excluding directed dyad-years where a
 #' state was not a member of the Single Market.
-#' 
+#'
 #' @format A data frame with 9 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -42,4 +42,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

@@ -28,7 +28,8 @@ notifications_ts <- notifications %>%
   dplyr::group_by(start_year) %>%
   dplyr::summarize(
     count_notifications = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # rename variable
 notifications_ts <- dplyr::rename(notifications_ts, year = start_year)
@@ -63,7 +64,8 @@ comments_ts <- comments %>%
   dplyr::group_by(start_year) %>%
   dplyr::summarize(
     count_comments = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # rename variable
 comments_ts <- dplyr::rename(comments_ts, year = start_year)
@@ -98,7 +100,8 @@ opinions_ts <- opinions %>%
   dplyr::group_by(start_year) %>%
   dplyr::summarize(
     count_opinions = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # rename variable
 opinions_ts <- dplyr::rename(opinions_ts, year = start_year)

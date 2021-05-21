@@ -5,13 +5,13 @@
 ################################################################################
 
 #' Entity codes
-#' 
+#'
 #' This dataset includes data on the member states (including members of the
 #' Single Market that are not members of the EU) and institutions that can
 #' submit a comment or detailed opinion. There is one observation per entity.
 #' The institutions that participate in the 2015/1535 procedure are the
 #' European Commission and the European Free Trade Association (EFTA).
-#' 
+#'
 #' @format A data frame with 4 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -28,4 +28,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

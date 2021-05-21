@@ -44,7 +44,7 @@ comments_net$key_id <- 1:nrow(comments_net)
 # select variables
 comments_net <- dplyr::select(
   comments_net,
-  key_id, time, 
+  key_id, time,
   from_node_id, from_node, to_node_id, to_node,
   edge_weight
 )
@@ -86,7 +86,7 @@ opinions_net$key_id <- 1:nrow(opinions_net)
 # select variables
 opinions_net <- dplyr::select(
   opinions_net,
-  key_id, time, 
+  key_id, time,
   from_node_id, from_node, to_node_id, to_node,
   edge_weight
 )

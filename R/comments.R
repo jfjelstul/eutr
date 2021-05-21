@@ -5,14 +5,14 @@
 ################################################################################
 
 #' Data on comments
-#' 
+#'
 #' This dataset includes data on comments submitted by third-party member
 #' states and institutions in reponse to proposed technical regulations
 #' notified by member states (1988-2020). There is one observation per
 #' comment. The dataset indicates the the member state or institution that
 #' submitted the comment and the member state that notified the proposed
 #' technical regulation to the Commission.
-#' 
+#'
 #' @format A data frame with 13 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -55,4 +55,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

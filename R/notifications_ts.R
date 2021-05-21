@@ -5,11 +5,11 @@
 ################################################################################
 
 #' TS data on notifictions
-#' 
+#'
 #' This dataset includes aggregated data on the number of notified technical
 #' regulations per year (time-series data). There is one observation per year
 #' (1988-2020).
-#' 
+#'
 #' @format A data frame with 3 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -25,4 +25,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

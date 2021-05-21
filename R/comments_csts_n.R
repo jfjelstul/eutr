@@ -5,13 +5,13 @@
 ################################################################################
 
 #' CSTS data on comments (by notifier)
-#' 
+#'
 #' This dataset includes aggregated data on the number of comments submitted
 #' against each notifying member state per year (cross-sectional time-series
 #' data). There is one observation per notifying member state per year
 #' (1988-2020), excluding state-years where the state was not a member of the
 #' Single Market.
-#' 
+#'
 #' @format A data frame with 6 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -34,4 +34,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

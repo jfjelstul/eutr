@@ -5,11 +5,11 @@
 ################################################################################
 
 #' TS data on comments
-#' 
+#'
 #' This dataset includes aggregated data on the total number of comments
 #' submitted per year (time-series data). There is one observation per year
 #' (2002-2020).
-#' 
+#'
 #' @format A data frame with 3 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -24,4 +24,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

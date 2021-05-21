@@ -139,14 +139,16 @@ load("data/notifications_csts.RData")
 # comments
 load("data/comments.RData")
 load("data/comments_ts.RData")
-load("data/comments_csts.RData")
+load("data/comments_csts_n.RData")
+load("data/comments_csts_s.RData")
 load("data/comments_ddy.RData")
 load("data/comments_net.RData")
 
 # opinions
 load("data/opinions.RData")
 load("data/opinions_ts.RData")
-load("data/opinions_csts.RData")
+load("data/opinions_csts_n.RData")
+load("data/opinions_csts_s.RData")
 load("data/opinions_ddy.RData")
 load("data/opinions_net.RData")
 
@@ -168,14 +170,16 @@ write.csv(notifications_csts, "build/eutr_notifications_csts.csv", row.names = F
 # comments
 write.csv(comments, "build/eutr_comments.csv", row.names = FALSE)
 write.csv(comments_ts, "build/eutr_comments_ts.csv", row.names = FALSE)
-write.csv(comments_csts, "build/eutr_comments_csts.csv", row.names = FALSE)
+write.csv(comments_csts_n, "build/eutr_comments_csts_n.csv", row.names = FALSE)
+write.csv(comments_csts_s, "build/eutr_comments_csts_s.csv", row.names = FALSE)
 write.csv(comments_ddy, "build/eutr_comments_ddy.csv", row.names = FALSE)
 write.csv(comments_net, "build/eutr_comments_net.csv", row.names = FALSE)
 
 # opinions
 write.csv(opinions, "build/eutr_opinions.csv", row.names = FALSE)
 write.csv(opinions_ts, "build/eutr_opinions_ts.csv", row.names = FALSE)
-write.csv(opinions_csts, "build/eutr_opinions_csts.csv", row.names = FALSE)
+write.csv(opinions_csts_n, "build/eutr_opinions_csts_n.csv", row.names = FALSE)
+write.csv(opinions_csts_s, "build/eutr_opinions_csts_s.csv", row.names = FALSE)
 write.csv(opinions_ddy, "build/eutr_opinions_ddy.csv", row.names = FALSE)
 write.csv(opinions_net, "build/eutr_opinions_net.csv", row.names = FALSE)
 
@@ -197,14 +201,16 @@ write.csv(notifications_csts, "server/eutr_notifications_csts.csv", row.names = 
 # comments
 write.csv(comments, "server/eutr_comments.csv", row.names = FALSE, na = "\\N")
 write.csv(comments_ts, "server/eutr_comments_ts.csv", row.names = FALSE, na = "\\N")
-write.csv(comments_csts, "server/eutr_comments_csts.csv", row.names = FALSE, na = "\\N")
+write.csv(comments_csts_n, "server/eutr_comments_csts_n.csv", row.names = FALSE, na = "\\N")
+write.csv(comments_csts_s, "server/eutr_comments_csts_s.csv", row.names = FALSE, na = "\\N")
 write.csv(comments_ddy, "server/eutr_comments_ddy.csv", row.names = FALSE, na = "\\N")
 write.csv(comments_net, "server/eutr_comments_net.csv", row.names = FALSE, na = "\\N")
 
 # opinions
 write.csv(opinions, "server/eutr_opinions.csv", row.names = FALSE, na = "\\N")
 write.csv(opinions_ts, "server/eutr_opinions_ts.csv", row.names = FALSE, na = "\\N")
-write.csv(opinions_csts, "server/eutr_opinions_csts.csv", row.names = FALSE, na = "\\N")
+write.csv(opinions_csts_n, "server/eutr_opinions_csts_n.csv", row.names = FALSE, na = "\\N")
+write.csv(opinions_csts_s, "server/eutr_opinions_csts_s.csv", row.names = FALSE, na = "\\N")
 write.csv(opinions_ddy, "server/eutr_opinions_ddy.csv", row.names = FALSE, na = "\\N")
 write.csv(opinions_net, "server/eutr_opinions_net.csv", row.names = FALSE, na = "\\N")
 

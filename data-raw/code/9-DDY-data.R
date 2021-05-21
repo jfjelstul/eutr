@@ -48,7 +48,8 @@ comments_ddy <- comments %>%
   dplyr::group_by(notification_by, comment_by, start_year) %>%
   dplyr::summarize(
     count_comments = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # rename variable
 comments_ddy <- dplyr::rename(comments_ddy, year = start_year)
@@ -93,9 +94,9 @@ comments_ddy$key_id <- 1:nrow(comments_ddy)
 # select variables
 comments_ddy <- dplyr::select(
   comments_ddy,
-  key_id, year, 
-  comment_by_id, comment_by, comment_by_code, 
-  notification_by_id, notification_by, notification_by_code, 
+  key_id, year,
+  comment_by_id, comment_by, comment_by_code,
+  notification_by_id, notification_by, notification_by_code,
   count_comments
 )
 
@@ -111,7 +112,8 @@ opinions_ddy <- opinions %>%
   dplyr::group_by(notification_by, opinion_by, start_year) %>%
   dplyr::summarize(
     count_opinions = dplyr::n()
-  ) %>% dplyr::ungroup()
+  ) %>%
+  dplyr::ungroup()
 
 # rename variable
 opinions_ddy <- dplyr::rename(opinions_ddy, year = start_year)
@@ -156,9 +158,9 @@ opinions_ddy$key_id <- 1:nrow(opinions_ddy)
 # select variables
 opinions_ddy <- dplyr::select(
   opinions_ddy,
-  key_id, year, 
-  opinion_by_id, opinion_by, opinion_by_code, 
-  notification_by_id, notification_by, notification_by_code, 
+  key_id, year,
+  opinion_by_id, opinion_by, opinion_by_code,
+  notification_by_id, notification_by, notification_by_code,
   count_opinions
 )
 

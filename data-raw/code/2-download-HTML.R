@@ -49,13 +49,13 @@ notifications_raw <- dplyr::filter(notifications_raw, downloaded == 0)
 ##################################################
 
 # download any new notifications
-if(nrow(notifications_raw > 0)) {
+if (nrow(notifications_raw > 0)) {
 
   # set up progress bar
   pb <- txtProgressBar(min = 0, max = nrow(notifications_raw), style = 3)
 
   # download judgment results
-  for(i in 1:nrow(notifications_raw)) {
+  for (i in 1:nrow(notifications_raw)) {
 
     # download the HTML page
     download.file(notifications_raw$query[i], stringr::str_c("data-raw/HTML-pages/", notifications_raw$file[i]), quiet = TRUE)

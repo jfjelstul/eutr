@@ -14,7 +14,7 @@ files <- stringr::str_c("data-raw/XLS-files/", list.files("data-raw/XLS-files/")
 
 # read in files
 raw <- list()
-for(i in 1:length(files)) {
+for (i in 1:length(files)) {
   raw[[i]] <- readxl::read_excel(files[i])
   names(raw[[i]]) <- c("member_state", "notification_number", "title", "reception_date", "end_standstill")
 }
@@ -71,9 +71,9 @@ notifications_raw$key_id <- 1:nrow(notifications_raw)
 
 # select variables
 notifications_raw <- dplyr::select(
-  notifications_raw, 
-  key_id, member_state, notification_number, 
-  start_date, start_year, start_month, start_day, 
+  notifications_raw,
+  key_id, member_state, notification_number,
+  start_date, start_year, start_month, start_day,
   end_date, end_year, end_month, end_day
 )
 

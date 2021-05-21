@@ -75,7 +75,7 @@ notifications$comments <- stringr::str_squish(notifications$comments)
 notifications$comments <- stringr::str_replace(notifications$comments, "^,+", "")
 notifications$comments <- stringr::str_squish(notifications$comments)
 notifications$comments[notifications$comments == ""] <- NA
-for(i in 1:nrow(notifications)) {
+for (i in 1:nrow(notifications)) {
   notifications$comments[i] <- clean_list(notifications$comments[i])
 }
 
@@ -108,7 +108,7 @@ notifications$opinions <- stringr::str_squish(notifications$opinions)
 notifications$opinions <- stringr::str_replace(notifications$opinions, "^,+", "")
 notifications$opinions <- stringr::str_squish(notifications$opinions)
 notifications$opinions[notifications$opinions == ""] <- NA
-for(i in 1:nrow(notifications)) {
+for (i in 1:nrow(notifications)) {
   notifications$opinions[i] <- clean_list(notifications$opinions[i])
 }
 
@@ -159,7 +159,7 @@ notifications$notification_id <- stringr::str_c("TRIS", notifications$year, noti
 
 # rename variable
 notifications <- dplyr::rename(
-  notifications, 
+  notifications,
   notification_by = member_state,
   notification_by_code = entity_code,
   notification_by_id = entity_id
@@ -178,7 +178,7 @@ notifications$key_id <- 1:nrow(notifications)
 # select variables
 notifications <- dplyr::select(
   notifications,
-  key_id, notification_id, 
+  key_id, notification_id,
   notification_by_id, notification_by, notification_by_code,
   start_date, start_year, end_date, end_year, postponement,
   comments, count_comments, commission_comment, opinions, count_opinions, commission_opinion,

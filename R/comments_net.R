@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Network data on comments
-#' 
+#'
 #' This dataset includes network data on comments. Network data is similar to
 #' directed dyad-year data except that it only includes directed dyad-years
 #' with at least one comment. For every year, there is one node per member
@@ -20,7 +20,7 @@
 #' member state or institution per notifying member state per year
 #' (2002-2020), excluding directed dyad-years where a state was not a member
 #' of the Single Market, but only if count of comments is positive.
-#' 
+#'
 #' @format A data frame with 7 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -44,4 +44,3 @@
 ################################################################################
 # end R script
 ################################################################################
-

@@ -5,7 +5,7 @@
 ################################################################################
 
 #' Data on notifications
-#' 
+#'
 #' This dataset include data on technical regulations proposed at the national
 #' level by member states of the EU Single Market (including members of the
 #' Single Market that are not members of the EU) that are notified to the
@@ -15,7 +15,7 @@
 #' proposed technical regulation, which third-party member states or
 #' institutions (if any) submitted comments and/or detailed opinions, and
 #' whether the Commission submitted a comment and/or detailed opinion.
-#' 
+#'
 #' @format A data frame with 16 variables:
 #' \describe{
 #' \item{key_id}{Numeric. An ID number that uniquely identifies each
@@ -67,4 +67,3 @@
 ################################################################################
 # end R script
 ################################################################################
-
