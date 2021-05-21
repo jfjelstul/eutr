@@ -1,2 +1,9 @@
 ^eutris\.Rproj$
 ^\.Rproj\.user$
+^_pkgdown\.yml$
+^docs$
+^pkgdown$
+^_archive$
+^build$
+^server$
+^data-raw$
