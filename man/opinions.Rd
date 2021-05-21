@@ -3,58 +3,55 @@
 \docType{data}
 \name{opinions}
 \alias{opinions}
-\title{Opinions on TRIS Notifications}
+\title{Data on detailed opinions}
 \format{
-A tibble with 9 variables and 4,657 observations:
+A data frame with 13 variables:
 \describe{
-
-\item{\code{key_ID}}{Numeric. An ID number that uniquely identifies each
-observation.}
-
-\item{\code{notification_ID}}{String. An ID number that uniquely identifies
-each notification in the format \code{TRIS:####:####:XX:N}, where the first
-set of digits is the year the proposed technical regulation was notified, the
-second set of digits is the number of the notification, \code{XX} is a
-2-character code for the member state or third-party country that notified
-the proposed technical regulation, and \code{N} is a 1-character code
-indicating a notification.}
-
-\item{\code{notification_by}}{String. The member state or third-party country
-that notified the proposed technical regulation.}
-
-\item{\code{start_date}}{Date. The date the notification was received by the
-Commission in the format \code{YYYY-MM-DD}.}
-
-\item{\code{start_year}}{Numeric. The year the notification was received by
-the Commission.}
-
-\item{\code{end_date}}{Date. The date the 2015/1535 procedure was concluded
-in the format \code{YYYY-MM-DD}.}
-
-\item{\code{end_year}}{Numeric. The year the 2015/1535 procedure was
-concluded.}
-
-\item{\code{opinion_ID}}{String. An ID number that uniquely identifies each
-opinion in the format \code{TRIS:####:####:XX:C:YY}, where the first set of
-digits is the year the proposed technical regulation was notified, the second
-set of digits is the number of the notification, \code{XX} is a 2-character
-code for the member state or third-party country that notified the proposed
-technical regulation, \code{O} is a 1-character code indicating an opinion
-(as opposed to a comment), and \code{YY} is a 2-character code for the EU
-member state that submitted the opinion. Note that \code{YY} can also be
-\code{EC} for the European Commission.}
-
-\item{\code{comment_by}}{String. The name of the entity that submitted the
-opinion. Either the Commission or the name of an EU member state.}
-
+\item{key_id}{Numeric. An ID number that uniquely identifies each
+observation in the dataset. }
+\item{notification_id}{String. An ID number that uniquely identifies the
+notification in the format \code{TRIS:####:####:XX:N}, where the first set
+of digits is the year of the notification, the second set of digits is the
+notification number, and \code{XX} is the two-digit code assigned by the
+Commission to the member state that notified the proposed technical
+regulation.}
+\item{notification_by_id}{Numeric. An ID number that uniquely identifies
+the member state that notified the proposed technical regulation to the
+Commission.}
+\item{notification_by}{String. The name of the member state that notified
+the proposed technical regulation to the Commission.}
+\item{notification_by_code}{String. A multi-letter code assigned by the
+Commission that uniquely identifies the member state that notified the
+proposed technical regulation to the Commission.}
+\item{start_date}{String. The date that the Commission opened the case.}
+\item{start_year}{Numeric. The year that the Commission opened the case.}
+\item{end_date}{String. The date that the Commission closed the case.}
+\item{end_year}{Numeric. The year that the Commission closed the case.}
+\item{opinion_id}{String. An ID number that uniquely identifies the opinion
+in the format \code{TRIS:####:####:XX:O:YY}, where the first set of digits
+is the year of the notification, the second set of digits is the
+notification number, \code{XX} is the two-letter code assigned by the
+Commission to the member state that notified the proposed technical
+regulation, and \code{YY} is the multi-letter code assigned by the
+Commission to the member state or institution that submitted the opinion.}
+\item{opinion_by_id}{Numeric. An ID number that uniquely identifies the
+member state or institution that submitted the detailed opinion.}
+\item{opinion_by}{String. The name of the member state or institution that
+submitted the detailed opinion.}
+\item{opinion_by_code}{String. A multi-letter code assigned by the
+Commission that uniquely identifies the member state or institution that
+submitted the detailed opinion.}
 }
 }
 \usage{
-comments
+opinions
 }
 \description{
-A dataset of detailed opinions submitted by the European Commission and EU
-member states in response to notifications from member states about proposed
-technical regulations as part of the 2015/1535 procedure.
+This dataset includes data on detailed opinions submitted by third-party
+member states and institutions in reponse to proposed technical regulations
+notified by member states (1988-2020). There is one observation per
+detailed opinion. The dataset indicates the the member state or institution
+that submitted the detailed opinion and the member state that notified the
+proposed technical regulation to the Commission.
 }
 \keyword{datasets}

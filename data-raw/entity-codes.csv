@@ -1,0 +1,36 @@
+entity,entity_code,entity_id
+Belgium,BE,1
+France,FR,2
+Germany,DE,3
+Italy,IT,4
+Luxembourg,LU,5
+Netherlands,NL,6
+Denmark,DK,7
+Ireland,IE,8
+United Kingdom,UK,9
+Greece,EL,10
+Portugal,PT,11
+Spain,ES,12
+Austria,AT,13
+Finland,FI,14
+Sweden,SE,15
+Cyprus,CY,16
+Czech Republic,CZ,17
+Estonia,EE,18
+Hungary,HU,19
+Latvia,LV,20
+Lithuania,LT,21
+Malta,MT,22
+Poland,PL,23
+Slovakia,SK,24
+Slovenia,SI,25
+Bulgaria,BG,26
+Romania,RO,27
+Croatia,HR,28
+Iceland,IS,29
+Liechtenstein,LI,30
+Norway,NO,31
+Switzerland,CH,32
+Turkey,TR,33
+Commission,EC,34
+European Free Trade Association,EFTA,35

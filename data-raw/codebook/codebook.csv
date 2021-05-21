@@ -1,0 +1,118 @@
+key_ID,dataset_ID,dataset,variable_ID,variable,type,description
+1,1,notifications,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+2,1,notifications,2,notification_id,string,"An ID number that uniquely identifies the notification in the format {TRIS:####:####:XX:N}, where the first set of digits is the year of the notification, the second set of digits is the notification number, and {XX} is the two-digit code assigned by the Commission to the member state that notified the proposed technical regulation."
+3,1,notifications,3,notification_by_id,numeric,An ID number that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+4,1,notifications,4,notification_by,string,The name of the member state that notified the proposed technical regulation to the Commission.
+5,1,notifications,5,notification_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+6,1,notifications,6,start_date,string,The date that the Commission opened the case.
+7,1,notifications,7,start_year,numeric,The year that the Commission opened the case.
+8,1,notifications,8,end_date,string,The date that the Commission closed the case.
+9,1,notifications,9,end_year,numeric,The year that the Commission closed the case.
+10,1,notifications,10,postponement,dummy,A dummy variable indicating whether the notified technical regulation was postponed. Coded {1} if the technical regulation was postponed and {0} otherwise.
+11,1,notifications,11,comments,string,"A list of the member states and institutions that submitted comments with respect to the proposed technical regulation, separated by commas. Coded {NA} if no member states or institutions submitted opinions."
+12,1,notifications,12,count_comments,numeric,A count of the number of comments submitted by the third-party member state or institution.
+13,1,notifications,13,commission_comment,dummy,A dummy variable indicating whether the Commission submitted a comment with respect to the notified proposed technical regulation. Coded {1} if the Commission submitted a comment and {0} otherwise.
+14,1,notifications,14,opinions,string,"A list of the member states and institutions that submitted opinions with respect to the proposed technical regulation, separated by commas. Coded {NA} if no member states or institutions submitted opinions."
+15,1,notifications,15,count_opinions,numeric,A count of the number of opinions submitted by the third-party member state or institution.
+16,1,notifications,16,commission_opinion,dummy,A dummy variable indicating whether the Commission submitted an opinion with respect to the notified proposed technical regulation. Coded {1} if the Commission submitted an opinion and {0} otherwise.
+17,2,notifications_ts,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+18,2,notifications_ts,2,year,numeric,The year the member state notified the proposed technical regulation to the Commission.
+19,2,notifications_ts,3,notification_by_id,numeric,An ID number that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+20,3,notifications_csts,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+21,3,notifications_csts,2,year,numeric,The year the member state notified the proposed technical regulation to the Commission.
+22,3,notifications_csts,3,notification_by_id,numeric,An ID number that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+23,3,notifications_csts,4,notification_by,string,The name of the member state that notified the proposed technical regulation to the Commission.
+24,3,notifications_csts,5,notification_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+25,3,notifications_csts,6,count_notifications,numeric,A count of the number of notifications made by the member state to the Commission.
+26,4,comments,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+27,4,comments,2,notification_id,string,"An ID number that uniquely identifies the notification in the format {TRIS:####:####:XX:N}, where the first set of digits is the year of the notification, the second set of digits is the notification number, and {XX} is the two-digit code assigned by the Commission to the member state that notified the proposed technical regulation."
+28,4,comments,3,notification_by_id,numeric,An ID number that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+29,4,comments,4,notification_by,string,The name of the member state that notified the proposed technical regulation to the Commission.
+30,4,comments,5,notification_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+31,4,comments,6,start_date,string,The date that the Commission opened the case.
+32,4,comments,7,start_year,numeric,The year that the Commission opened the case.
+33,4,comments,8,end_date,string,The date that the Commission closed the case.
+34,4,comments,9,end_year,numeric,The year that the Commission closed the case.
+35,4,comments,10,comment_id,string,"An ID number that uniquely identifies the comment in the format {TRIS:####:####:XX:C:YY}, where the first set of digits is the year of the notification, the second set of digits is the notification number, {XX} is the two-letter code assigned by the Commission to the member state that notified the proposed technical regulation, and {YY} is the multi-letter code assigned by the Commission to the member state or institution that submitted the comment."
+36,4,comments,11,comment_by_id,numeric,An ID number that uniquely identifies the member state or institution that submitted the comment to the Commission.
+37,4,comments,12,comment_by,string,The name of the third-party member state or institution that submitted the comment.
+38,4,comments,13,comment_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state or institution that submitted the comment.
+39,5,comments_ts,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+40,5,comments_ts,2,year,numeric,The year the member state or institution submitted the comment.
+41,5,comments_ts,3,count_comments,numeric,A count of the number of comments submitted by the third-party member state or institution.
+42,6,comments_csts_n,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+43,6,comments_csts_n,2,year,numeric,The year the member state or institution submitted the comment.
+44,6,comments_csts_n,3,notification_by_id,numeric,An ID number that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+45,6,comments_csts_n,4,notification_by,string,The name of the member state that notified the proposed technical regulation to the Commission.
+46,6,comments_csts_n,5,notification_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+47,6,comments_csts_n,6,count_comments,numeric,A count of the number of comments submitted by the third-party member state or institution.
+48,7,comments_csts_s,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+49,7,comments_csts_s,2,year,numeric,The year the member state or institution submitted the comment.
+50,7,comments_csts_s,3,comment_by_id,numeric,An ID number that uniquely identifies the member state or institution that submitted the comment to the Commission.
+51,7,comments_csts_s,4,comment_by,string,The name of the third-party member state or institution that submitted the comment.
+52,7,comments_csts_s,5,comment_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state or institution that submitted the comment.
+53,7,comments_csts_s,6,count_comments,numeric,A count of the number of comments submitted by the third-party member state or institution.
+54,8,comments_ddy,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+55,8,comments_ddy,2,year,numeric,The year the member state or institution submitted the comment.
+56,8,comments_ddy,3,comment_by_id,numeric,An ID number that uniquely identifies the member state or institution that submitted the comment to the Commission.
+57,8,comments_ddy,4,comment_by,string,The name of the third-party member state or institution that submitted the comment.
+58,8,comments_ddy,5,comment_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state or institution that submitted the comment.
+59,8,comments_ddy,6,notification_by_id,numeric,An ID number that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+60,8,comments_ddy,7,notification_by,string,The name of the member state that notified the proposed technical regulation to the Commission.
+61,8,comments_ddy,8,notification_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+62,8,comments_ddy,9,count_comments,numeric,A count of the number of comments submitted by the third-party member state or institution.
+63,9,comments_net,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+64,9,comments_net,2,time,numeric,"The time period, where {1988} is coded {1}. "
+65,9,comments_net,3,from_node_id,numeric,An ID number that uniquely identifies each node (a member state or institution) that creates a link.
+66,9,comments_net,4,from_node,string,The name of the member state or institution that submitted the opinion to the Commission.
+67,9,comments_net,5,to_node_id,numeric,An ID number that uniquely identifies each node (a member state) that receives a link.
+68,9,comments_net,6,to_node,string,The name of the member state that notified the technical regulation to the Commission.
+69,9,comments_net,7,edge_weight,numeric,"The weight of the edge, which is the number of comments filed against the member state the notified the proposed technical regulation."
+70,10,opinions,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+71,10,opinions,2,notification_id,string,"An ID number that uniquely identifies the notification in the format {TRIS:####:####:XX:N}, where the first set of digits is the year of the notification, the second set of digits is the notification number, and {XX} is the two-digit code assigned by the Commission to the member state that notified the proposed technical regulation."
+72,10,opinions,3,notification_by_id,numeric,An ID number that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+73,10,opinions,4,notification_by,string,The name of the member state that notified the proposed technical regulation to the Commission.
+74,10,opinions,5,notification_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+75,10,opinions,6,start_date,string,The date that the Commission opened the case.
+76,10,opinions,7,start_year,numeric,The year that the Commission opened the case.
+77,10,opinions,8,end_date,string,The date that the Commission closed the case.
+78,10,opinions,9,end_year,numeric,The year that the Commission closed the case.
+79,10,opinions,10,opinion_id,string,"An ID number that uniquely identifies the opinion in the format {TRIS:####:####:XX:O:YY}, where the first set of digits is the year of the notification, the second set of digits is the notification number, {XX} is the two-letter code assigned by the Commission to the member state that notified the proposed technical regulation, and {YY} is the multi-letter code assigned by the Commission to the member state or institution that submitted the opinion."
+80,10,opinions,11,opinion_by_id,numeric,An ID number that uniquely identifies the member state or institution that submitted the detailed opinion.
+81,10,opinions,12,opinion_by,string,The name of the member state or institution that submitted the detailed opinion.
+82,10,opinions,13,opinion_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state or institution that submitted the detailed opinion.
+83,11,opinions_ts,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+84,11,opinions_ts,2,year,numeric,The year the member state or institution submitted the detailed opinion.
+85,11,opinions_ts,3,count_opinions,numeric,A count of the number of opinions submitted by the third-party member state or institution.
+86,12,opinions_csts_n,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+87,12,opinions_csts_n,2,year,numeric,The year the member state or institution submitted the detailed opinion.
+88,12,opinions_csts_n,3,notification_by_id,numeric,An ID number that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+89,12,opinions_csts_n,4,notification_by,string,The name of the member state that notified the proposed technical regulation to the Commission.
+90,12,opinions_csts_n,5,notification_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+91,12,opinions_csts_n,6,count_opinions,numeric,A count of the number of opinions submitted by the third-party member state or institution.
+92,13,opinions_csts_s,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+93,13,opinions_csts_s,2,year,numeric,The year the member state or institution submitted the detailed opinion.
+94,13,opinions_csts_s,3,opinion_by_id,numeric,An ID number that uniquely identifies the member state or institution that submitted the detailed opinion.
+95,13,opinions_csts_s,4,opinion_by,string,The name of the member state or institution that submitted the detailed opinion.
+96,13,opinions_csts_s,5,opinion_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state or institution that submitted the detailed opinion.
+97,13,opinions_csts_s,6,count_opinions,numeric,A count of the number of opinions submitted by the third-party member state or institution.
+98,14,opinions_ddy,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+99,14,opinions_ddy,2,year,numeric,The year the member state or institution submitted the detailed opinion.
+100,14,opinions_ddy,3,opinion_by_id,numeric,An ID number that uniquely identifies the member state or institution that submitted the detailed opinion.
+101,14,opinions_ddy,4,opinion_by,string,The name of the member state or institution that submitted the detailed opinion.
+102,14,opinions_ddy,5,opinion_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state or institution that submitted the detailed opinion.
+103,14,opinions_ddy,6,notification_by_id,numeric,An ID number that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+104,14,opinions_ddy,7,notification_by,string,The name of the member state that notified the proposed technical regulation to the Commission.
+105,14,opinions_ddy,8,notification_by_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state that notified the proposed technical regulation to the Commission.
+106,14,opinions_ddy,9,count_opinions,numeric,A count of the number of opinions submitted by the third-party member state or institution.
+107,15,opinions_net,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+108,15,opinions_net,2,time,numeric,"The time period, where {1988} is coded {1}. "
+109,15,opinions_net,3,from_node_id,numeric,An ID number that uniquely identifies each node (a member state or institution) that creates a link.
+110,15,opinions_net,4,from_node,string,The name of the member state or institution that submitted the opinion to the Commission.
+111,15,opinions_net,5,to_node_id,numeric,An ID number that uniquely identifies each node (a member state) that receives a link.
+112,15,opinions_net,6,to_node,string,The name of the member state that notified the technical regulation to the Commission.
+113,15,opinions_net,7,edge_weight,numeric,"The weight of the edge, which is the number of opinions filed against the member state the notified the proposed technical regulation."
+114,16,entity_codes,1,key_id,numeric,An ID number that uniquely identifies each observation in the dataset. 
+115,16,entity_codes,2,entity_id,numeric,An ID number that uniquely identifies the member state or institution.
+116,16,entity_codes,3,entity,string,The name of the member state or institution that submitted the opinion to the Commission.
+117,16,entity_codes,4,entity_code,string,A multi-letter code assigned by the Commission that uniquely identifies the member state or institution.

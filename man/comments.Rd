@@ -3,62 +3,55 @@
 \docType{data}
 \name{comments}
 \alias{comments}
-\title{Comments on TRIS Notifications}
+\title{Data on comments}
 \format{
-A tibble with 9 variables and 10,503 observations:
+A data frame with 13 variables:
 \describe{
-
-\item{\code{key_ID}}{Numeric. An ID number that uniquely identifies each
-observation.}
-
-\item{\code{notification_ID}}{String. An ID number that uniquely identifies
-each notification in the format \code{TRIS:####:####:XX:N}, where the first
-set of digits is the year the proposed technical regulation was notified, the
-second set of digits is the number of the notification, \code{XX} is a
-2-character code for the member state or third-party country that notified
-the proposed technical regulation, and \code{N} is a 1-character code
-indicating a notification.}
-
-\item{\code{notification_by}}{String. The member state or third-party country
-that notified the proposed technical regulation.}
-
-\item{\code{start_date}}{Date. The date the notification was received by the
-Commission in the format \code{YYYY-MM-DD}.}
-
-\item{\code{start_year}}{Numeric. The year the notification was received by
-the Commission.}
-
-\item{\code{end_date}}{Date. The date the 2015/1535 procedure was concluded
-in the format \code{YYYY-MM-DD}.}
-
-\item{\code{end_year}}{Numeric. The year the 2015/1535 procedure was
-concluded.}
-
-\item{\code{comment_ID}}{String. An ID number that uniquely identifies each
-comment in the format \code{TRIS:####:####:XX:C:YY}, where the first set of
-digits is the year the proposed technical regulation was notified, the second
-set of digits is the number of the notification, \code{XX} is a 2-character
-code for the member state or third-party country that notified the proposed
-technical regulation, \code{C} is a 1-character code indicating a comment (as
-opposed to a detailed opinion), and \code{YY} is a 2-character code for the
-EU member state that submitted the comment. Note that \code{YY} can also be
-\code{EC} for the European Commission and \code{EFTA} for the Surveillance
-Authority of the European Free Trade Association (EFTA).}
-
-\item{\code{comment_by}}{String. The name of the entity that submitted the
-comment. Either the Commission, the name of an EU member state, or the
-Surveillance Authority of the European Free Trade Association (EFTA).}
-
+\item{key_id}{Numeric. An ID number that uniquely identifies each
+observation in the dataset. }
+\item{notification_id}{String. An ID number that uniquely identifies the
+notification in the format \code{TRIS:####:####:XX:N}, where the first set
+of digits is the year of the notification, the second set of digits is the
+notification number, and \code{XX} is the two-digit code assigned by the
+Commission to the member state that notified the proposed technical
+regulation.}
+\item{notification_by_id}{Numeric. An ID number that uniquely identifies
+the member state that notified the proposed technical regulation to the
+Commission.}
+\item{notification_by}{String. The name of the member state that notified
+the proposed technical regulation to the Commission.}
+\item{notification_by_code}{String. A multi-letter code assigned by the
+Commission that uniquely identifies the member state that notified the
+proposed technical regulation to the Commission.}
+\item{start_date}{String. The date that the Commission opened the case.}
+\item{start_year}{Numeric. The year that the Commission opened the case.}
+\item{end_date}{String. The date that the Commission closed the case.}
+\item{end_year}{Numeric. The year that the Commission closed the case.}
+\item{comment_id}{String. An ID number that uniquely identifies the comment
+in the format \code{TRIS:####:####:XX:C:YY}, where the first set of digits
+is the year of the notification, the second set of digits is the
+notification number, \code{XX} is the two-letter code assigned by the
+Commission to the member state that notified the proposed technical
+regulation, and \code{YY} is the multi-letter code assigned by the
+Commission to the member state or institution that submitted the comment.}
+\item{comment_by_id}{Numeric. An ID number that uniquely identifies the
+member state or institution that submitted the comment to the Commission.}
+\item{comment_by}{String. The name of the third-party member state or
+institution that submitted the comment.}
+\item{comment_by_code}{String. A multi-letter code assigned by the
+Commission that uniquely identifies the member state or institution that
+submitted the comment.}
 }
 }
 \usage{
 comments
 }
 \description{
-A dataset of comments submitted by the European Commission, EU member states,
-and the Surveillence Authority of the European Free Trade Association (EFTA) in
-response to notifications from member states and third-party countries with
-access to the EU single market about proposed technical regulations as part of
-the 2015/1535 procedure.
+This dataset includes data on comments submitted by third-party member
+states and institutions in reponse to proposed technical regulations
+notified by member states (1988-2020). There is one observation per
+comment. The dataset indicates the the member state or institution that
+submitted the comment and the member state that notified the proposed
+technical regulation to the Commission.
 }
 \keyword{datasets}
