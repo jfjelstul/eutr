@@ -1,7 +1,7 @@
 .Rproj.user
-eutris.Rproj
 .DS_store
 .Rhistory
-data-raw/
-primary-sources/
+data-raw/HTML-pages/
+data-raw/XLS-files/
+data-raw/codebook/source/
 _archive/
