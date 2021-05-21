@@ -13,7 +13,7 @@ devtools::install_github("jfjelstul/eutr")
 
 ## Documentation
 
-The codebook for the database is included as a `tibble` in the package: `eutr::codebook`. The same documentation is also available in the `R` documentation for each dataset. For example, you can see the codebook for the `eutr::notifications` dataset by running `?eutr::notifications`.
+The codebook for the database is included as a `tibble` in the package: `eutr::codebook`. The same documentation is also available in the `R` documentation for each dataset. For example, you can see the codebook for the `eutr::notifications` dataset by running `?eutr::notifications`. You can also read the documentation on the [package website](https://jfjelstul.github.io/eutr/).
 
 ## Citation
 
