@@ -11,7 +11,7 @@ load("data/comments.RData")
 load("data/opinions.Rdata")
 
 # read in codes
-codes <- read.csv("data-raw/entity-codes.csv")
+codes <- read.csv("data-raw/entity_codes.csv")
 
 ##################################################
 # template

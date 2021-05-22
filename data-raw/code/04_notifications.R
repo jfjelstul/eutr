@@ -148,7 +148,7 @@ notifications$end_year <- lubridate::year(notifications$end_date)
 ##################################################
 
 # entity codes
-codes <- read.csv("data-raw/entity-codes.csv", stringsAsFactors = FALSE)
+codes <- read.csv("data-raw/entity_codes.csv", stringsAsFactors = FALSE)
 notifications <- dplyr::left_join(notifications, codes, by = c("member_state" = "entity"))
 
 # pad number

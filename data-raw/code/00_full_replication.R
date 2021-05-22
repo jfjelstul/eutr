@@ -11,48 +11,48 @@ rm(list = ls())
 ##################################################
 
 # parse XLS files
-# source("replication-code/1-parse-XLS.R")
+# source("replication-code/01_parse_xls.R")
 # rm(list = ls())
 # input: data-raw/XLS-files/ (hand collected)
 # output: data-raw/notifications_raw.RData
 
 # download HTML files
-# source("replication-code/2-download-HTML.R")
+# source("replication-code/02_download_html.R")
 # rm(list = ls())
 # input: data-raw/notifications-raw.RData
 # output: data-raw/HTML-pages/
 
 # parse HTML files
-# source("replication-code/3-parse-HTML.R")
+# source("replication-code/03_parse_html.R")
 # rm(list = ls())
 # input: data-raw/notifications-raw.RData
 # input: data-raw/HTML-pages/
 # output: data-raw/notifications_raw_metadata.RData
 
 # make notifications data
-source("data-raw/code/4-notifications.R")
+source("data-raw/code/04_notifications.R")
 rm(list = ls())
 # input: data-raw/notifications_raw_metadata.RData
-# input: data-raw/entity-codes.csv (hand coded)
+# input: data-raw/entity_codes.csv (hand coded)
 # output: data/notifications.Rdata
 # output: data/notifications_extended.Rdata
 
 # make comments data
-source("data-raw/code/5-comments.R")
+source("data-raw/code/05_comments.R")
 rm(list = ls())
 # input: data/notifications.RData
-# input: data-raw/entity-codes.csv (hand coded)
+# input: data-raw/entity_codes.csv (hand coded)
 # output: data/comments.RData
 
 # make opinions data
-source("data-raw/code/6-opinions.R")
+source("data-raw/code/06_opinions.R")
 rm(list = ls())
 # input: data/notifications.RData
-# input: data-raw/entity-codes.csv (hand coded)
+# input: data-raw/entity_codes.csv (hand coded)
 # output: data/opinions.RData
 
 # make TS data
-source("data-raw/code/7-TS-data.R")
+source("data-raw/code/07_ts_data.R")
 rm(list = ls())
 # input: data/notifications.RData
 # input: data/comments.RData
@@ -62,9 +62,9 @@ rm(list = ls())
 # output: data/opinions_ts.Rdata
 
 # make CSTS data
-source("data-raw/code/8-CSTS-data.R")
+source("data-raw/code/08_csts_data.R")
 rm(list = ls())
-# input: data-raw/entity-codes.csv (hand coded)
+# input: data-raw/entity_codes.csv (hand coded)
 # input: data/notifications.RData
 # input: data/comments.RData
 # input: data/opinions.RData
@@ -73,16 +73,16 @@ rm(list = ls())
 # output: data/opinions_csts.Rdata
 
 # make DDY data
-source("data-raw/code/9-DDY-data.R")
+source("data-raw/code/09_ddy_data.R")
 rm(list = ls())
-# input: data-raw/entity-codes.csv (hand coded)
+# input: data-raw/entity_codes.csv (hand coded)
 # input: data/comments.RData
 # input: data/opinions.RData
 # output: data/comments_ddy.Rdata
 # output: data/opinions_ddy.Rdata
 
 # make network data
-source("data-raw/code/10-network-data.R")
+source("data-raw/code/10_net_data.R")
 rm(list = ls())
 # input: data/comments_ddy.RData
 # input: data/opinions_ddy.RData
@@ -94,7 +94,7 @@ rm(list = ls())
 ##################################################
 
 # read in codes
-entity_codes <- read.csv("data-raw/entity-codes.csv", stringsAsFactors = FALSE)
+entity_codes <- read.csv("data-raw/entity_codes.csv", stringsAsFactors = FALSE)
 
 # add key ID
 entity_codes$key_id <- 1:nrow(entity_codes)

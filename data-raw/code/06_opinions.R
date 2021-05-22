@@ -34,7 +34,7 @@ opinions <- dplyr::rename(opinions, opinion_by = opinions)
 opinions$opinion_by <- stringr::str_squish(opinions$opinion_by)
 
 # merge in codes
-codes <- read.csv("data-raw/entity-codes.csv", stringsAsFactors = FALSE)
+codes <- read.csv("data-raw/entity_codes.csv", stringsAsFactors = FALSE)
 opinions <- dplyr::left_join(opinions, codes, by = c("opinion_by" = "entity"))
 
 # rename variables
