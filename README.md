@@ -1,6 +1,8 @@
 # eutr
 
-An `R` package for the European Union Technical Regulations (EUTR) Database. The EUTR Database includes 15 datasets on the EU technical regulation procedure (i.e., the 2015/1535 procedure, named after the directive that most recently updated the procedure), including data on proposed technical regulations notified to the Commission by member states, comments filed by third-party member states and the Commission, and detailed opinions filed by third-party member states and the Commission. It also includes time-series and cross-sectional time-series on notifications and time-series, cross-sectional time-series, directed dyad-year, and network data on comments and detailed opinions.
+An `R` package for the European Union Technical Regulations (EUTR) Database. The EUTR database is part of the European Union Compliance Project (EUCP), which also includes the [European Union Infringement Procedure (EUIP) Database](https://github.com/jfjelstul/euip) and the [European Union State Aid (EUSA) Database](https://github.com/jfjelstul/eusa). The EUCP is introduced in the working paper "Legal Compliance in the European Union: Institutional Procedures and Strategic Enforcement Behavior" by Joshua C. Fjelstul. 
+
+The EUTR Database includes 15 datasets on the EU technical regulations procedure (also known as the 2015/1535 procedure after the directive that most recently revised the procedure), including data on proposed technical regulations notified to the Commission by member states, comments filed by third-party member states and the Commission, and detailed opinions filed by third-party member states and the Commission. It also includes time-series and cross-sectional time-series on notifications and time-series, cross-sectional time-series, directed dyad-year, and network data on comments and detailed opinions.
 
 ## Installation
 
