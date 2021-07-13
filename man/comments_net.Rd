@@ -3,25 +3,25 @@
 \docType{data}
 \name{comments_net}
 \alias{comments_net}
-\title{Network data on comments}
+\title{Comment-level network data}
 \format{
 A data frame with 7 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation in the dataset. }
-\item{time}{Numeric. The time period, where \code{1988} is coded \code{1}.
-}
-\item{from_node_id}{Numeric. An ID number that uniquely identifies each
-node (a member state or institution) that creates a link.}
-\item{from_node}{String. The name of the member state or institution that
-submitted the opinion to the Commission.}
-\item{to_node_id}{Numeric. An ID number that uniquely identifies each node
-(a member state) that receives a link.}
-\item{to_node}{String. The name of the member state that notified the
-technical regulation to the Commission.}
-\item{edge_weight}{Numeric. The weight of the edge, which is the number of
-comments filed against the member state the notified the proposed technical
-regulation.}
+\item{year}{\code{numeric}. The year the member state or institution
+submitted the comment.}
+\item{from_node_id}{\code{numeric}. An ID number that uniquely identifies
+each node (a member state or institution) that creates a link.}
+\item{from_node}{\code{string}. The name of the member state or institution
+that submitted the opinion to the Commission.}
+\item{to_node_id}{\code{numeric}. An ID number that uniquely identifies
+each node (a member state) that receives a link.}
+\item{to_node}{\code{string}. The name of the member state that notified
+the technical regulation to the Commission.}
+\item{edge_weight}{\code{numeric}. The weight of the edge, which is the
+number of comments filed against the member state the notified the proposed
+technical regulation.}
 }
 }
 \usage{

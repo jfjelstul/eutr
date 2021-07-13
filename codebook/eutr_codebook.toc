@@ -1,0 +1,17 @@
+\babel@toc {english}{}
+\thispagestyle {empty}
+\contentsline {section}{notifications}{2}{section*.1}%
+\contentsline {section}{notifications\_ts}{5}{section*.2}%
+\contentsline {section}{notifications\_csts}{6}{section*.3}%
+\contentsline {section}{comments}{7}{section*.4}%
+\contentsline {section}{comments\_ts}{9}{section*.5}%
+\contentsline {section}{comments\_csts\_n}{10}{section*.6}%
+\contentsline {section}{comments\_csts\_s}{12}{section*.7}%
+\contentsline {section}{comments\_ddy}{14}{section*.8}%
+\contentsline {section}{comments\_net}{16}{section*.9}%
+\contentsline {section}{opinions}{18}{section*.10}%
+\contentsline {section}{opinions\_ts}{20}{section*.11}%
+\contentsline {section}{opinions\_csts\_n}{21}{section*.12}%
+\contentsline {section}{opinions\_csts\_s}{23}{section*.13}%
+\contentsline {section}{opinions\_ddy}{25}{section*.14}%
+\contentsline {section}{opinions\_net}{27}{section*.15}%

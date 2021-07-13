@@ -3,42 +3,46 @@
 \docType{data}
 \name{opinions}
 \alias{opinions}
-\title{Data on detailed opinions}
+\title{Opinion-level data}
 \format{
 A data frame with 13 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation in the dataset. }
-\item{notification_id}{String. An ID number that uniquely identifies the
-notification in the format \code{TRIS:####:####:XX:N}, where the first set
-of digits is the year of the notification, the second set of digits is the
-notification number, and \code{XX} is the two-digit code assigned by the
-Commission to the member state that notified the proposed technical
+\item{notification_id}{\code{string}. An ID number that uniquely identifies
+the notification in the format \code{TRIS:####:####:XX:N}, where the first
+set of digits is the year of the notification, the second set of digits is
+the notification number, and \code{XX} is the two-digit code assigned by
+the Commission to the member state that notified the proposed technical
 regulation.}
-\item{notification_by_id}{Numeric. An ID number that uniquely identifies
-the member state that notified the proposed technical regulation to the
-Commission.}
-\item{notification_by}{String. The name of the member state that notified
-the proposed technical regulation to the Commission.}
-\item{notification_by_code}{String. A multi-letter code assigned by the
-Commission that uniquely identifies the member state that notified the
+\item{notification_by_id}{\code{numeric}. An ID number that uniquely
+identifies the member state that notified the proposed technical regulation
+to the Commission.}
+\item{notification_by}{\code{string}. The name of the member state that
+notified the proposed technical regulation to the Commission.}
+\item{notification_by_code}{\code{string}. A multi-letter code assigned by
+the Commission that uniquely identifies the member state that notified the
 proposed technical regulation to the Commission.}
-\item{start_date}{String. The date that the Commission opened the case.}
-\item{start_year}{Numeric. The year that the Commission opened the case.}
-\item{end_date}{String. The date that the Commission closed the case.}
-\item{end_year}{Numeric. The year that the Commission closed the case.}
-\item{opinion_id}{String. An ID number that uniquely identifies the opinion
-in the format \code{TRIS:####:####:XX:O:YY}, where the first set of digits
-is the year of the notification, the second set of digits is the
+\item{start_date}{\code{string}. The date that the Commission opened the
+case.}
+\item{start_year}{\code{numeric}. The year that the Commission opened the
+case.}
+\item{end_date}{\code{string}. The date that the Commission closed the
+case.}
+\item{end_year}{\code{numeric}. The year that the Commission closed the
+case.}
+\item{opinion_id}{\code{string}. An ID number that uniquely identifies the
+opinion in the format \code{TRIS:####:####:XX:O:YY}, where the first set of
+digits is the year of the notification, the second set of digits is the
 notification number, \code{XX} is the two-letter code assigned by the
 Commission to the member state that notified the proposed technical
 regulation, and \code{YY} is the multi-letter code assigned by the
 Commission to the member state or institution that submitted the opinion.}
-\item{opinion_by_id}{Numeric. An ID number that uniquely identifies the
-member state or institution that submitted the detailed opinion.}
-\item{opinion_by}{String. The name of the member state or institution that
-submitted the detailed opinion.}
-\item{opinion_by_code}{String. A multi-letter code assigned by the
+\item{opinion_by_id}{\code{numeric}. An ID number that uniquely identifies
+the member state or institution that submitted the detailed opinion.}
+\item{opinion_by}{\code{string}. The name of the member state or
+institution that submitted the detailed opinion.}
+\item{opinion_by_code}{\code{string}. A multi-letter code assigned by the
 Commission that uniquely identifies the member state or institution that
 submitted the detailed opinion.}
 }

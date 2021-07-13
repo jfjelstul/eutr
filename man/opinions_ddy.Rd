@@ -3,31 +3,31 @@
 \docType{data}
 \name{opinions_ddy}
 \alias{opinions_ddy}
-\title{DDY data on detailed opinions}
+\title{Opinion-level directed dyad-year data}
 \format{
 A data frame with 9 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation in the dataset. }
-\item{year}{Numeric. The year the member state or institution submitted the
-detailed opinion.}
-\item{opinion_by_id}{Numeric. An ID number that uniquely identifies the
-member state or institution that submitted the detailed opinion.}
-\item{opinion_by}{String. The name of the member state or institution that
+\item{year}{\code{numeric}. The year the member state or institution
 submitted the detailed opinion.}
-\item{opinion_by_code}{String. A multi-letter code assigned by the
+\item{opinion_by_id}{\code{numeric}. An ID number that uniquely identifies
+the member state or institution that submitted the detailed opinion.}
+\item{opinion_by}{\code{string}. The name of the member state or
+institution that submitted the detailed opinion.}
+\item{opinion_by_code}{\code{string}. A multi-letter code assigned by the
 Commission that uniquely identifies the member state or institution that
 submitted the detailed opinion.}
-\item{notification_by_id}{Numeric. An ID number that uniquely identifies
-the member state that notified the proposed technical regulation to the
-Commission.}
-\item{notification_by}{String. The name of the member state that notified
-the proposed technical regulation to the Commission.}
-\item{notification_by_code}{String. A multi-letter code assigned by the
-Commission that uniquely identifies the member state that notified the
+\item{notification_by_id}{\code{numeric}. An ID number that uniquely
+identifies the member state that notified the proposed technical regulation
+to the Commission.}
+\item{notification_by}{\code{string}. The name of the member state that
+notified the proposed technical regulation to the Commission.}
+\item{notification_by_code}{\code{string}. A multi-letter code assigned by
+the Commission that uniquely identifies the member state that notified the
 proposed technical regulation to the Commission.}
-\item{count_opinions}{Numeric. A count of the number of opinions submitted
-by the third-party member state or institution.}
+\item{count_opinions}{\code{numeric}. A count of the number of opinions
+submitted by the third-party member state or institution.}
 }
 }
 \usage{

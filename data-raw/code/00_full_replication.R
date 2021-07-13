@@ -90,41 +90,68 @@ rm(list = ls())
 # output: data/opinions_net.Rdata
 
 ##################################################
-# entity codes
+# variables
 ##################################################
 
-# read in codes
-entity_codes <- read.csv("data-raw/entity_codes.csv", stringsAsFactors = FALSE)
+# read in data
+variables <- read.csv("data-raw/documentation/eutr_variables.csv", stringsAsFactors = FALSE)
 
-# add key ID
-entity_codes$key_id <- 1:nrow(entity_codes)
+# convert to a tibble
+variables <- dplyr::as_tibble(variables)
 
-# select variables
-entity_codes <- dplyr::select(entity_codes, key_id, entity_id, entity, entity_code)
+# save
+save(variables, file = "data/variables.RData")
 
-# save as RData
-save(entity_codes, file = "data/entity_codes.RData")
+##################################################
+# datasets
+##################################################
+
+# read in data
+datasets <- read.csv("data-raw/documentation/eutr_datasets.csv", stringsAsFactors = FALSE)
+
+# convert to a tibble
+datasets <- dplyr::as_tibble(datasets)
+
+# save
+save(datasets, file = "data/datasets.RData")
+
+##################################################
+# documentation
+##################################################
+
+# documentation
+load("data/variables.RData")
+load("data/datasets.RData")
+
+# document data
+codebookr::document_data(
+  file_path = "R/",
+  variables_input = variables,
+  datasets_input = datasets,
+  include_variable_type = TRUE,
+  author = "Joshua C. Fjelstul, Ph.D.",
+  package = "eutr"
+)
 
 ##################################################
 # codebook
 ##################################################
 
-# read in data
-codebook <- read.csv("data-raw/codebook/codebook.csv", stringsAsFactors = FALSE)
-
-# convert to a tibble
-codebook <- dplyr::as_tibble(codebook)
-
-# save
-save(codebook, file = "data/codebook.RData")
-
-# documentation
-codebookr::document_data(
-  path = "R/",
-  codebook_file = "data-raw/codebook/codebook.csv",
-  markdown_file = "data-raw/codebook/descriptions.txt",
-  author = "Joshua C. Fjelstul, Ph.D.",
-  package = "eutr"
+# create a codebook
+codebookr::create_codebook(
+  file_path = "codebook/eutr_codebook.tex",
+  datasets_input = datasets,
+  variables_input = variables,
+  title_text = "The European Union Technical Regulations \\\\ (EUTR) Database",
+  version_text = "1.0",
+  footer_text = "The EUTR Database Codebook \\hspace{5pt} | \\hspace{5pt} Joshua C. Fjelstul, Ph.D.",
+  author_names = "Joshua C. Fjelstul, Ph.D.",
+  theme_color = "#4D9FEB",
+  heading_font_size = 30,
+  subheading_font_size = 10,
+  title_font_size = 16,
+  table_of_contents = TRUE,
+  include_variable_type = TRUE
 )
 
 ##################################################
@@ -152,11 +179,9 @@ load("data/opinions_csts_s.RData")
 load("data/opinions_ddy.RData")
 load("data/opinions_net.RData")
 
-# entity codes
-load("data/entity_codes.RData")
-
-# codebook
-load("data/codebook.RData")
+# documentation
+load("data/variables.RData")
+load("data/datasets.RData")
 
 ##################################################
 # build
@@ -183,42 +208,9 @@ write.csv(opinions_csts_s, "build/eutr_opinions_csts_s.csv", row.names = FALSE)
 write.csv(opinions_ddy, "build/eutr_opinions_ddy.csv", row.names = FALSE)
 write.csv(opinions_net, "build/eutr_opinions_net.csv", row.names = FALSE)
 
-# entity codes
-write.csv(entity_codes, "build/eutr_entity_codes.csv", row.names = FALSE)
-
-# codebook
-write.csv(codebook, "build/eutr_codebook.csv", row.names = FALSE)
-
-##################################################
-# server
-##################################################
-
-# notificatons
-write.csv(notifications, "server/eutr_notifications.csv", row.names = FALSE, na = "\\N")
-write.csv(notifications_ts, "server/eutr_notifications_ts.csv", row.names = FALSE, na = "\\N")
-write.csv(notifications_csts, "server/eutr_notifications_csts.csv", row.names = FALSE, na = "\\N")
-
-# comments
-write.csv(comments, "server/eutr_comments.csv", row.names = FALSE, na = "\\N")
-write.csv(comments_ts, "server/eutr_comments_ts.csv", row.names = FALSE, na = "\\N")
-write.csv(comments_csts_n, "server/eutr_comments_csts_n.csv", row.names = FALSE, na = "\\N")
-write.csv(comments_csts_s, "server/eutr_comments_csts_s.csv", row.names = FALSE, na = "\\N")
-write.csv(comments_ddy, "server/eutr_comments_ddy.csv", row.names = FALSE, na = "\\N")
-write.csv(comments_net, "server/eutr_comments_net.csv", row.names = FALSE, na = "\\N")
-
-# opinions
-write.csv(opinions, "server/eutr_opinions.csv", row.names = FALSE, na = "\\N")
-write.csv(opinions_ts, "server/eutr_opinions_ts.csv", row.names = FALSE, na = "\\N")
-write.csv(opinions_csts_n, "server/eutr_opinions_csts_n.csv", row.names = FALSE, na = "\\N")
-write.csv(opinions_csts_s, "server/eutr_opinions_csts_s.csv", row.names = FALSE, na = "\\N")
-write.csv(opinions_ddy, "server/eutr_opinions_ddy.csv", row.names = FALSE, na = "\\N")
-write.csv(opinions_net, "server/eutr_opinions_net.csv", row.names = FALSE, na = "\\N")
-
-# entity codes
-write.csv(entity_codes, "server/eutr_entity_codes.csv", row.names = FALSE, na = "\\N")
-
-# codebook
-write.csv(codebook, "server/eutr_codebook.csv", row.names = FALSE, na = "\\N")
+# documentation
+write.csv(variables, "build/eutr_variables.csv", row.names = FALSE)
+write.csv(datasets, "build/eutr_datasets.csv", row.names = FALSE)
 
 ################################################################################
 # end R script

@@ -3,17 +3,17 @@
 \docType{data}
 \name{notifications_ts}
 \alias{notifications_ts}
-\title{TS data on notifictions}
+\title{Notification-level time-series data}
 \format{
 A data frame with 3 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation in the dataset. }
-\item{year}{Numeric. The year the member state notified the proposed
+\item{year}{\code{numeric}. The year the member state notified the proposed
 technical regulation to the Commission.}
-\item{notification_by_id}{Numeric. An ID number that uniquely identifies
-the member state that notified the proposed technical regulation to the
-Commission.}
+\item{notification_by_id}{\code{numeric}. An ID number that uniquely
+identifies the member state that notified the proposed technical regulation
+to the Commission.}
 }
 }
 \usage{

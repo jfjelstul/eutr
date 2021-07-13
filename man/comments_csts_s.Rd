@@ -3,23 +3,24 @@
 \docType{data}
 \name{comments_csts_s}
 \alias{comments_csts_s}
-\title{CSTS data on comments (by submitter)}
+\title{Comment-level cross-sectional time-series data by submitter}
 \format{
 A data frame with 6 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation in the dataset. }
-\item{year}{Numeric. The year the member state or institution submitted the
-comment.}
-\item{comment_by_id}{Numeric. An ID number that uniquely identifies the
-member state or institution that submitted the comment to the Commission.}
-\item{comment_by}{String. The name of the third-party member state or
-institution that submitted the comment.}
-\item{comment_by_code}{String. A multi-letter code assigned by the
+\item{year}{\code{numeric}. The year the member state or institution
+submitted the comment.}
+\item{comment_by_id}{\code{numeric}. An ID number that uniquely identifies
+the member state or institution that submitted the comment to the
+Commission.}
+\item{comment_by}{\code{string}. The name of the third-party member state
+or institution that submitted the comment.}
+\item{comment_by_code}{\code{string}. A multi-letter code assigned by the
 Commission that uniquely identifies the member state or institution that
 submitted the comment.}
-\item{count_comments}{Numeric. A count of the number of comments submitted
-by the third-party member state or institution.}
+\item{count_comments}{\code{numeric}. A count of the number of comments
+submitted by the third-party member state or institution.}
 }
 }
 \usage{

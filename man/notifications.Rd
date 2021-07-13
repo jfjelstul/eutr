@@ -3,51 +3,55 @@
 \docType{data}
 \name{notifications}
 \alias{notifications}
-\title{Data on notifications}
+\title{Notification-level data}
 \format{
 A data frame with 16 variables:
 \describe{
-\item{key_id}{Numeric. An ID number that uniquely identifies each
+\item{key_id}{\code{numeric}. An ID number that uniquely identifies each
 observation in the dataset. }
-\item{notification_id}{String. An ID number that uniquely identifies the
-notification in the format \code{TRIS:####:####:XX:N}, where the first set
-of digits is the year of the notification, the second set of digits is the
-notification number, and \code{XX} is the two-digit code assigned by the
-Commission to the member state that notified the proposed technical
+\item{notification_id}{\code{string}. An ID number that uniquely identifies
+the notification in the format \code{TRIS:####:####:XX:N}, where the first
+set of digits is the year of the notification, the second set of digits is
+the notification number, and \code{XX} is the two-digit code assigned by
+the Commission to the member state that notified the proposed technical
 regulation.}
-\item{notification_by_id}{Numeric. An ID number that uniquely identifies
-the member state that notified the proposed technical regulation to the
-Commission.}
-\item{notification_by}{String. The name of the member state that notified
-the proposed technical regulation to the Commission.}
-\item{notification_by_code}{String. A multi-letter code assigned by the
-Commission that uniquely identifies the member state that notified the
+\item{notification_by_id}{\code{numeric}. An ID number that uniquely
+identifies the member state that notified the proposed technical regulation
+to the Commission.}
+\item{notification_by}{\code{string}. The name of the member state that
+notified the proposed technical regulation to the Commission.}
+\item{notification_by_code}{\code{string}. A multi-letter code assigned by
+the Commission that uniquely identifies the member state that notified the
 proposed technical regulation to the Commission.}
-\item{start_date}{String. The date that the Commission opened the case.}
-\item{start_year}{Numeric. The year that the Commission opened the case.}
-\item{end_date}{String. The date that the Commission closed the case.}
-\item{end_year}{Numeric. The year that the Commission closed the case.}
-\item{postponement}{Dummy. A dummy variable indicating whether the notified
-technical regulation was postponed. Coded \code{1} if the technical
-regulation was postponed and \code{0} otherwise.}
-\item{comments}{String. A list of the member states and institutions that
-submitted comments with respect to the proposed technical regulation,
+\item{start_date}{\code{string}. The date that the Commission opened the
+case.}
+\item{start_year}{\code{numeric}. The year that the Commission opened the
+case.}
+\item{end_date}{\code{string}. The date that the Commission closed the
+case.}
+\item{end_year}{\code{numeric}. The year that the Commission closed the
+case.}
+\item{postponement}{\code{dummy}. A dummy variable indicating whether the
+notified technical regulation was postponed. Coded \code{1} if the
+technical regulation was postponed and \code{0} otherwise.}
+\item{comments}{\code{string}. A list of the member states and institutions
+that submitted comments with respect to the proposed technical regulation,
 separated by commas. Coded \code{NA} if no member states or institutions
 submitted opinions.}
-\item{count_comments}{Numeric. A count of the number of comments submitted
-by the third-party member state or institution.}
-\item{commission_comment}{Dummy. A dummy variable indicating whether the
-Commission submitted a comment with respect to the notified proposed
+\item{count_comments}{\code{numeric}. A count of the number of comments
+submitted by the third-party member state or institution.}
+\item{commission_comment}{\code{dummy}. A dummy variable indicating whether
+the Commission submitted a comment with respect to the notified proposed
 technical regulation. Coded \code{1} if the Commission submitted a comment
 and \code{0} otherwise.}
-\item{opinions}{String. A list of the member states and institutions that
-submitted opinions with respect to the proposed technical regulation,
+\item{opinions}{\code{string}. A list of the member states and institutions
+that submitted opinions with respect to the proposed technical regulation,
 separated by commas. Coded \code{NA} if no member states or institutions
 submitted opinions.}
-\item{count_opinions}{Numeric. A count of the number of opinions submitted
-by the third-party member state or institution.}
-\item{commission_opinion}{Dummy. A dummy variable indicating whether the
-Commission submitted an opinion with respect to the notified proposed
+\item{count_opinions}{\code{numeric}. A count of the number of opinions
+submitted by the third-party member state or institution.}
+\item{commission_opinion}{\code{dummy}. A dummy variable indicating whether
+the Commission submitted an opinion with respect to the notified proposed
 technical regulation. Coded \code{1} if the Commission submitted an opinion
 and \code{0} otherwise.}
 }
